@@ -1,0 +1,82 @@
+<div class="container">
+	
+	<div class="section-title">Услуги агентства</div>
+	<div class="sub-block-margin"></div>
+	
+	<div class="services">
+		<a href="/dev" class="services-item" data-check-visibility>
+			<div class="services-item__title">
+				Создание сайта <br>
+				под ключ
+			</div>
+			<div class="services-item__text">
+				От этапа неоформленной мысли до полноценно функционирующего продукта, генерирующего новых клиентов
+			</div>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+		</a>
+		
+		<a href="/mainten" class="services-item services-item--center" data-check-visibility>
+			<div class="services-item__title">
+				Сопровождение сайта
+			</div>
+			<div class="services-item__text">
+				<ul>
+					<li>Мониторим рынок и конкурентов. Оперативно даем рекомендации по улучшению ваших позиций в
+						интернете</li>
+					<li>Генерируем контент</li>
+					<li>Поддерживаем актуальность информации на сайте</li>
+					<li>Постоянно анализируем показатели трафика и конверсии</li>
+				</ul>
+			</div>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+		</a>
+		
+		<a href="/optimization" class="services-item" data-check-visibility>
+			<div class="services-item__title">
+				Поисковое <br>
+				продвижение
+			</div>
+			<div class="services-item__text">
+				Доставим в топ поисковой выдачи. Конкретные сроки и конкретные цифры
+			</div>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+		</a>
+		
+		<a href="/support" class="services-item" data-check-visibility>
+			<div class="services-item__title">
+				Техническая <br>
+				поддержка
+			</div>
+			<div class="services-item__text">
+				Предлагаем весь спектр технической, сервисной и контент поддержки
+			</div>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+		</a>
+		
+		<a href="/context" class="services-item" data-check-visibility>
+			<div class="services-item__title">
+				Ведение кампаний
+				контекстной рекламы
+			</div>
+			<div class="services-item__text">
+				Выбираем нужные инструменты для максимальной отдачи от привлеченного трафика
+			</div>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+			<span class="services-item__flash"></span>
+		</a>
+	</div>
+</div>
