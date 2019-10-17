@@ -70,7 +70,7 @@
 						<img src="<?= get_template_directory_uri(); ?>/images/wp-logo.svg" alt="wordpress" class="specialization__img">
 					</div>
 					<p class="specialization__desc">
-						Более трети всех сайтов в мире сделано на этой системе управлениия контентом.
+						Более трети всех сайтов в мире сделано на этой системе управления контентом.
 					</p>
 				</div>
 			</div>

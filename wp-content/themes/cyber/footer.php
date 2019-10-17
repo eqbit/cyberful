@@ -89,6 +89,19 @@ if(!is_front_page() && !$no_form) {
 <script src="<?= get_template_directory_uri(); ?>/vendor/fancybox/script.js"></script>
 <script src="https://api-maps.yandex.ru/2.1/?apikey=b651fec1-d70f-4c48-a6fa-393232c5cf36&lang=ru_RU" type="text/javascript"></script>
 <script src="<?= get_template_directory_uri(); ?>/js/app.js"></script>
+
+<script type="text/javascript" >
+  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+    m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+  
+  ym(55816039, "init", {
+    clickmap:true,
+    trackLinks:true,
+    accurateTrackBounce:true,
+    webvisor:true
+  });
+</script>
 </body>
 
 </html>
