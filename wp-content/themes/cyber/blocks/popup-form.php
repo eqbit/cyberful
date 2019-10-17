@@ -1,9 +1,9 @@
 <div class="popup-form" data-popup-form-item>
 	<h3 class="section-title popup-title">
-		Оставьте заявку
+		Оставьте заявку на консультацию
 	</h3>
 	<p class="section-subtitle popup-subtitle">
-		Мы с Вами свяжемся в течение рабочего дня
+		Мы свяжемся с вами в течение рабочего дня
 	</p>
 	<div class="popup-form__wrap">
 		<input type="text" class="popup-form__field popup-form__input main-form__field main-form__input" name="name"

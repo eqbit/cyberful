@@ -44,7 +44,9 @@
 								<p class="sup-rate__item-content--item-price">1 400 руб</p>
 							</li>
 						</ul>
-						<button class="sup-rate__item-content--btn" data-popup-form-toggle>
+						<button class="sup-rate__item-content--btn"
+						        data-popup-form-toggle
+						        data-info="Оставьте заявку на техподдержку">
 							Заказать
 						</button>
 					</div>
@@ -83,7 +85,9 @@
 								<p class="sup-rate__item-content--item-price">5 200 руб</p>
 							</li>
 						</ul>
-						<button class="sup-rate__item-content--btn" data-popup-form-toggle>
+						<button class="sup-rate__item-content--btn"
+						        data-info="Оставьте заявку на пакет «Стандарт» за 5 200 руб/мес"
+						        data-popup-form-toggle>
 							Заказать
 						</button>
 					</div>
@@ -130,7 +134,9 @@
 								<p class="sup-rate__item-content--item-price">8 400 руб</p>
 							</li>
 						</ul>
-						<button class="sup-rate__item-content--btn" data-popup-form-toggle>
+						<button class="sup-rate__item-content--btn"
+						        data-info="Оставьте заявку на пакет «Бизнес» за 8 400 руб/мес"
+						        data-popup-form-toggle>
 							Заказать
 						</button>
 					</div>

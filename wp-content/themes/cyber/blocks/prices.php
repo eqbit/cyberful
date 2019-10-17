@@ -6,7 +6,7 @@
 		
 		<!-- you have to use "front-prices-wrap" and container for this component -->
 		<div class="front-prices">
-			<div class="front-prices-item">
+			<a href="/dev/portal" class="front-prices-item">
 				<div class="front-prices-item__title">Корпоративный <br>портал</div>
 				
 				<div class="front-prices-item__img">
@@ -28,9 +28,9 @@
 				</div>
 				
 				<div class="front-prices-item__price">От 50 000 ₽</div>
-			</div>
+			</a>
 			
-			<div class="front-prices-item">
+			<a href="/dev/e-commerce" class="front-prices-item">
 				<div class="front-prices-item__title">Интернет магазин</div>
 				
 				<div class="front-prices-item__img">
@@ -46,9 +46,9 @@
 				</div>
 				
 				<div class="front-prices-item__price">От 90 000 ₽</div>
-			</div>
+			</a>
 			
-			<div class="front-prices-item">
+			<a href="/dev/catalog" class="front-prices-item">
 				<div class="front-prices-item__title">Каталог продукции</div>
 				
 				<div class="front-prices-item__img">
@@ -78,9 +78,9 @@
 				
 				</div>
 				<div class="front-prices-item__price">От 50 000 ₽</div>
-			</div>
+			</a>
 			
-			<div class="front-prices-item">
+			<a href="/dev/visit" class="front-prices-item">
 				<div class="front-prices-item__title">Сайт визитка</div>
 				
 				<div class="front-prices-item__img">
@@ -108,9 +108,9 @@
 				</div>
 				
 				<div class="front-prices-item__price">От 25 000 ₽</div>
-			</div>
+			</a>
 			
-			<div class="front-prices-item">
+			<a href="/dev/landing" class="front-prices-item">
 				<div class="front-prices-item__title">Лэндинг</div>
 				
 				<div class="front-prices-item__img">
@@ -131,9 +131,9 @@
 				</div>
 				
 				<div class="front-prices-item__price">От 40 000 ₽</div>
-			</div>
+			</a>
 			
-			<div class="front-prices-item">
+			<a href="/dev/qwiz" class="front-prices-item">
 				<div class="front-prices-item__title">Интерактивный квиз</div>
 				
 				<div class="front-prices-item__img">
@@ -169,7 +169,7 @@
 				<div class="front-prices-item__price">
 					От 8 000 ₽
 				</div>
-			</div>
+			</a>
 		</div>
 	</div>
 </div>
