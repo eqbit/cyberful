@@ -63,15 +63,14 @@
 							99% веб сайтов требуют изменения контентной части без помощи программиста.
 						</p>
 						<p class="specialization__text">
-							Чтобы легко дать такую возможность, разработку базируем на системах управления контентом
-							- CMS.
+							Чтобы легко дать такую возможность, разработку базируем на CMS Wordpress.
 						</p>
 					</div>
 					<div class="specialization__imgs-wrap">
 						<img src="<?= get_template_directory_uri(); ?>/images/wp-logo.svg" alt="wordpress" class="specialization__img">
 					</div>
 					<p class="specialization__desc">
-						Более трети всех сайтов в мире сделано на Worpress.
+						Более трети всех сайтов в мире сделано на этой системе управлениия контентом.
 					</p>
 				</div>
 			</div>
@@ -283,7 +282,7 @@
 						<span class="tabs-deadline__watch-icon--arrow" data-deadline-arrow></span>
 					</i>
 					<p class="tabs-deadline__watch-time">
-						от 20 дней
+						от 3 дней
 					</p>
 				</div>
 			</div>
