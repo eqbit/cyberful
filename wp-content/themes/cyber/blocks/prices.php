@@ -80,7 +80,7 @@
 				<div class="front-prices-item__price">От 50 000 ₽</div>
 			</a>
 			
-			<a href="/dev/visit" class="front-prices-item">
+			<a href="/dev/card" class="front-prices-item">
 				<div class="front-prices-item__title">Сайт визитка</div>
 				
 				<div class="front-prices-item__img">
