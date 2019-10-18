@@ -56,6 +56,88 @@ $(function () {
 });
 "use strict";
 
+$(function () {
+  if (document.getElementById('chart-wrap')) {
+    var _myChart$data$dataset;
+
+    var ctx = document.getElementById('chart-wrap').getContext('2d');
+    var myChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: ['02.05', '09.05', '16.05', '23.05', '30.05', '06.06'],
+        datasets: [{
+          label: 'Переходы из соц сетей',
+          // data: [68, 94, 111, 120, 331, 339],
+          backgroundColor: ['rgba(15, 255, 115, 0.6)'],
+          borderColor: ['rgba(15, 255, 115, 1)'],
+          borderWidth: 2
+        }, {
+          label: 'Прямые заходы',
+          // data: [44, 61, 128, 182, 192, 451],
+          backgroundColor: ['rgba(78, 184, 244, 0.7)'],
+          borderColor: ['rgba(78, 184, 244, 1)'],
+          borderWidth: 2
+        }, {
+          label: 'Переходы из поисковых систем',
+          // data: [132, 151, 284, 351, 406, 693],
+          backgroundColor: ['rgba(255, 152, 0, 0.7)'],
+          borderColor: ['rgba(255, 152, 0, 1)'],
+          borderWidth: 2
+        }, {
+          label: 'Переходы из контекстной рекламы',
+          // data: [162, 173, 168, 351, 361, 399],
+          backgroundColor: ['rgba(171, 15, 255, 0.6)'],
+          borderColor: ['rgba(171, 15, 255, 1)'],
+          borderWidth: 2
+        }]
+      },
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              stacked: true
+            }
+          }],
+          xAxes: [{
+            ticks: {
+              stacked: true
+            }
+          }]
+        },
+        animation: {
+          duration: 2000
+        }
+      }
+    });
+    setTimeout(function () {
+      console.log(myChart.data.datasets);
+      console.log(myChart.data.datasets[0].data);
+      myChart.update({
+        duration: 1000,
+        easing: 'easeOutExpo'
+      });
+    }, 1000);
+    console.log($(ctx).visible);
+    var arr = [162, 173, 168, 351, 361, 399];
+
+    (_myChart$data$dataset = myChart.data.datasets[0].data).push.apply(_myChart$data$dataset, arr);
+
+    console.log(myChart.options.scales); // function setPoint(i) {
+    //     myChart.data.datasets[0].data.push(arr[i]);
+    //     myChart.update({
+    //         duration: 500,
+    //         easing: 'easeOutExpo'
+    //     })
+    // }
+    // arr.forEach(function(itemm, i) {
+    //     setTimeout(() => {
+    //         setPoint(i);
+    //     }, 1000) 
+    // })
+  }
+});
+"use strict";
+
 function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
 
 /*!
@@ -4890,18 +4972,14 @@ if (document.querySelector('#map')) {
   var mapTimeout;
 
   var ymap = function ymap() {
-    if (!$map.is('.loaded')) {
+    if (!$map.is('.loaded') && $map.data("lazy") == true) {
       $(window).on('scroll', ymapCallback);
-    }
-
-    mapTimeout = setTimeout(function () {
+    } else {
       $map.addClass('loaded');
-      $(window).unbind('scroll', ymapCallback);
       loadScript('https://api-maps.yandex.ru/2.1/?apikey=b651fec1-d70f-4c48-a6fa-393232c5cf36&lang=ru_RU', function () {
         ymaps.load(init);
       });
-      clearTimeout(mapTimeout);
-    }, 10000);
+    }
   };
 
   var ymapCallback = function ymapCallback() {
@@ -4915,6 +4993,16 @@ if (document.querySelector('#map')) {
     }
   };
 
+  mapTimeout = setTimeout(function () {
+    if (!$map.is('.loaded')) {
+      $map.addClass('loaded');
+      $(window).unbind('scroll', ymapCallback);
+      loadScript('https://api-maps.yandex.ru/2.1/?apikey=b651fec1-d70f-4c48-a6fa-393232c5cf36&lang=ru_RU', function () {
+        ymaps.load(init);
+      });
+      clearTimeout(mapTimeout);
+    }
+  }, 10000);
   ymap();
 }
 "use strict";
