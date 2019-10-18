@@ -21,9 +21,9 @@
 				<h1 class="site-block__title section-title opt-block__title">
 					<? the_title(); ?>
 				</h1>
-				<p class="site-block__text opt-block__text">
+				<div class="site-block__text opt-block__text styled-redactor">
 					<?= get_field("description"); ?>
-				</p>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -79,7 +79,7 @@
 				</div>
 				<div class="front-prices-item__price">От 50 000 ₽</div>
 			</a>
-			
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur culpa eaque, earum enim facere facilis ipsam laboriosam maxime molestiae nam nesciunt, placeat quam voluptates?
 			<a href="/dev/card" class="front-prices-item">
 				<div class="front-prices-item__title">Сайт визитка</div>
 				
