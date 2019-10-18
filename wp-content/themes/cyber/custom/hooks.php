@@ -20,7 +20,7 @@ function form_handle() {
 		$content .= 'Сообщение: ' .$_POST["text"]. "\r\n";
 	}
 	
-	wp_mail("TKP-72@yandex.ru, kosmetologia.tyumen@yandex.ru", $title, $content, $headers);
+	wp_mail("eqbit@ya.ru", $title, $content, $headers);
 	echo json_encode('success');
 	die();
 }
