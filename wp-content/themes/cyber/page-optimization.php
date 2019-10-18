@@ -158,11 +158,13 @@
 					отрасли. Именно поэтому мы крайне избирательно относимся к выбору исполнителей. Благодаря чуткому
 					руководству и блестящим сотрудникам команда Cyberful всегда достигает поставленных задач.
 				</p>
-				<form class="second-form" action="#">
+				<form class="second-form" action="#" data-form-handle>
 					<div class="second-form__side-wrap">
 						<div class="second-form__inputs-wrap">
-							<input type="text" class="second-form__field second-form__input" name="name" placeholder="Имя">
-							<input type="tel" class="second-form__field second-form__input" name="phone" placeholder="Телефон">
+							<input type="text" class="second-form__field second-form__input" name="name"
+							       placeholder="Имя" required>
+							<input type="tel" class="second-form__field second-form__input" name="phone" data-phone required
+							       placeholder="Телефон">
 							<input type="email" class="second-form__field second-form__input" name="email" placeholder="Почта">
 						</div>
 						<textarea name="message" id="#" cols="30" rows="5" class="second-form__field second-form__textarea"

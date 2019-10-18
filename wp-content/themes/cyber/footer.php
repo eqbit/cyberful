@@ -87,8 +87,10 @@ if(!is_front_page() && !$no_form) {
 <script src="<?= get_template_directory_uri(); ?>/vendor/jQuery.visible.js"></script>
 <link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/vendor/fancybox/style.css">
 <script src="<?= get_template_directory_uri(); ?>/vendor/fancybox/script.js"></script>
-<script src="https://api-maps.yandex.ru/2.1/?apikey=b651fec1-d70f-4c48-a6fa-393232c5cf36&lang=ru_RU" type="text/javascript"></script>
+<script src="<?= get_template_directory_uri(); ?>/vendor/chart.js"></script>
+<script src="<?= get_template_directory_uri(); ?>/vendor/input-mask.js"></script>
 <script src="<?= get_template_directory_uri(); ?>/js/app.js"></script>
+<script src="<?= get_template_directory_uri(); ?>/js/custom.js"></script>
 </body>
 
 </html>

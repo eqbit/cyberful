@@ -13,8 +13,11 @@
 		<form class="main-form" data-form-handle>
 			<div class="main-form__side-wrap">
 				<div class="main-form__inputs-wrap">
-					<input type="text" class="main-form__field main-form__input" name="name" placeholder="Имя">
-					<input type="tel" class="main-form__field main-form__input" name="phone" placeholder="Телефон">
+					<input type="hidden" name="form_name" value="Заявка со страницы <? the_title(); ?>">
+					
+					<input type="text" class="main-form__field main-form__input" name="name" placeholder="Имя" required>
+					<input type="tel" class="main-form__field main-form__input" name="phone" data-phone placeholder="Телефон"
+					       required>
 					<input type="email" class="main-form__field main-form__input" name="email" placeholder="Почта">
 				</div>
 				<textarea name="message" cols="30" rows="5" class="main-form__field main-form__textarea"

@@ -6,9 +6,10 @@
 		Мы свяжемся с вами в течение рабочего дня
 	</p>
 	<div class="popup-form__wrap">
-		<input type="text" class="popup-form__field popup-form__input main-form__field main-form__input" name="name"
+		<input type="text" class="popup-form__field popup-form__input main-form__field main-form__input" name="name" required
 		       placeholder="Имя">
 		<input type="tel" class="popup-form__field popup-form__input main-form__field main-form__input" name="phone"
+		       data-phone required
 		       placeholder="Телефон">
 		<input type="email" class="popup-form__field popup-form__input main-form__field main-form__input" name="email"
 		       placeholder="Почта">

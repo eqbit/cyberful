@@ -152,28 +152,22 @@
 	<div class="block-margin"></div>
 	
 	<div class="container">
-		<div class="img-info">
-			<div class="img-info__inner">
-				<div class="img-info__img-wrapper">
-					<img src="<?= get_template_directory_uri(); ?>/images/dev-img2.png" alt="block-img" class="img-info__main-img">
-				</div>
-				<div class="img-info__text-wrapper">
-					<h2 class="img-info__title section-title">
-						Прогнозируем эффективность на этапе проектирования
-					</h2>
-					<p class="img-info__text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-						laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-						voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-						non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
-					<p class="img-info__text">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-						laboris nisi ut aliquip.
-					</p>
-				</div>
+		<div class="chart-block opt-block">
+			<div class="chart-block__inner opt-block__inner">
+				<canvas class="chart-block__chart-wrap opt-block__img-wrap" id="chart-wrap" data-check-visibility></canvas>
+			</div>
+			<div id="animationProgress"></div>
+			<div class="chart-block__inner opt-block__inner">
+				<h3 class="section-title chart-block__title opt-block__title">
+					Прогнозируем эффективность
+					на этапе проектирования
+				</h3>
+				<p class="chart-block__text opt-block__text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+					dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+					ex
+					ea commodo consequat.
+				</p>
 			</div>
 		</div>
 	</div>
