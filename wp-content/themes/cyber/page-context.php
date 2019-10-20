@@ -118,7 +118,8 @@
 		</div>
 		<div class="block-margin"></div>
 		
-		<button class="btn btn_primary btn_primary-long center-el" data-popup-form-toggle>
+		<button class="btn btn_primary btn_primary-long center-el" data-popup-form-toggle data-info="Оставьте заявку
+		на ведение кампании контекстной рекламы">
 			ОСТАВЬТЕ ЗАЯВКУ НА РАЗРАБОТКУ СТРАТЕГИИ
 		</button>
 	</div>

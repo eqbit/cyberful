@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cefe6cfe-76a9-4093-9cf4-25870187445d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+    <list default="true" id="cefe6cfe-76a9-4093-9cf4-25870187445d" name="Default" comment="context texts edit">
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/cyber/page-context.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cyber/page-context.php" afterDir="false" />
     </list>
@@ -17,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/page-context.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="206" column="112" selection-start-line="206" selection-start-column="112" selection-end-line="206" selection-end-column="112" />
+            <state relative-caret-position="141">
+              <caret line="121" column="47" selection-start-line="121" selection-start-column="47" selection-end-line="121" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -72,6 +73,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/page-optimization.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/blocks/popup-form.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/style.css" />
+        <option value="&lt;f1ee30dd-6895-4d6c-bc76-296ef1e0a474&gt;/.gitconfig" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/page-context.php" />
       </list>
     </option>
@@ -206,7 +208,7 @@
       <updated>1571225613979</updated>
       <workItem from="1571225615292" duration="42637000" />
       <workItem from="1571506168226" duration="623000" />
-      <workItem from="1571566262346" duration="1010000" />
+      <workItem from="1571566262346" duration="1803000" />
     </task>
     <task id="LOCAL-00001" summary="fixes">
       <created>1571312656237</created>
@@ -306,17 +308,24 @@
       <option name="project" value="LOCAL" />
       <updated>1571390215129</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="context texts edit">
+      <created>1571567298547</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1571567298547</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44270000" />
+    <option name="totallyTimeSpent" value="45063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25578406" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25578406" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -335,7 +344,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32969153" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -352,7 +361,8 @@
     <MESSAGE value="js fixes" />
     <MESSAGE value="css fixes" />
     <MESSAGE value="prices edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="prices edit" />
+    <MESSAGE value="context texts edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="context texts edit" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\OSPanel\domains\cyberful.ru</wordpressPath>
@@ -609,8 +619,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/page-context.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="206" column="112" selection-start-line="206" selection-start-column="112" selection-end-line="206" selection-end-column="112" />
+        <state relative-caret-position="141">
+          <caret line="121" column="47" selection-start-line="121" selection-start-column="47" selection-end-line="121" selection-end-column="47" />
         </state>
       </provider>
     </entry>
