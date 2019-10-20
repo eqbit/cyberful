@@ -50,3 +50,16 @@ License URI: LICENSE
     margin-top: 20px;
     font-size: 16px;
 }
+
+h3.swiper-slide__title {
+    margin: 0;
+}
+
+.swiper-slide__img {
+    margin: 20px 0;
+}
+
+.swiper-button-disabled {
+    pointer-events: none;
+    opacity: .3;
+}
