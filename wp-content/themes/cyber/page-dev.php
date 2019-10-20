@@ -47,12 +47,10 @@
 							<div class="swiper-slide work-process__icon-slider--carousel-slide">
 								<img src="/images/wp-icon1.svg" alt="icon">
 								<h3>
-									Брифинг
+									<?= $item["title"]; ?>
 								</h3>
-								<p>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi rem sit reprehenderit magnam
-									saepe ad accusamus ratione, non tempore nesciunt vero nostrum. Doloribus, obcaecati nihil!
-								</p>
+								
+								<p><?= $item["text"]; ?></p>
 							</div>
 						<? endforeach; ?>
 					</div>
