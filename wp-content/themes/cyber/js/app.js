@@ -125,10 +125,10 @@ $(function () {
                 setTimeout(function () {
                   myChart.data.datasets.push(item);
                   myChart.update({
-                    duration: 300,
+                    duration: 600,
                     easing: 'easeInOutSine'
                   });
-                }, 300 * i++);
+                }, 500 * i++);
               });
               toggler = true;
             }
