@@ -45,12 +45,14 @@
 					<div class="swiper-wrapper work-process__icon-slider--carousel-wrapper">
 						<? foreach( $fields["stages"] as $item) : ?>
 							<div class="swiper-slide work-process__icon-slider--carousel-slide">
-								<img src="<?= $item["img"]; ?>" alt="icon">
-								<h3>
+								<h3 class="swiper-slide__title">
 									<?= $item["title"]; ?>
 								</h3>
 								
-								<p><?= $item["text"]; ?></p>
+								<img class="swiper-slide__img" src="<?= $item["img"]; ?>" alt="icon">
+								
+								
+								<div class="styled-redactor swiper-slide__text"><?= $item["text"]; ?></div>
 							</div>
 						<? endforeach; ?>
 					</div>
