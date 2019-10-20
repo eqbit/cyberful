@@ -62,7 +62,7 @@ $(function () {
     var myChart = new Chart(ctx, {
       type: 'line',
       data: {
-        labels: ['02.05', '09.05', '16.05', '23.05', '30.05', '06.06'],
+        labels: ['02.05', '09.06', '16.07', '23.08', '30.09', '06.10'],
         datasets: []
       },
       options: {

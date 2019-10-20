@@ -120,7 +120,7 @@
 			<ul class="tech-stack__list">
 				<? foreach($fields["tech"] as $item) : ?>
 					<li class="tech-stack__item">
-						<img src="<?= $item["img"]; ?>" alt="html5" class="tech-stack__item-img">
+						<img src="<?= $item["icon"]; ?>" alt="" class="tech-stack__item-img">
 						<h4 class="tech-stack__item-title"><?= $item["title"]; ?></h4>
 					</li>
 				<? endforeach; ?>
