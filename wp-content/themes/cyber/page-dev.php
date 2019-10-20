@@ -45,7 +45,7 @@
 					<div class="swiper-wrapper work-process__icon-slider--carousel-wrapper">
 						<? foreach( $fields["stages"] as $item) : ?>
 							<div class="swiper-slide work-process__icon-slider--carousel-slide">
-								<img src="/images/wp-icon1.svg" alt="icon">
+								<img src="<?= $item["img]; ?>" alt="icon">
 								<h3>
 									<?= $item["title"]; ?>
 								</h3>
