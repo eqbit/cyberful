@@ -310,22 +310,18 @@ $(function () {
 });
 "use strict";
 
-$('[data-wp-text-slider]').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  arrows: false,
-  fade: true,
-  asNavFor: '[data-wp-icon-slider]'
-});
-$('[data-wp-icon-slider]').slick({
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  asNavFor: '[data-wp-text-slider]',
-  prevArrow: $('[data-wp-arrow-prev]'),
-  nextArrow: $('[data-wp-arrow-next]'),
-  dots: false,
-  autoplay: true,
-  focusOnSelect: true
+$(function () {
+  var swiper = new Swiper('.swiper-container', {
+    effect: 'flip',
+    grabCursor: true,
+    pagination: {
+      el: '.work-process__icon-slider--dots'
+    },
+    navigation: {
+      nextEl: '.work-process__icon-slider--arrow-next',
+      prevEl: '.work-process__icon-slider--arrow-prev'
+    }
+  });
 });
 "use strict";
 
