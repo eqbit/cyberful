@@ -159,7 +159,7 @@
 						<span class="tabs-deadline__inside-dot"></span>
 					</a>
 					<h2 class="tabs-deadline__item-title">
-						Lorem
+						Корректировка
 					</h2>
 				</li>
 				<li class="context-stages__item tabs-deadline__item">
@@ -186,8 +186,9 @@
 						Проект
 					</h3>
 					<p class="tabs-deadline__tab-descr">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti voluptas molestiae
-						quod repellat!
+						Настраиваем инструменты аналитики: Яндекс Метрика, Google Analytics, Callibri и прочие. <br>
+						Собираем список ключевых запросов. <br>
+						Создаем объявление под каждый запрос. Анализируем бюджет
 					</p>
 				</div>
 				<div class="context-stages__tab tabs-deadline__tab" id="tab-launch" style="display: none">
@@ -195,26 +196,24 @@
 						Запуск
 					</h3>
 					<p class="tabs-deadline__tab-descr">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti voluptas molestiae
-						quod repellat!
+						Подготавливаем кампании в рамках бюджета, запускаем
 					</p>
 				</div>
 				<div class="context-stages__tab tabs-deadline__tab" id="tab-enigma" style="display: none">
 					<h3 class="tabs-deadline__tab-title">
-						Lorem
+						Анализируем первые результаты
 					</h3>
 					<p class="tabs-deadline__tab-descr">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti voluptas molestiae
-						quod repellat!
+						В течение месяца смотрим, какие запросы дают наилучший результат, а какие лучше выкинуть <br>
+						Добавляем минус-слова
 					</p>
 				</div>
 				<div class="context-stages__tab tabs-deadline__tab" id="tab-optmz" style="display: none">
 					<h3 class="tabs-deadline__tab-title">
-						Оптимизация
+						Постоянная оптимизация
 					</h3>
 					<p class="tabs-deadline__tab-descr">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore corrupti voluptas molestiae
-						quod repellat!
+						Анализируем трафик, отдаем приотритет тем объявлениям, где заявка лучше конвертируется в продажу
 					</p>
 				</div>
 			</div>
