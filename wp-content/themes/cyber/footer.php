@@ -89,6 +89,7 @@ if(!is_front_page() && !$no_form) {
 <script src="<?= get_template_directory_uri(); ?>/vendor/fancybox/script.js"></script>
 <script src="<?= get_template_directory_uri(); ?>/vendor/chart.js"></script>
 <script src="<?= get_template_directory_uri(); ?>/vendor/input-mask.js"></script>
+<script src="<?= get_template_directory_uri(); ?>/vendor/swiper.js"></script>
 <script src="<?= get_template_directory_uri(); ?>/js/app.js"></script>
 <script src="<?= get_template_directory_uri(); ?>/js/custom.js"></script>
 </body>
