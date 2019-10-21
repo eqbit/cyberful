@@ -15,11 +15,11 @@ function form_handle() {
 	$content .= 'Телефон/email: ' .$_POST["phone"]. "\r\n";
 	
 	if($_POST["email"]) {
-		$content .= 'Сообщение: ' .$_POST["text"]. "\r\n";
+		$content .= 'Сообщение: ' .$_POST["email"]. "\r\n";
 	}
 	
 	if($_POST["message"]) {
-		$content .= 'Сообщение: ' .$_POST["text"]. "\r\n";
+		$content .= 'Сообщение: ' .$_POST["message"]. "\r\n";
 	}
 	
 	wp_mail("eqbit@ya.ru", $title, $content);

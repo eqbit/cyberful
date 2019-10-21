@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cefe6cfe-76a9-4093-9cf4-25870187445d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cyber/blocks/popup-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cyber/blocks/popup-form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/cyber/custom/hooks.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cyber/custom/hooks.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popup-form.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="popup-form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/blocks/popup-form.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -60,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hooks.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hooks.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/custom/hooks.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+            <state relative-caret-position="357">
+              <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -131,8 +130,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/blocks/front-contacts.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/js/app.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/js/custom.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cyber/custom/hooks.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/blocks/popup-form.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cyber/custom/hooks.php" />
       </list>
     </option>
   </component>
@@ -472,11 +471,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571658461370</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="popup fix">
+      <created>1571658859539</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1571658859539</updated>
+    </task>
+    <task id="LOCAL-00030" summary="popup fix">
+      <created>1571658906538</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1571658906538</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50993000" />
+    <option name="totallyTimeSpent" value="51133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -843,17 +856,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/custom/hooks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/blocks/popup-form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/custom/hooks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
         </state>
       </provider>
     </entry>
