@@ -21,7 +21,7 @@ $(function () {
         setTimeout(() => {
           $form.fadeOut();
           setTimeout(function () {
-            $('[data-popup-form-item]').fadeIn();
+            $('[data-popup-form-item]').fadeOut();
           }, 200);
         }, 2000);
       },
