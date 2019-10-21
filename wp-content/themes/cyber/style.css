@@ -63,3 +63,11 @@ h3.swiper-slide__title {
     pointer-events: none;
     opacity: .3;
 }
+
+.swiper-container:not(.swiper-container-initialized) {
+    overflow: visible;
+}
+
+.swiper-container:not(.swiper-container-initialized) .work-process__icon-slider--carousel-slide:not(:first-child) {
+    display: none;
+}
