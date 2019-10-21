@@ -6,6 +6,7 @@
 	<meta name="viewport"
 	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="yandex-verification" content="54780ee0a15e718a" />
 	<? wp_head(); ?>
 	<link rel="icon" type="image/png" href="<?= get_template_directory_uri(); ?>/images/favicon.png" />
 	<link
