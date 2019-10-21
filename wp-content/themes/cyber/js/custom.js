@@ -19,7 +19,7 @@ $(function () {
         $form.html($successMessage);
         
         setTimeout(() => {
-          $form.fadeOut();
+          $('[data-popup-form-item]').fadeOut();
           setTimeout(function () {
             $('[data-popup-form-shadow]').fadeOut();
           }, 200);
