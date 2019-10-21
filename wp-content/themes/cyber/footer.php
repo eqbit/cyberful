@@ -15,24 +15,24 @@ if(!is_front_page() && !$no_form) {
 						<p>© Cyberful 2019</p>
 					</li>
 					<li class="footer-part__item">
-						<a href="#">Политика обработки персональных данных</a>
+						<a href="#policy" data-fancybox>Политика обработки персональных данных</a>
 					</li>
 				</ul>
 			</div>
 			<div class="footer-part">
 				<ul class="footer-part__list">
 					<li class="footer-part__item">
-						<a href="#">
+						<a href="/dev">
 							Разработка сайта
 						</a>
 					</li>
 					<li class="footer-part__item">
-						<a href="#">
+						<a href="/optimization">
 							Продвижение сайта
 						</a>
 					</li>
 					<li class="footer-part__item">
-						<a href="#">
+						<a href="/support">
 							Техническая поддержка
 						</a>
 					</li>
@@ -41,18 +41,18 @@ if(!is_front_page() && !$no_form) {
 			<div class="footer-part">
 				<ul class="footer-part__list">
 					<li class="footer-part__item">
-						<a href="#">
-							Цена
+						<a href="/maintenance">
+							Сопровождение
 						</a>
 					</li>
 					<li class="footer-part__item">
-						<a href="#">
-							Вакансии
+						<a href="/context">
+							Контекст
 						</a>
 					</li>
 					<li class="footer-part__item">
-						<a href="#">
-							О нас
+						<a href="/contacts">
+							Контакты
 						</a>
 					</li>
 				</ul>
