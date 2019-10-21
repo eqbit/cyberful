@@ -19,7 +19,10 @@ $(function () {
         $form.html($successMessage);
         
         setTimeout(() => {
-          $form.find('[data-popup-form-close]').trigger('click');
+          $form.fadeOut();
+          setTimeout(function () {
+            $('[data-popup-form-item]').fadeIn();
+          }, 200);
         }, 2000);
       },
       error: function (response) {
