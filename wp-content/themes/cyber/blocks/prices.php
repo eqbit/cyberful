@@ -7,7 +7,7 @@
 		<!-- you have to use "front-prices-wrap" and container for this component -->
 		<div class="front-prices">
 			<a href="/dev/portal" class="front-prices-item">
-				<div class="front-prices-item__title">Корпоративный <br>портал</div>
+				<div class="front-prices-item__title">Корпоративный <br>сайт</div>
 				
 				<div class="front-prices-item__img">
 					<svg width="48" height="44" viewBox="0 0 48 44" fill="none" xmlns="http://www.w3.org/2000/svg">

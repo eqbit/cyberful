@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cefe6cfe-76a9-4093-9cf4-25870187445d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cyber/blocks/prices.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cyber/blocks/prices.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/cyber/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cyber/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +24,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+            <state relative-caret-position="523">
+              <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prices.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/blocks/prices.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -67,10 +87,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/front-page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/page-support.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/blocks/policy.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cyber/blocks/prices.php" />
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cyber/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/page-dev.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/js/app.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/page.php" />
@@ -82,7 +100,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/custom/hooks.php" />
         <option value="&lt;91e72611-31bb-4147-a793-1f0500aa8ecf&gt;/cyberful/public_html/wp-content/themes/cyber/custom/hooks.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cyber/header.php" />
+        <option value="&lt;15d5daad-e016-4c0e-9e68-81a6f0eb69d5&gt;/auto1/public_html/local/pages/main-page/new.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cyber/blocks/prices.php" />
       </list>
     </option>
   </component>
@@ -224,7 +245,7 @@
       <option name="presentableId" value="Default" />
       <updated>1571225613979</updated>
       <workItem from="1571225615292" duration="43285000" />
-      <workItem from="1571629081365" duration="150000" />
+      <workItem from="1571629081365" duration="2525000" />
     </task>
     <task id="LOCAL-00001" summary="fixes">
       <created>1571312656237</created>
@@ -345,11 +366,32 @@
       <option name="project" value="LOCAL" />
       <updated>1571629208241</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="swiper slider fixes">
+      <created>1571629343666</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1571629343666</updated>
+    </task>
+    <task id="LOCAL-00019" summary="git .idea fix">
+      <created>1571629445362</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1571629445362</updated>
+    </task>
+    <task id="LOCAL-00020" summary="yandex meta">
+      <created>1571630892138</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1571630892138</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45086000" />
+    <option name="totallyTimeSpent" value="47461000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -409,7 +451,10 @@
     <MESSAGE value="css fixes" />
     <MESSAGE value="prices edit" />
     <MESSAGE value="context texts edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="context texts edit" />
+    <MESSAGE value="swiper slider fixes" />
+    <MESSAGE value="git .idea fix" />
+    <MESSAGE value="yandex meta" />
+    <option name="LAST_COMMIT_MESSAGE" value="yandex meta" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\OSPanel\domains\cyberful.ru</wordpressPath>
@@ -616,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/blocks/prices.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4">
@@ -639,13 +677,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="127" column="62" selection-start-line="127" selection-start-column="62" selection-end-line="127" selection-end-column="62" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/page-dev.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -717,10 +748,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        <state relative-caret-position="523">
+          <caret line="76" column="1" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/blocks/prices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
         </state>
       </provider>
     </entry>

@@ -71,3 +71,7 @@ h3.swiper-slide__title {
 .swiper-container:not(.swiper-container-initialized) .work-process__icon-slider--carousel-slide:not(:first-child) {
     display: none;
 }
+
+.styled-redactor p + p {
+    margin-top: .5em;
+}
