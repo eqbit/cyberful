@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cefe6cfe-76a9-4093-9cf4-25870187445d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/cyber/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cyber/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/cyber/blocks/front-contacts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/cyber/blocks/front-contacts.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
@@ -35,8 +35,17 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
+            <state relative-caret-position="-2620">
               <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="front-contacts.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/blocks/front-contacts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="58" column="75" selection-start-line="58" selection-start-column="75" selection-end-line="58" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -89,7 +98,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/blocks/top-screen.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/blocks/front-partners.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/blocks/front-advantages.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/cyber/blocks/front-contacts.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/blocks/services.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/css/app.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/custom/functions.php" />
@@ -121,6 +129,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/blocks/prices.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/blocks/popup-form.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/cyber/js/custom.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/cyber/blocks/front-contacts.php" />
       </list>
     </option>
   </component>
@@ -418,11 +427,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571652858635</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="popup-form handle">
+      <created>1571653034568</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1571653034568</updated>
+    </task>
+    <task id="LOCAL-00024" summary="map fix">
+      <created>1571654415624</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1571654415624</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47944000" />
+    <option name="totallyTimeSpent" value="48742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -434,9 +457,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3297414" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3297414" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.32995737" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -486,7 +509,8 @@
     <MESSAGE value="git .idea fix" />
     <MESSAGE value="yandex meta" />
     <MESSAGE value="popup-form handle" />
-    <option name="LAST_COMMIT_MESSAGE" value="popup-form handle" />
+    <MESSAGE value="map fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="map fix" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\OSPanel\domains\cyberful.ru</wordpressPath>
@@ -595,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/blocks/front-contacts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="58" column="33" lean-forward="true" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../eqsoft/build/index.html" />
     <entry file="file://$PROJECT_DIR$/wp-includes/js/tinymce/plugins/textcolor/plugin.min.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -669,13 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -787,17 +797,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2620">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/cyber/blocks/front-contacts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="58" column="75" selection-start-line="58" selection-start-column="75" selection-end-line="58" selection-end-column="75" />
         </state>
       </provider>
     </entry>
