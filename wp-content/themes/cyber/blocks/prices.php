@@ -27,7 +27,7 @@
 				
 				</div>
 				
-				<div class="front-prices-item__price">От 50 000 ₽</div>
+				<div class="front-prices-item__price">От 65 000 ₽</div>
 			</a>
 			
 			<a href="/dev/e-commerce" class="front-prices-item">
@@ -107,7 +107,7 @@
 				
 				</div>
 				
-				<div class="front-prices-item__price">От 25 000 ₽</div>
+				<div class="front-prices-item__price">От 30 000 ₽</div>
 			</a>
 			
 			<a href="/dev/landing" class="front-prices-item">
