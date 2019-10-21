@@ -1,4 +1,4 @@
-<div class="popup-form" data-popup-form-item>
+<form class="popup-form" data-popup-form-item data-form-handle>
 	<h3 class="section-title popup-title">
 		Оставьте заявку на консультацию
 	</h3>
@@ -28,6 +28,6 @@
 		<span></span>
 		<span></span>
 	</button>
-</div>
+</form>
 
 <div class="popup-shadow" data-popup-form-shadow></div>

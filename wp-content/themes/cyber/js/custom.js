@@ -17,6 +17,10 @@ $(function () {
       dataType: 'json',
       success: function () {
         $form.html($successMessage);
+        
+        setTimeout(() => {
+          $form.find('[data-popup-form-close]').trigger('click');
+        }, 2000);
       },
       error: function (response) {
         console.error(response);
