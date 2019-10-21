@@ -119,7 +119,7 @@
 			</h2>
 			<ul class="tech-stack__list">
 				<? foreach($fields["tech"] as $item) : ?>
-					<li class="tech-stack__item">
+					<li class="tech-stack__item" data-ts-tooltip data-info="<?= $item["tooltip-text"]; ?>">
 						<img src="<?= $item["icon"]; ?>" alt="" class="tech-stack__item-img">
 						<h4 class="tech-stack__item-title"><?= $item["title"]; ?></h4>
 					</li>

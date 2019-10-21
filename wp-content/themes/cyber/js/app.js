@@ -62,7 +62,7 @@ $(function () {
     var myChart = new Chart(ctx, {
       type: 'line',
       data: {
-        labels: ['02.05', '09.06', '16.07', '23.08', '30.09', '06.10'],
+        labels: ['02.05', '09.05', '16.05', '23.05', '30.05', '06.06'],
         datasets: []
       },
       options: {
@@ -125,10 +125,10 @@ $(function () {
                 setTimeout(function () {
                   myChart.data.datasets.push(item);
                   myChart.update({
-                    duration: 600,
+                    duration: 800,
                     easing: 'easeInOutSine'
                   });
-                }, 500 * i++);
+                }, 800 * i++);
               });
               toggler = true;
             }
@@ -321,6 +321,54 @@ $(function () {
       nextEl: '.work-process__icon-slider--arrow-next',
       prevEl: '.work-process__icon-slider--arrow-prev'
     }
+  });
+});
+"use strict";
+
+$(function () {
+  var card = $('.tech-stack__item');
+
+  function createTooltip(item) {
+    var title = item.children('h4').text();
+    var text = item.data('info');
+
+    if (text != '') {
+      return "<div class=\"tech-stack__tooltip-wrap\" data-ts-tooltip-wrap>\n                        <div class=\"tech-stack__tooltip\">\n                            <h5>\n                                ".concat(title, "\n                            </h5>\n                            <p>\n                                ").concat(text, "\n                            </p>\n                        </div>\n                    </div>");
+    }
+  }
+
+  function removeTooltip(tooltip) {
+    tooltip.slideUp();
+    setTimeout(function () {
+      tooltip.remove();
+    }, 250);
+  }
+
+  function checkTooltip(target) {
+    return $('[data-ts-tooltip-wrap]').is(target) || $('[data-ts-tooltip-wrap]').has(target).length == 0;
+  }
+
+  function appendTooltip(target) {
+    if (card.is(target)) {
+      if ($(target).children('.tech-stack__tooltip-wrap').length == 0 && checkTooltip(target)) {
+        removeTooltip($('[data-ts-tooltip-wrap]'));
+        $(target).append(createTooltip($(target)));
+        $('[data-ts-tooltip-wrap]').slideDown();
+      }
+    } else if (card.has(target).length != 0) {
+      if ($(target).parent().children('.tech-stack__tooltip-wrap').length == 0 && checkTooltip(target)) {
+        removeTooltip($('[data-ts-tooltip-wrap]'));
+        $($(target).parent()).append(createTooltip($(target).parent()));
+        $('[data-ts-tooltip-wrap]').slideDown();
+      }
+    } else {
+      removeTooltip($('[data-ts-tooltip-wrap]'));
+    }
+  }
+
+  $('body').on('click', function (e) {
+    var target = e.target;
+    appendTooltip(target);
   });
 });
 "use strict";
