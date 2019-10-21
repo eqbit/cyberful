@@ -6,7 +6,6 @@
 		Мы свяжемся с вами в течение рабочего дня
 	</p>
 	<div class="popup-form__wrap">
-		<input type="hidden" name="form_name" value="Заявка со страницы <? the_title(); ?>">
 		
 		<input type="text" class="popup-form__field popup-form__input main-form__field main-form__input" name="name" required
 		       placeholder="Имя">
@@ -18,6 +17,9 @@
 		<textarea name="message" id="#" cols="30" rows="5"
 		          class="popup-form__field popup-form__textarea  main-form__field main-form__textarea"
 		          placeholder="Кратко опишите ваш проект"></textarea>
+		
+		<input type="hidden" name="form_name" value="Заявка со страницы <? the_title(); ?>">
+		
 		<small class="popup-form__privacy main-form__privacy">
 			Отправляя заявку, вы соглашаетесь с <a href="#policy" data-fancybox>Политикой конфиденциональности</a>
 		</small>

@@ -1,7 +1,7 @@
 <? add_theme_support( 'title-tag' );
 
 add_filter( 'wp_mail_from_name', function($from_name){
-	return 'Cyberful form handler <info@cyberful.ru>';
+	return 'Cyberful form handler';
 } );
 
 function form_handle() {
@@ -9,7 +9,7 @@ function form_handle() {
 	
 	$title = $_POST["form_name"] ? $_POST["form_name"] : "Новая заявка";
 	
-	$headers = 'From: Cyberful form handler <info@cyberful.ru>' . "\r\n";
+	$headers = 'From: Cyberful form handler' . "\r\n";
 	
 	$content = "";
 	
