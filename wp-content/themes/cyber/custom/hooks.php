@@ -9,8 +9,6 @@ function form_handle() {
 	
 	$title = $_POST["form_name"] ? $_POST["form_name"] : "Новая заявка";
 	
-	$headers = 'From: Cyberful form handler' . "\r\n";
-	
 	$content = "";
 	
 	$content .= 'Имя клиента: ' .$_POST["name"]. "\r\n";
@@ -24,7 +22,7 @@ function form_handle() {
 		$content .= 'Сообщение: ' .$_POST["text"]. "\r\n";
 	}
 	
-	wp_mail("eqbit@ya.ru", $title, $content, $headers);
+	wp_mail("eqbit@ya.ru", $title, $content);
 	echo json_encode('success');
 	die();
 }
