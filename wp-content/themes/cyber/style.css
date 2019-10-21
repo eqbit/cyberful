@@ -75,3 +75,12 @@ h3.swiper-slide__title {
 .styled-redactor p + p {
     margin-top: .5em;
 }
+
+.success-message__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #222;
+}
