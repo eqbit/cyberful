@@ -6,6 +6,8 @@
 		Мы свяжемся с вами в течение рабочего дня
 	</p>
 	<div class="popup-form__wrap">
+		<input type="hidden" name="form_name" value="Заявка со страницы <? the_title(); ?>">
+		
 		<input type="text" class="popup-form__field popup-form__input main-form__field main-form__input" name="name" required
 		       placeholder="Имя">
 		<input type="tel" class="popup-form__field popup-form__input main-form__field main-form__input" name="phone"
