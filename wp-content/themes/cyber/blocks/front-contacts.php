@@ -56,7 +56,7 @@
 		
 		</div>
 		<div class="map-part__map-side" id="map-side">
-			<div id="map" style="width: 100%; height: 100%"></div>
+			<div id="map" style="width: 100%; height: 100%" data-lazy></div>
 		</div>
 	</div>
 </section>
