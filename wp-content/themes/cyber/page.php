@@ -170,40 +170,7 @@
 	
 	<div class="block-margin"></div>
 	
-	<div class="container">
-		<h3 class="section-title">
-			Cтек технологий
-		</h3>
-		<div class="sub-block-margin"></div>
-		<div class="tech-stack">
-			<ul class="tools__list tech-stack__list">
-				<li class="tools__item tech-stack__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/s-html.png" alt="html5" class="tools__item-img tech-stack__item-img">
-					<h4 class="tools__item-title  tech-stack__item-title">HTML 5</h4>
-				</li>
-				<li class="tools__item tech-stack__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/s-css.png" alt="html5" class="tools__item-img tech-stack__item-img">
-					<h4 class="tools__item-title  tech-stack__item-title">CSS 3</h4>
-				</li>
-				<li class="tools__item tech-stack__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/s-wordpress.png" alt="html5" class="tools__item-img tech-stack__item-img">
-					<h4 class="tools__item-title  tech-stack__item-title">Wordpress</h4>
-				</li>
-				<li class="tools__item tech-stack__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/s-jquery.png" alt="html5" class="tools__item-img tech-stack__item-img">
-					<h4 class="tools__item-title  tech-stack__item-title">jQuery</h4>
-				</li>
-				<li class="tools__item tech-stack__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/s-webpack.png" alt="html5" class="tools__item-img tech-stack__item-img">
-					<h4 class="tools__item-title  tech-stack__item-title">Webpack</h4>
-				</li>
-				<li class="tools__item tech-stack__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/s-php.png" alt="html5" class="tools__item-img tech-stack__item-img">
-					<h4 class="tools__item-title  tech-stack__item-title">PHP 7.x</h4>
-				</li>
-			</ul>
-		</div>
-	</div>
+	<? get_block("tech-stack"); ?>
 
 <? endif; ?>
 
