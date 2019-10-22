@@ -43,7 +43,12 @@
 					<i class="linear-hero__icon">
 						<img src="<?= $item["img"]; ?>" alt="">
 					</i>
-					<h5 class="linear0hero__title"><?= $item["title"]; ?></h5>
+					<h5 class="linear-hero__title"><?= $item["title"]; ?></h5>
+					<? if($item["text"]) : ?>
+					<div class="linear-hero__text">
+						<?= $item["text"]; ?>
+					</div>
+					<? endif; ?>
 				</div>
 			<? endforeach; ?>
 		</div>
