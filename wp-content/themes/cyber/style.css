@@ -84,3 +84,13 @@ h3.swiper-slide__title {
     margin-bottom: 15px;
     border-bottom: 2px solid #222;
 }
+
+.linear-hero__text {
+    font-size: 16px;
+    padding-top: 15px;
+    border-top: 1px solid;
+}
+
+.linear-hero__title {
+    margin: 15px 0;
+}
