@@ -94,3 +94,12 @@ h3.swiper-slide__title {
 .linear-hero__title {
     margin: 15px 0;
 }
+
+.wp-caption {
+    margin: 20px 0;
+}
+
+.wp-caption-text {
+    font-size: 12px;
+    color: #666;
+}
