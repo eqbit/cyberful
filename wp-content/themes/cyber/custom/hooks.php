@@ -18,6 +18,10 @@ function form_handle() {
 		$content .= 'Email: ' .$_POST["email"]. "\r\n";
 	}
 	
+	if($_POST["site"]) {
+		$content .= 'Сайт: ' .$_POST["site"]. "\r\n";
+	}
+	
 	if($_POST["message"]) {
 		$content .= 'Сообщение: '. "\r\n" .$_POST["message"]. "\r\n";
 	}
