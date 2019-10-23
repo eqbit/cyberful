@@ -158,7 +158,7 @@
 				</div>
 				
 				<div class="front-prices-item__price">
-					От 8 000 ₽
+					От 5 000 ₽
 				</div>
 			</a>
 		</div>
