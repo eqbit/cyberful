@@ -230,30 +230,12 @@
 		<div class="sub-block-margin"></div>
 		<div class="tech-stack">
 			<ul class="tools__list tech-stack__list">
-				<li class="tools__item tech-stack__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/tool-img1.svg" alt="html5" class="tools__item-img tech-stack__item-img">
-					<h4 class="tools__item-title  tech-stack__item-title">Аналитика Яндекс</h4>
-				</li>
-				<li class="tools__item tech-stack__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/tool-img2.svg" alt="html5" class="tools__item-img tech-stack__item-img">
-					<h4 class="tools__item-title  tech-stack__item-title">Коллтрекинг</h4>
-				</li>
-				<li class="tools__item tech-stack__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/tool-img3.svg" alt="html5" class="tools__item-img tech-stack__item-img">
-					<h4 class="tools__item-title  tech-stack__item-title">Сквозная аналитика</h4>
-				</li>
-				<li class="tools__item tech-stack__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/tool-img4.svg" alt="html5" class="tools__item-img tech-stack__item-img">
-					<h4 class="tools__item-title  tech-stack__item-title">Подбор ключей</h4>
-				</li>
-				<li class="tools__item tech-stack__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/tool-img5.svg" alt="html5" class="tools__item-img tech-stack__item-img">
-					<h4 class="tools__item-title  tech-stack__item-title">Аналитика Google</h4>
-				</li>
-				<li class="tools__item tech-stack__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/tool-img6.svg" alt="html5" class="tools__item-img tech-stack__item-img">
-					<h4 class="tools__item-title  tech-stack__item-title">Подбор ключей</h4>
-				</li>
+				<? foreach(get_field("tools") as $item) : ?>
+					<li class="tools__item tech-stack__item" data-ts-tooltip data-info="<?= $item["text"]; ?>">
+						<img src="<?= $item["img"]; ?>" alt="<?= $item["title"]; ?>" class="tools__item-img tech-stack__item-img">
+						<h4 class="tools__item-title  tech-stack__item-title"><?= $item["title"]; ?></h4>
+					</li>
+				<? endforeach; ?>
 			</ul>
 		</div>
 	</div>
