@@ -20,12 +20,12 @@
 					$portfolioLink = get_the_permalink();
 					$i++;
 				} ?>
-				<div class="slider-portfolio__slide">
+				<div class="slider-portfolio__slide"
+				     data-title="<? the_title(); ?>"
+				     data-text="<?= get_field("short-description"); ?>"
+				     data-link="<? the_permalink(); ?>">
 					<img src="<?= get_field("preview-img"); ?>"
-					     alt="bg-img"
-					     data-title="<? the_title(); ?>"
-					     data-text="<?= get_field("short-description"); ?>"
-					     data-link="<? the_permalink(); ?>"
+					     alt=""
 					     class="slider-portfolio__carousel--img">
 				</div>
 			<? endwhile; ?>
