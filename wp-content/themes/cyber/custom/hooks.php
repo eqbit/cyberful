@@ -1,8 +1,7 @@
 <? add_theme_support( 'title-tag' );
 
-function wpse_setup_theme() {
-	add_theme_support( 'post-thumbnails' );
-	add_image_size( 'custom-preview', 300, 300, true );
+if (function_exists('add_image_size')){
+	add_image_size( 'category-thumb',300,300, true);
 }
 
 add_filter( 'wp_mail_from_name', function($from_name){
