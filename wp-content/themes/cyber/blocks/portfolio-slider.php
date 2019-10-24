@@ -20,14 +20,14 @@
 					$portfolioLink = get_the_permalink();
 					$i++;
 				} ?>
-				
-				<img src="<?= get_field("preview-img"); ?>"
-				     alt="bg-img"
-				     data-title="<? the_title(); ?>"
-				     data-text="<?= get_field("short-description"); ?>"
-				     data-link="<? the_permalink(); ?>"
-				     class="slider-portfolio__carousel--img">
-				
+				<div class="slider-portfolio__slide">
+					<img src="<?= get_field("preview-img"); ?>"
+					     alt="bg-img"
+					     data-title="<? the_title(); ?>"
+					     data-text="<?= get_field("short-description"); ?>"
+					     data-link="<? the_permalink(); ?>"
+					     class="slider-portfolio__carousel--img">
+				</div>
 			<? endwhile; ?>
 			<? wp_reset_query(); ?>
 		</div>
