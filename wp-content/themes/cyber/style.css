@@ -125,8 +125,13 @@ h3.swiper-slide__title {
 
 .styled-redactor a.fancybox.image {
     display: inline-block;
-    padding: 15px;
-    border: 15px solid #32323c;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    transition: 1s;
+}
+
+.styled-redactor a.fancybox.image:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
+    transition: .3s;
 }
 
 .styled-redactor a.fancybox.image + a.fancybox.image {
