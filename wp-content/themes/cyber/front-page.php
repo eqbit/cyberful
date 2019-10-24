@@ -1,5 +1,6 @@
 <? get_header(); ?>
-<? $fields = get_fields(); ?>
+
+<? $fields = get_fields(8); ?>
 
 <? get_block("top-screen"); ?>
 
@@ -29,8 +30,5 @@
 
 <? get_block("front-contacts"); ?>
 
-
-
-</main>
 
 <? get_footer();
