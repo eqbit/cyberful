@@ -4,7 +4,7 @@ add_filter( 'wp_mail_from_name', function($from_name){
 	return 'Cyberful form handler';
 } );
 
-add_image_size("preview", 300, 300, true);
+add_image_size("custom_preview", 300, 300, true);
 
 function form_handle() {
 	
