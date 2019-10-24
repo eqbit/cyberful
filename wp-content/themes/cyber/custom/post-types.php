@@ -28,6 +28,6 @@ function register_post_type_portfolio(){
 		'has_archive'        => true,
 		'hierarchical'       => false,
 		'menu_position'      => null,
-		'supports'           => array('title','author')
+		'supports'           => array('title','author', 'tags')
 	) );
 }
