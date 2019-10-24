@@ -11,10 +11,19 @@
 				<h1 class="section-title sup-block__title opt-block__title">
 					Техническая поддержка сайта
 				</h1>
-				<p class="sup-block__text opt-block__text">
-					Техническая поддержка сайтов в Тюменском интернет агентстве Cyberful включает в себя любые работы по
-					программированию, верстке, доработке существующих и разработке дополнительных модулей.
-				</p>
+				<div class="sup-block__text opt-block__text styled-redactor">
+					<p>
+						Любые работы по программированию, верстке, доработке существующих и разработке дополнительных
+						модулей.
+					</p>
+					<p>
+						Тариф "Депозит" подходит, если у вас время от времени возникает потребность в разработке нового
+						функционала сайта, но нет постоянного объема работ. <br>
+						Тарифы "Ведение" и "Ведение + доработка" подойдут в том случае, если ваш бизнес активно
+						развивается и сайт постоянно требует доработок. Цена часа выгоднее, чем в пакете "Депозит",
+						кроме этого беплатно включены дополнительные услуги по мониторингу интернет-ресурса
+					</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -84,6 +93,11 @@
 								<span class="sup-rate__item-content--item-dots"></span>
 								<p class="sup-rate__item-content--item-price">5 200 руб</p>
 							</li>
+							<li class="sup-rate__item-content--item sup-rate__item-content--item_price-wrap">
+								<p>Доп. час</p>
+								<span class="sup-rate__item-content--item-dots"></span>
+								<p class="sup-rate__item-content--item-price">1 300 руб</p>
+							</li>
 						</ul>
 						<button class="sup-rate__item-content--btn"
 						        data-info="Оставьте заявку на пакет «Стандарт» за 5 200 руб/мес"
@@ -132,6 +146,11 @@
 								<p>Стоимость/мес.</p>
 								<span class="sup-rate__item-content--item-dots"></span>
 								<p class="sup-rate__item-content--item-price">8 400 руб</p>
+							</li>
+							<li class="sup-rate__item-content--item sup-rate__item-content--item_price-wrap">
+								<p>Доп. час</p>
+								<span class="sup-rate__item-content--item-dots"></span>
+								<p class="sup-rate__item-content--item-price">1 200 руб</p>
 							</li>
 						</ul>
 						<button class="sup-rate__item-content--btn"
