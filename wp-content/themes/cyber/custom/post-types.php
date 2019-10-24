@@ -28,6 +28,15 @@ function register_post_type_portfolio(){
 		'has_archive'        => true,
 		'hierarchical'       => false,
 		'menu_position'      => null,
-		'supports'           => array('title','author', 'tags')
+		'supports'           => array('title','author', 'thumbnail')
 	) );
 }
+
+register_taxonomy('portfolio_tag', 'portfolio', array(
+		'hierarchical' => false,
+		'label' => "Теги",
+		'singular_name' => "Тег",
+		'rewrite' => true,
+		'query_var' => true
+	)
+);
