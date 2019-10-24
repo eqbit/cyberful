@@ -123,6 +123,16 @@ h3.swiper-slide__title {
     background: rgba(0,0,0,.4);
 }
 
+.styled-redactor a.fancybox.image {
+    display: inline-block;
+    padding: 15px;
+    border: 15px solid #32323c;
+}
+
+.styled-redactor a.fancybox.image + a.fancybox.image {
+    margin-left: 10px;
+}
+
 @media (max-width: 768px) {
     .slider-portfolio__carousel--shadow {
         width: 100%;

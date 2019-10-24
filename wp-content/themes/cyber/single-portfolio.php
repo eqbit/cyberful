@@ -5,7 +5,7 @@
 <div class="container">
 	<h1 class="site-block__title"><? the_title(); ?></h1>
 	
-	<div class="portfolio-content">
+	<div class="portfolio-content styled-redactor">
 		<?= get_field("main-text"); ?>
 	</div>
 </div>
