@@ -1,13 +1,17 @@
 <? add_theme_support( 'title-tag' );
 
+function wpse_setup_theme() {
+	add_theme_support( 'post-thumbnails' );
+	add_image_size( 'custom-preview', 300, 300, true );
+}
+
 add_filter( 'wp_mail_from_name', function($from_name){
 	return 'Cyberful form handler';
 } );
 
-add_image_size("custom_preview", 300, 300, true);
+add_action( 'after_setup_theme', 'wpse_setup_theme' );
 
 function form_handle() {
-	
 	
 	$title = $_POST["form_name"] ? $_POST["form_name"] : "Новая заявка";
 	
