@@ -6,20 +6,20 @@
 			</h4>
 			<ul class="our-partners__list" data-op-slider>
 				<li class="our-partners__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/partner2.svg" alt="partner"
+					<img src="<?= get_template_directory_uri(); ?>/images/partner2.svg" alt=""
 					class="our-partners__item--img">
 				</li>
 				<li class="our-partners__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/partner4.svg" alt="partner" class="our-partners__item--img">
+					<img src="<?= get_template_directory_uri(); ?>/images/partner4.svg" alt="" class="our-partners__item--img">
 				</li>
 				<li class="our-partners__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/partner5.svg" alt="partner" class="our-partners__item--img">
+					<img src="<?= get_template_directory_uri(); ?>/images/partner5.svg" alt="" class="our-partners__item--img">
 				</li>
 				<li class="our-partners__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/partner3.svg" alt="partner" class="our-partners__item--img">
+					<img src="<?= get_template_directory_uri(); ?>/images/partner3.svg" alt="" class="our-partners__item--img">
 				</li>
 				<li class="our-partners__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/partner1.svg" alt="partner" class="our-partners__item--img">
+					<img src="<?= get_template_directory_uri(); ?>/images/partner1.svg" alt="" class="our-partners__item--img">
 				</li>
 			</ul>
 		</div>
