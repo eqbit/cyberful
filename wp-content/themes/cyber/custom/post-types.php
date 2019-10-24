@@ -42,7 +42,7 @@ register_taxonomy('portfolio_tag', 'portfolio', array(
 );
 
 
-add_action('init', 'register_post_type_portfolio');
+add_action('init', 'register_post_type_team');
 function register_post_type_team(){
 	register_post_type('team', array(
 		'labels'             => array(
