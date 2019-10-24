@@ -25,6 +25,22 @@ $fields = get_fields();
 		<div class="portfolio-content styled-redactor">
 			<?= get_field( "main-text" ); ?>
 		</div>
+		
+		<div class="sub-block-margin"></div>
+		
+		<div class="team">
+			<? foreach($fields["team"] as $id) : ?>
+				<div class="team-unit">
+					<div class="team-unit__img">
+						<img src="<?= get_field("img", $id)["sizes"]["category-thumb"]; ?>" alt="">
+					</div>
+					<div class="team-unit__bottom">
+						<b><?= get_the_title($id); ?></b> <br>
+						<?= get_field("post", $id); ?>
+					</div>
+				</div>
+			<? endforeach; ?>
+		</div>
 	</div>
 
 <? get_footer();
