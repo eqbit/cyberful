@@ -6,7 +6,10 @@
 	<h1 class="site-block__title"><? the_title(); ?></h1>
 	
 	<div class="portfolio-info">
-		<? pre(get_the_tags(get_the_id())); ?>
+		<?
+		$post_tags = get_the_tags();
+		pre($post_tags);
+		?>
 	</div>
 	
 	<div class="portfolio-content styled-redactor">
