@@ -1,4 +1,5 @@
 <? get_header(); ?>
+<? $fields = get_fields(); ?>
 
 <? get_block("top-screen"); ?>
 

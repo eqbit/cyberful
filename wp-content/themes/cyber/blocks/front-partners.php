@@ -1,26 +1,16 @@
-<div class="container-fluid our-partners__main-wrap" data-check-visibility>
+<div class="container-fluid our-clients__main-wrap" data-check-visibility>
 	<div class="container">
-		<div class="our-partners">
-			<h4 class="our-partners__title">
-				Некоторые наши клиенты
+		<div class="our-clients">
+			<h4 class="our-clients__title">
+				<?= $fields["clients-title"]; ?>
 			</h4>
-			<ul class="our-partners__list" data-op-slider>
-				<li class="our-partners__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/partner2.svg" alt=""
-					class="our-partners__item--img">
-				</li>
-				<li class="our-partners__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/partner4.svg" alt="" class="our-partners__item--img">
-				</li>
-				<li class="our-partners__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/partner5.svg" alt="" class="our-partners__item--img">
-				</li>
-				<li class="our-partners__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/partner3.svg" alt="" class="our-partners__item--img">
-				</li>
-				<li class="our-partners__item">
-					<img src="<?= get_template_directory_uri(); ?>/images/partner1.svg" alt="" class="our-partners__item--img">
-				</li>
+			<ul class="our-clients__list" data-op-slider>
+				<? foreach($fields["clients"] as $item) : ?>
+					<li class="our-clients__item">
+						<img src="<?= $item["img"]; ?>" alt=""
+						     class="our-clients__item--img">
+					</li>
+				<? endforeach; ?>
 			</ul>
 		</div>
 	</div>
