@@ -133,6 +133,10 @@ h3.swiper-slide__title {
     margin-left: 10px;
 }
 
+.portfolio-content p + p {
+    margin-top: 1.5em;
+}
+
 @media (max-width: 768px) {
     .slider-portfolio__carousel--shadow {
         width: 100%;
