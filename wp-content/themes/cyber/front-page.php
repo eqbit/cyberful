@@ -4,7 +4,7 @@
 
 <? get_block("top-screen"); ?>
 
-<? get_block("front-partners"); ?>
+<? get_block("front-partners", $fields); ?>
 
 <div class="block-margin"></div>
 

@@ -1,6 +1,6 @@
 <?
 
-function get_block($name) {
+function get_block($name, $fields = false) {
 	if(!include ($_SERVER["DOCUMENT_ROOT"]. "/wp-content/themes/cyber/blocks/" .$name. ".php")) {
 		echo "<div style='padding: 20px; color: red;'>Block ". $name ." not found</div>";
 	}
