@@ -107,3 +107,38 @@ h3.swiper-slide__title {
 .sub-block-margin {
     margin-top: 20px;
 }
+
+.slider-portfolio__slide {
+    position: relative;
+}
+
+.slider-portfolio__slide:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.4);
+}
+
+@media (max-width: 768px) {
+    .slider-portfolio__carousel--shadow {
+        width: 100%;
+    }
+
+    .slider-portfolio__content {
+        width: calc(100% - 40px);
+    }
+
+    .top-screen {
+        padding-top: 160px;
+        padding-bottom: 140px;
+        min-height: unset;
+    }
+
+    .tabs-deadline__tab-wrap.visible {
+        max-height: unset;
+    }
+}
