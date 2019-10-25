@@ -211,6 +211,11 @@ h3.swiper-slide__title {
     color: #222;
 }
 
+.slider-portfolio__carousel:not(.slick-initialized)
+.slider-portfolio__slide:not(:first-child) {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .slider-portfolio__carousel--shadow {
         width: 100%;
