@@ -125,8 +125,6 @@
 		<span class="m-menu__hamburger-line"></span>
 	</button>
 </div>
-
-<div class="dev-message"><p>Сайт находится на этапе разработки</p></div>
 	<? if(!is_front_page()) : ?>
 		<div class="block-distation"></div>
 		<div class="block-margin"></div>
