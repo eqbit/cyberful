@@ -11,8 +11,6 @@ $fields = get_fields();
 		<h1 class="site-block__title"><? the_title(); ?></h1>
 		
 		<div class="portfolio-info">
-			<div class="portfolio-info__type">Тип работы: <?= $fields["type"]; ?></div>
-			
 			<? if ( $post_tags && count( $post_tags ) ) : ?>
 				<div class="portfolio-info__tags">
 					<? foreach ( $post_tags as $item ) : ?>
@@ -25,6 +23,8 @@ $fields = get_fields();
 		<div class="portfolio-content styled-redactor">
 			<?= get_field( "main-text" ); ?>
 		</div>
+		
+		<h2>Команда проекта</h2>
 		
 		<div class="sub-block-margin"></div>
 		
