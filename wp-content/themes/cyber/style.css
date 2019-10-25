@@ -216,6 +216,10 @@ h3.swiper-slide__title {
     display: none;
 }
 
+.wp-caption.aligncenter {
+    margin: 20px auto;
+}
+
 @media (max-width: 768px) {
     .slider-portfolio__carousel--shadow {
         width: 100%;
