@@ -62,7 +62,7 @@ if(!is_front_page() && !$no_form) {
 					<li class="footer-part__item">
 						<p>
 							Офис разработки: <br>
-							Тюмень, ули 50 лет Октября 206,офис 11
+							Тюмень, ул. 50 лет Октября 206, офис 11
 						</p>
 					</li>
 					<li class="footer-part__item">

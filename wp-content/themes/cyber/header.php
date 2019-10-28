@@ -78,6 +78,7 @@
 	<div class="container-fluid  dark-bg">
 		<div class="container">
 			<div class="header-menu">
+				<a href="/" class="header-menu-item">ГЛАВНАЯ</a>
 				<a href="/dev" class="header-menu-item">РАЗРАБОТКА</a>
 				<a href="/optimization" class="header-menu-item">ПРОДВИЖЕНИЕ</a>
 				<a href="/support" class="header-menu-item">ПОДДЕРЖКА</a>
@@ -95,6 +96,9 @@
 		<ul class="m-menu__list" data-m-menu-list>
 			<li class="m-menu__item">
 				<a href="#0"><img src="<?= get_template_directory_uri(); ?>/images/logo.svg" alt="logo"></a>
+			</li>
+			<li class="m-menu__item">
+				<a href="/" class="m-menu__link">ГЛАВНАЯ</a>
 			</li>
 			<li class="m-menu__item">
 				<a href="/dev" class="m-menu__link">РАЗРАБОТКА</a>
