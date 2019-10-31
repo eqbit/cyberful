@@ -221,6 +221,30 @@ h3.swiper-slide__title {
     margin: 20px auto;
 }
 
+.styled-redactor ul li:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 11px;
+    height: 2px;
+    background: #4EB8F4;
+    left: 0;
+    top: 0.6em;
+}
+
+.styled-redactor ul li:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #4EB8F4;
+    border-style: solid solid none none;
+    left: 5px;
+    top: .42em;
+    transform: rotate(45deg);
+}
+
 @media (max-width: 1023px) {
     .slider-portfolio__text {
         max-width: 500px;

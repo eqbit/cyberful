@@ -4,7 +4,7 @@
 		<div class="opt-block">
 			<div class="opt-block__inner">
 				<div class="opt-block__img-wrap">
-					<img src="<?= get_template_directory_uri(); ?>/images/opt-img1.svg" alt=""
+					<img src="<?= get_template_directory_uri(); ?>/images/optimization-top.png" alt=""
 					     class="opt-block__img">
 				</div>
 			</div>
