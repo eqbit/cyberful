@@ -24,23 +24,25 @@ $fields = get_fields();
 			<?= get_field( "main-text" ); ?>
 		</div>
 		
-		<h2>Команда проекта</h2>
-		
-		<div class="sub-block-margin"></div>
-		
-		<div class="team">
-			<? foreach ( $fields["team"] as $id ) : ?>
-				<div class="team-unit">
-					<div class="team-unit__img">
-						<img src="<?= get_field( "img", $id )["sizes"]["category-thumb"]; ?>" alt="">
+		<? if ( $fields["author"] ) : ?>
+			<h2>Автор</h2>
+			
+			<div class="sub-block-margin"></div>
+			
+			<div class="team">
+				<? foreach ( $fields["author"] as $id ) : ?>
+					<div class="team-unit">
+						<div class="team-unit__img">
+							<img src="<?= get_field( "img", $id )["sizes"]["category-thumb"]; ?>" alt="">
+						</div>
+						<div class="team-unit__bottom">
+							<b><?= get_the_title( $id ); ?></b> <br>
+							<?= get_field( "post", $id ); ?>
+						</div>
 					</div>
-					<div class="team-unit__bottom">
-						<b><?= get_the_title( $id ); ?></b> <br>
-						<?= get_field( "post", $id ); ?>
-					</div>
-				</div>
-			<? endforeach; ?>
-		</div>
+				<? endforeach; ?>
+			</div>
+		<? endif; ?>
 	</div>
 
 <? get_footer();
