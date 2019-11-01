@@ -1,9 +1,9 @@
 {
-    "key": "group_5da7fee2a3d6b",
-    "title": "Портфолио",
+    "key": "group_5dbaeea48b694",
+    "title": "Статьи",
     "fields": [
         {
-            "key": "field_5da82cfe8c790",
+            "key": "field_5dbaeea48fba2",
             "label": "Предпросмотр",
             "name": "",
             "type": "tab",
@@ -19,7 +19,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5da7fef0e0272",
+            "key": "field_5dbaeea48fbdc",
             "label": "Краткое описание",
             "name": "short-description",
             "type": "textarea",
@@ -38,7 +38,7 @@
             "new_lines": "br"
         },
         {
-            "key": "field_5da7ff1be0273",
+            "key": "field_5dbaeea48fc14",
             "label": "Изображение для предпросмотра",
             "name": "preview-img",
             "type": "image",
@@ -62,7 +62,7 @@
             "mime_types": ""
         },
         {
-            "key": "field_5db29308e60cc",
+            "key": "field_5dbaeea48fc4b",
             "label": "Адрес сайта",
             "name": "url",
             "type": "text",
@@ -81,7 +81,7 @@
             "maxlength": ""
         },
         {
-            "key": "field_5da82d0e8c791",
+            "key": "field_5dbaeea48fc83",
             "label": "Подробно",
             "name": "",
             "type": "tab",
@@ -97,7 +97,7 @@
             "endpoint": 0
         },
         {
-            "key": "field_5da82d168c792",
+            "key": "field_5dbaeea48fcba",
             "label": "Основной текст",
             "name": "main-text",
             "type": "wysiwyg",
@@ -116,9 +116,9 @@
             "delay": 0
         },
         {
-            "key": "field_5db1b22c73119",
-            "label": "Команда",
-            "name": "team",
+            "key": "field_5dbaeea48fcf1",
+            "label": "Автор",
+            "name": "author",
             "type": "relationship",
             "instructions": "",
             "required": 0,
@@ -148,7 +148,7 @@
             {
                 "param": "post_type",
                 "operator": "==",
-                "value": "portfolio"
+                "value": "blog"
             }
         ]
     ],
@@ -160,5 +160,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1571984160
+    "modified": 1572531920
 }

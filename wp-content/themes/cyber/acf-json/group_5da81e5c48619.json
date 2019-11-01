@@ -1,6 +1,6 @@
 {
     "key": "group_5da81e5c48619",
-    "title": "Поля для детальной страницы разработки",
+    "title": "Детальная страница разработки",
     "fields": [
         {
             "key": "field_5da81ee4d9d91",
@@ -743,5 +743,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1571399693
+    "modified": 1571908334
 }
