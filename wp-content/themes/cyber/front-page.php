@@ -1,3 +1,4 @@
+<? $no_top_margin = true; ?>
 <? get_header(); ?>
 
 <? $fields = get_fields(8); ?>

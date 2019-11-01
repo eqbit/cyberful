@@ -289,3 +289,24 @@ h3.swiper-slide__title {
         font-size: 20px;
     }
 }
+
+.sorry-about-porfolio {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.sorry-about-porfolio__img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.sorry-about-porfolio span {
+    color: #FFF;
+    background: rgba(0,0,0,.5);
+    padding: 10px;
+}
