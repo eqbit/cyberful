@@ -52,7 +52,7 @@
 							<li class="sup-rate__item-content--item sup-rate__item-content--item_base">
 								<p>Стоимость часа</p>
 								<span></span>
-								<p class="sup-rate__item-content--item-price">1 400 руб</p>
+								<p class="sup-rate__item-content--item-price">1 200 руб</p>
 							</li>
 						</ul>
 						<button class="sup-rate__item-content--btn"
@@ -88,17 +88,17 @@
 								<p>контролируем сроки оплаты хостинга и домена</p>
 							</li>
 							<li class="sup-rate__item-content--item sup-rate__item-content--item_include">
-								<p>Включено 4 часа работы специалистов</p>
+								<p>Включено 8 часов работы специалистов</p>
 							</li>
 							<li class="sup-rate__item-content--item sup-rate__item-content--item_price-wrap">
 								<p>Стоимость/мес.</p>
 								<span class="sup-rate__item-content--item-dots"></span>
-								<p class="sup-rate__item-content--item-price">5 200 руб</p>
+								<p class="sup-rate__item-content--item-price">8 800 руб</p>
 							</li>
 							<li class="sup-rate__item-content--item sup-rate__item-content--item_price-wrap">
 								<p>Доп. час</p>
 								<span class="sup-rate__item-content--item-dots"></span>
-								<p class="sup-rate__item-content--item-price">1 300 руб</p>
+								<p class="sup-rate__item-content--item-price">1 100 руб</p>
 							</li>
 						</ul>
 						<button class="sup-rate__item-content--btn"
@@ -142,17 +142,17 @@
 								<p>дорабатываем и перерабатываем формы обратной связи</p>
 							</li>
 							<li class="sup-rate__item-content--item sup-rate__item-content--item_include">
-								<p>Включено 7 часов работы специалистов</p>
+								<p>Включено 15 часов работы специалистов</p>
 							</li>
 							<li class="sup-rate__item-content--item sup-rate__item-content--item_price-wrap">
 								<p>Стоимость/мес.</p>
 								<span class="sup-rate__item-content--item-dots"></span>
-								<p class="sup-rate__item-content--item-price">8 400 руб</p>
+								<p class="sup-rate__item-content--item-price">15 000 руб</p>
 							</li>
 							<li class="sup-rate__item-content--item sup-rate__item-content--item_price-wrap">
 								<p>Доп. час</p>
 								<span class="sup-rate__item-content--item-dots"></span>
-								<p class="sup-rate__item-content--item-price">1 200 руб</p>
+								<p class="sup-rate__item-content--item-price">1 000 руб</p>
 							</li>
 						</ul>
 						<button class="sup-rate__item-content--btn"
