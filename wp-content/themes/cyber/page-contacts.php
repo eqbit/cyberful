@@ -92,7 +92,7 @@
 							</a>
 						</i>
 						<i class="contacts-block__info-line--icon contacts-block__info-line--icon_telegram">
-							<a href="https://t.me/joinchat/IEuPhhfMMYwqAsCjQ3VERg">
+							<a href="tg://resolve?domain=eqbit">
 								<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
 								     xmlns="http://www.w3.org/2000/svg">
 									<path
