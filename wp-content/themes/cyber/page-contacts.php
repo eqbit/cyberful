@@ -122,7 +122,7 @@
 					</h4>
 					<div class="contacts-block__info-line">
 						<i class="contacts-block__info-line--icon contacts-block__info-line--icon_vk">
-							<a href="#">
+							<a href="https://vk.com/cyberful">
 								<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
 								     xmlns="http://www.w3.org/2000/svg">
 									<g clip-path="url(#clip0)">
@@ -137,7 +137,7 @@
 									</defs>
 								</svg>
 							</a>
-						</i>
+						</i><!--
 						<i class="contacts-block__info-line--icon contacts-block__info-line--icon_fb">
 							<a href="#">
 								<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
@@ -147,7 +147,7 @@
 										fill="#595959" />
 								</svg>
 							</a>
-						</i>
+						</i>-->
 					</div>
 				</div>
 				<div class="block-margin desktop-only_hard"></div>
