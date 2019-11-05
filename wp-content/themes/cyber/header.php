@@ -79,7 +79,7 @@
 						</svg>
 						<a href="tel:+73452699968" class="header-top-contacts-phones__item">+7(3452)69-99-68</a>
 					</div>
-					<div class="btn btn_primary" data-popup-form-toggle>ОСТАВИТЬ ЗАЯВКУ</div>
+					<div class="btn btn_primary" data-popup-form-toggle>Получить КП</div>
 				</div>
 			</div>
 		</div>

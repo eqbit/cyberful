@@ -63,7 +63,7 @@
 					</h4>
 					<div class="contacts-block__info-line">
 						<i class="contacts-block__info-line--icon contacts-block__info-line--icon_whatsapp">
-							<a href="#">
+							<a href="https://wa.me/79028137911">
 								<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
 								     xmlns="http://www.w3.org/2000/svg">
 									<g clip-path="url(#clip0)">
@@ -92,7 +92,7 @@
 							</a>
 						</i>
 						<i class="contacts-block__info-line--icon contacts-block__info-line--icon_telegram">
-							<a href="#">
+							<a href="https://t.me/joinchat/IEuPhhfMMYwqAsCjQ3VERg">
 								<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
 								     xmlns="http://www.w3.org/2000/svg">
 									<path
@@ -102,7 +102,7 @@
 							</a>
 						</i>
 						<i class="contacts-block__info-line--icon contacts-block__info-line--icon_viber">
-							<a href="#">
+							<a href="viber://add?number=79028137911">
 								<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
 								     xmlns="http://www.w3.org/2000/svg">
 									<path
