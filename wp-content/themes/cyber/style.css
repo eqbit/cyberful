@@ -310,3 +310,10 @@ h3.swiper-slide__title {
     background: rgba(0,0,0,.5);
     padding: 10px;
 }
+
+.front-prices-item__img {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    z-index: 2;
+}
