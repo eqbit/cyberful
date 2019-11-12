@@ -4,10 +4,10 @@
 	</div>
 	
 	<div class="container">
-		<div class="top-screen__title">
-			Реализуем эффективные <br>
-			интернет-проекты
-		</div>
+		<h1 class="top-screen__title">
+			Разработка корпоративных сайтов <br>
+			и сервисов в Тюмени
+		</h1>
 		
 		<div class="top-screen-subtitle">
 			<div id="typed"></div>
