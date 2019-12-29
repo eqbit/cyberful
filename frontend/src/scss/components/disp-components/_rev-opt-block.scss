@@ -1,0 +1,9 @@
+.rev-opt-block {
+    display: flex;
+    flex-direction: row-reverse;
+
+    @include mq(768px ,max) {
+        flex-direction: column-reverse;
+    }
+
+}

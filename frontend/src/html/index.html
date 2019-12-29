@@ -1,0 +1,89 @@
+@@include('./header.html')
+@@include('./components/header-menu.html', {
+    "style-bg": "rgba(0, 0, 0, 0.1)"
+})
+
+<div class="top-screen">
+	<div class="top-screen__bg">
+		<img src="/images/top-screen-bg.jpg" alt="bg">
+	</div>
+
+	<div class="container">
+		<div class="top-screen__title">
+			Разработка корпоративных сайтов <br>
+			и сервисов в Тюмени
+		</div>
+
+		<div class="top-screen-subtitle">
+			<div id="typed"></div>
+		</div>
+	</div>
+</div>
+
+@@include('./components/our-partners.html')
+
+<div class="block-margin"></div>
+
+@@include('./components/services.html')
+
+<div class="block-margin"></div>
+
+@@include('./components/slider-portfolio.html')
+
+<div class="block-margin"></div>
+
+<div class="container">
+	<h3 class="section-title our-advantages__main-title">
+		Почему с нами выгодно
+	</h3>
+	<div class="sub-block-margin"></div>
+	@@include('./components/our-advantages.html')
+</div>
+
+<section class="section-deadline">
+	<div class="block-margin"></div>
+
+	<div class="container">
+		<div class="section-title">Этапы создания сайта</div>
+	</div>
+	<div class="sub-block-margin"></div>
+
+	@@include('./components/tabs-deadline.html')
+</section>
+
+<div class="block-margin"></div>
+
+<div class="front-prices-wrap">
+	<div class="container">
+
+		<h3 class="section-title">Цены на разработку сайта</h3>
+		<div class="sub-block-margin"></div>
+
+		@@include('./components/front-prices.html')
+	</div>
+</div>
+
+<section class="section-contacts" id="section-contacts">
+	<div class="block-margin"></div>
+	<div class="container">
+		<h3 class="section-title contacts-title">
+			Свяжитесь с нами
+		</h3>
+		<p class="section-subtitle section-subtitle_mt20 contacts-subtitle">
+			Хотите уточнить стоимость и условия сотрудничества?<br>
+			Заполните форму — проконсультируем и ответим на вопросы.
+		</p>
+	</div>
+	@@include('./components/main-form.html')
+	<div class="block-margin"></div>
+</section>
+
+<section class="section-map" id="section-map" style="background: #595959; border-bottom: 1px solid #828285">
+	@@include('./components/map-part.html')
+</section>
+
+<div id="quiz"></div>
+
+@@include('./components/mobile-menu.html')
+@@include('./components/popup-form.html')
+@@include('./footer.html')

@@ -1,0 +1,173 @@
+.top-screen {
+  position: relative;
+  height: 100vh;
+  min-height: 500px;
+  padding-top: 30vh;
+  z-index: 1;
+
+  @include mq(960px ,max) {
+    height: auto;
+    padding-top: 220px;
+    padding-bottom: 300px;
+  }
+
+  @include mq(768px ,max) {
+    padding-top: 160px;
+    padding-bottom: 240px;
+  }
+
+  // @include mqh(900px, min) {
+  //   height: auto;
+  //   padding-top: 270px;
+  //   padding-bottom: 320px;
+  // }
+
+
+
+
+  &__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+
+    @include mq(768px ,max) {
+      font-size: 36px;
+      line-height: 40px;
+    }
+
+    @include mq(474px ,max) {
+      font-size: 30px;
+    }
+
+    @include mq(474px ,max) {
+      font-size: 30px;
+    }
+
+    @include mq(402px ,max) {
+      font-size: 22px;
+    }
+  }
+
+
+  &-subtitle {
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin: 70px 40px 0;
+    display: flex;
+
+    @include mq(474px ,max) {
+      margin: 60px 40px 0;
+      font-size: 20px;
+    }
+
+    @include mq(402px ,max) {
+      margin: 40px 0px 0;
+      font-size: 16px;
+    }
+  }
+
+  &__bottom {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    color: rgba(255,255,255,0.8);
+    width: 100%;
+    font-weight: 400;
+    padding: 50px 0;
+
+    @include mq(768px ,max) {
+      padding: 35px 0;
+      font-size: 16px;
+    }
+
+    @include mq(767px ,max) {
+      padding: 30px 0;
+      font-size: 14px;
+    }
+  }
+}
+
+
+.development {
+  &-subtitle {
+    @include mq(515px ,max) {
+      font-size: 14px;
+    }
+  }
+}
+
+.seo-bottom {
+
+  &__main-wrap {
+    padding: 60px 0px;
+
+    @include mq(768px) {
+      padding: 40px 0px;
+    }
+  }
+
+  &__bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -2;
+  }
+
+  &__shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #595959c9;
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: 18px;
+    width: calc(100% / 12 * 9);
+
+    @include mq(768px) {
+      font-size: 16px;
+      width: calc(100% / 12 * 10);
+    }
+
+    @include mq(599px) {
+      font-size: 15px;
+      width: calc(100% / 12 * 12);
+    }
+  }
+}

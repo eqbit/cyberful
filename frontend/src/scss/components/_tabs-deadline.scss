@@ -1,0 +1,234 @@
+.tabs-deadline {
+
+  padding: 0px 30px;
+
+  @include mq(479px, max) {
+    padding: 0;
+  }
+
+  &__list {
+
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 15px;
+      left: 4%;
+      width: 92%;
+      height: 2px;
+      background: #CFCFCF;
+
+      @include mq(699px, max) {
+        top: 12px;
+      }
+    }
+  }
+
+  &__item {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  &__item-title {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 28px;
+
+    @include mq(699px, max) {
+      display: none;
+    }
+  }
+
+  &__point {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s;
+    box-shadow: 0px 2px 6px rgba(160, 159, 159, 0.829);
+
+    @include mq(699px, max) {
+      width: 24px;
+      height: 24px;
+    }
+
+    &:hover {
+      transform: scale(1.2)
+    }
+
+    &_active {
+      transform: scale(1.2);
+      box-shadow: 0px 2px 7px rgba(160, 159, 159, 0.829);
+    }
+  }
+
+  &__inside-dot {
+    position: absolute;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background: #BABABA;
+
+    &_active {
+      background: $primary;
+    }
+  }
+
+  &__tab-wrap {
+    margin: 35px auto 0;
+    padding: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 75%;
+    transition: 0.4s;
+    max-height: 0;
+    overflow: hidden;
+
+    &.visible {
+      max-height: 300px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+      padding: 30px 45px 30px;
+    }
+
+    @include mq(1279px, max) {
+      width: 85%;
+    }
+
+    @include mq(1023px, max) {
+      width: 90%;
+    }
+
+    @include mq(967px, max) {
+      width: 100%;
+    }
+
+    @include mq(767px, max) {
+      width: 90%;
+      height: auto;
+      padding: 25px;
+    }
+
+    @include mq(499px, max) {
+      padding: 20px;
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
+  &__tab {
+    width: 65%;
+
+    @include mq(767px, max) {
+      width: 100%;
+    }
+
+    &-title {
+      margin: 0;
+      position: relative;
+      display: inline-block;
+
+      &:after {
+        content: "";
+        display: block;
+        margin: 10px 0 0;
+        width: calc(100% + 20px);
+        max-width: 100%;
+        height: 2px;
+        background: $primary;
+      }
+
+      @include mq(967px, max) {
+        font-size: 18px;
+      }
+
+      @include mq(389px, max) {
+        font-size: 16px;
+      }
+    }
+
+    &-descr {
+      padding: 0;
+      margin-top: 15px;
+      font-size: 14px;
+      width: 85%;
+    }
+  }
+
+  &__watch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include mq(767px, max) {
+      width: 220px;
+      margin: 0 auto 20px;
+      max-width: 100%;
+    }
+
+    &-icon {
+
+      position: relative;
+
+      &--arrow {
+        display: block;
+        width: 2px;
+        height: 25px;
+        background: $primary;
+        position: absolute;
+        top: 18px;
+        left: 46px;
+        transition: .4s;
+
+        &:last-child {
+          transform-origin: bottom;
+          transform: rotate(300deg);
+        }
+      }
+
+      @include mq(967px, max) {
+        margin-left: 10px;
+      }
+    }
+
+    &-time {
+      width: 95px;
+      margin-left: 30px;
+      font-weight: 500;
+
+      @include mq(967px, max) {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+.tabs-deadline__point.visible {
+  .tabs-deadline__inside-dot {
+    animation: pulse 1s;
+  }
+}

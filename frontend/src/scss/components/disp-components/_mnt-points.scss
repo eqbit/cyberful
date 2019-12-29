@@ -1,0 +1,87 @@
+.mnt-points {
+    overflow: hidden;
+
+    &__main-title {
+
+        &--break {
+            display: none;
+
+            @include mq(520px) {
+                display: block;
+            }
+        }
+    }
+
+    &__list {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 30px -40px -40px -40px;
+
+        @include mq(960px) {
+            margin: 30px -20px -40px -20px;
+        }
+
+        @include mq(768px) {
+            margin: 30px -15px -40px -15px;
+        }
+
+        @include mq(449px) {
+            margin: 30px 0px 40px 0px; 
+        }
+
+    }
+
+    &__item {
+        box-sizing: border-box;
+        margin: 0px 40px 40px 40px; 
+        width: calc(100% / 12 * 4 - 80px);
+        padding: 0;
+        // flex-basis: 270px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+
+        @include mq(960px) {
+            margin: 0px 20px 40px 20px; 
+            width: calc(100% / 12 * 4 - 40px);
+        }
+
+        @include mq(768px) {
+            margin: 0px 15px 40px 15px; 
+            width: calc(100% / 12 * 6 - 30px);
+        }
+
+        @include mq(449px) {
+            margin: 0px 0px 40px 0px; 
+            width: calc(100% / 12 * 12);
+        }
+
+        &::before {
+            display: none;
+        }
+    }
+
+    &__icon {
+
+        @include mq(768px) {
+            transform: scale(0.9);
+        }
+        
+    }
+
+    &__title {
+        padding: 0;
+        margin: 0;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+
+        @include mq(768px) {
+            font-size: 18px;
+        }
+
+    }
+}

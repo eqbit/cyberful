@@ -1,0 +1,58 @@
+.rev-mnt-block {
+
+    flex-direction: row-reverse;
+
+    @include mq(768px ,max) {
+        flex-direction: column-reverse;
+    }
+
+    &__inner {
+        box-sizing: border-box;
+
+        &:first-of-type {
+            width: calc(100% / 12 * 5.2 - 20px);
+            // icon
+       
+            @include mq(768px ,max) {
+                width: 60%;
+                margin-top: 30px;
+            }
+
+            @include mq(545px ,max) {
+                width: 70%;
+            }
+
+            @include mq(445px ,max) {
+                width: 80%;
+            }
+
+            @include mq(345px ,max) {
+                width: 90%;
+            }
+        }
+
+        &:last-of-type {
+
+            width: calc(100% / 12 * 5.8 - 20px);
+            // text
+            @include mq(768px ,max) {
+                width: 100%;
+            }
+        }
+    }
+
+    &__img-wrap {
+
+        & img {
+
+        }
+    }
+    
+    &__title {
+
+    }
+
+    &__text {
+
+    }
+}

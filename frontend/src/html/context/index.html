@@ -1,0 +1,67 @@
+@@include('../header.html')
+@@include('../components/header-menu.html', {
+"bg-style": "bg-dark",
+"color-style": "white-text"
+})
+
+<div class="block-distation"></div>
+<div class="block-margin"></div>
+
+@@include('../components/disp-components/context-block.html')
+
+<div class="block-margin"></div>
+
+@@include('../components/disp-components/context-clip.html')
+
+<div class="block-margin"></div>
+
+<div class="container">
+    <h1 class="section-title">
+        Почему контекст
+    </h1>
+    <div class="block-margin"></div>
+    @@include('../components/disp-components/context-grid.html')
+    <div class="block-margin"></div>
+
+    <!-- изменения в этой бтн -->
+    <button class="btn btn_primary btn_primary-long center-el" data-info="Оставьте заявку на разработку стратегии" data-popup-form-toggle>
+        ОСТАВЬТЕ ЗАЯВКУ НА СТРАТЕГИИ
+    </button>
+</div>
+
+<div class="block-margin"></div>
+
+<div class="container">
+    <h1 class="section-title">Этапы работы</h1>
+    <div class="sub-block-margin"></div>
+    @@include('../components/disp-components/context-stages.html')
+</div>
+
+<div class="block-margin"></div>
+
+<div class="container">
+        <h1 class="section-title">
+            Инструменты
+        </h1>
+        <div class="sub-block-margin"></div>
+        @@include('../components/disp-components/tools.html')
+    </div>
+
+<div class="block-margin"></div>
+
+<div class="container">
+    <h1 class="section-title contacts-title">
+        Свяжитесь с нами
+    </h1>
+    <p class="section-subtitle section-subtitle_mt20 contacts-subtitle development-subtitle">
+        Хотите уточнить стоимость и условия сотрудничества? <br>
+        Заполните форму — проконсультируем и ответим на вопросы.
+    </p>
+</div>
+@@include('../components/main-form.html')
+
+<div class="block-margin"></div>
+
+@@include('../components/mobile-menu.html')
+@@include('../components/popup-form.html')
+@@include('../footer.html')

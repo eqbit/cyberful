@@ -1,0 +1,188 @@
+.work-process {
+    box-sizing: border-box;
+    padding-right: 35px;
+
+    @include mq(1023px) {
+        padding-right: 0px;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+    @include mq(1023px) {
+        flex-direction: column-reverse;
+    }
+
+    &__icon-slider {
+        width: 52%;
+        max-width: 100%;
+        position: relative;
+
+        @include mq(1023px) {
+            width: 80%;
+            margin-top: 30px;
+        }
+
+        @include mq(768px) {
+            width: 90%;
+        }
+
+        @include mq(599px) {
+            width: 100%;
+        }
+
+        &--arrow {
+            outline: none !important;
+            position: absolute;
+            top: calc(50% - 35px);
+            width: 28px;
+            height: 28px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.2s ease;
+
+            &:hover {
+                background: rgba(250, 250, 250, 0.808);
+                box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.25);
+            }
+
+            &:active {
+                transform: translateY(2px);
+                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+            }
+
+            & svg {
+                position: absolute;
+                left: calc(50% - 2px);
+                top: calc(50% - 4px);
+
+            }
+
+            &-prev {
+                left: -8%;
+                @include mq(768px) {
+                    left: -7.5%;
+                }
+
+                @include mq(599px) {
+                    display: none;
+                }
+            }
+
+            &-next {
+                right: -8%;
+                @include mq(768px) {
+                    right: -7.5%;
+                }
+
+                @include mq(599px) {
+                    display: none;
+                }
+            }
+        }
+
+        &--dots {
+            display: flex;
+            justify-content: center;
+            margin: 0px -4px;
+            margin-top: 15px;
+
+            & span {
+                margin: 0 2px;
+            }
+        }
+
+        &--carousel {
+            max-width: 100%;
+
+            &-wrapper {
+
+            }
+
+            &-slide {
+                padding: 25px 28px;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                @include mq(599px) {
+                    padding: 20px;
+                }
+
+                @include mq(399px) {
+                    padding: 15px;
+                }
+
+                h3 {
+                    margin: 0;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    font-size: 22px;
+                    text-align: center;
+
+                    @include mq(599px) {
+                        font-size: 18px;
+                    }
+                }
+
+                p {
+                    margin: 0;
+                    padding: 0;
+                    font-size: 16px;
+
+                    @include mq(599px) {
+                        font-size: 14px;
+                    }
+
+                    @include mq(399px) {
+                        font-size: 13px;
+                    }
+                }
+
+                img {
+                    @include mq(599px) {
+                        transform: scale(0.9);;
+                    }
+                }
+            }
+        }
+    }
+
+    &__text-side {
+        width: 40%;
+
+        @include mq(1023px) {
+            width: 80%;
+        }
+
+        @include mq(768px) {
+            width: 90%;
+        }
+
+        @include mq(599px) {
+            width: 100%;
+        }
+
+        &--title {
+
+        }  
+
+        &--desc {
+            margin-top: 20px;
+            font-size: 17px;
+
+            @include mq(599px) {
+                font-size: 15px;
+            }
+        }
+    }
+
+}

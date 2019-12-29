@@ -1,0 +1,841 @@
+.quiz-noscroll {
+    overflow: hidden;
+}
+.quiz {
+    box-sizing: border-box;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+
+    $main-color: #4B4B4B;
+    $active-color: #e8e8e8;
+    $elem-color: #4BA45E;
+    $item-color: #7E49D1;
+
+    & * {
+        box-sizing: border-box;
+    }
+
+    &-wrapper {
+        height: 100vh;
+        width: 100%;
+        overflow: auto;
+        position: relative;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 500;
+        transition: all 0.3s;
+    }
+
+    &-btn {
+        display: block;
+        padding: 10px 20px;
+        border: 2px solid transparent;
+        background: $main-color;
+        font-size: 16px;
+        line-height: 20px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s;
+
+
+        &:hover {
+            background: #fff;
+            color: $main-color;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+            border: 2px solid $main-color;
+        }
+    }
+
+    &-input {
+        border: 1px solid $main-color;
+        padding: 10px 20px;
+        color: $main-color;
+
+        &::placeholder {
+            opacity: 1;
+            color: black;
+        }
+    }
+    
+    &-shadow {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 100%;
+        z-index: -1;     
+    }
+
+    &-container {
+        width: 1100px;
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include mq(500px) {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+
+    &-content {
+        position: relative;
+
+        &__title-know {
+            margin: 0;
+            font-size: 21px;
+            line-height: 24px;
+            padding-left: 25px;
+            padding-right: 75px;
+            font-weight: 500;
+            color: white;
+
+            @include mq(450px) {
+                font-size: 18px;
+            }
+        }
+
+        &__btn-close {
+            outline: none;
+            padding: 0;
+            position: absolute;
+            right: 0;
+            top: -5px;
+            border: none;
+            width: 40px;
+            height: 40px;
+            background: transparent;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s;
+
+            &:hover span:first-child{
+                background: tomato;
+                transform: translate(-50%, -50%) rotate(135deg);
+            }
+
+            &:hover span:last-child{
+                background: tomato;
+                transform: translate(-50%, -50%) rotate(-135deg);
+            }
+
+            span {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+
+                display: block;
+                height: 2px;
+                width: 90%;
+                background: #fff;
+                transition: all 0.3s;
+
+                &:first-child {
+                    transform: translate(-50%, -50%) rotate(45deg);
+                }
+
+                &:last-child {
+                    transform: translate(-50%, -50%) rotate(-45deg);
+                }
+            }
+        }
+
+        &__card {
+            display: flex;
+            background: #fff;
+            margin-top: 20px;
+
+                @include mq(768px) {
+                    flex-direction: column;
+                }
+
+            &-side {
+
+                padding: 30px 50px;
+                display: flex;
+                flex-direction: column;
+
+                @include mq(1023px) {
+                    padding: 25px 40px;
+                }
+
+                @include mq(968px) {
+                    padding: 20px;
+                }
+
+                @include mq(768px) {
+                    padding: 25px;
+                }
+
+                @include mq(568px) {
+                    padding: 20px;
+                }
+
+                @include mq(450px) {
+                    padding: 15px;
+                }
+
+                &--left {
+                    background: #eeeeee;
+                    width: calc(100% / 12 * 7);
+
+                    @include mq(768px) {
+                        width: 100%;
+                    }
+
+                    &-fin {
+                        background: #fff;
+                    }
+
+                    & .quiz-content {
+                        &__title-question {
+                            font-size: 24px;
+                            line-height: 26px;
+                            margin: 0;
+
+                            @include mq(968px) {
+                                font-size: 22px;
+                            }
+
+                            @include mq(768px) {
+                                font-size: 18px;
+                            }
+                        }
+                
+                        &__variants-list {
+                            display: flex;
+                            flex-wrap: wrap;
+                            min-height: 400px;
+
+                            @include mq(450px) {
+                                min-height: auto;
+                            }
+
+                            input[type="checkbox"] {
+                                // display: none;
+
+                                &:before {
+                                    content: "";
+                                    position: absolute;
+                                    left: -2px;
+                                    top: -2px;
+                                    width: 18px;
+                                    height: 18px;
+                                    border: 2px solid $main-color;
+                                    background-color: #ffffff;
+                                }
+                                
+                                &:after {
+                                    position: absolute;
+                                    display: block;
+                                    content: "";
+                                    left: 1px;
+                                    top: 2px;
+                                    width: 12px;
+                                    height: 8px;
+                                    border-radius: 1px;
+                                    border-left: 4px solid $main-color;
+                                    border-bottom: 4px solid $main-color;
+                                    transform: rotate(-45deg);
+                                    // transition: all 0.3s;
+                                }
+
+                                &:not(:checked) {
+                                    &:after {
+                                        opacity: 0;
+                                    }
+                                }
+
+                                &:checked {
+                                    &:after {
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                
+                            &--regular-list {
+                                margin: -10px;
+                                justify-content: space-between;
+                                margin-top: 30px;
+
+                                @include mq(768px) {
+                                    margin-top: 20px;
+                                }
+
+                                
+                                @include mq(450px) {
+                                    margin: -5px;
+                                    margin-top: 15px;
+                                }
+
+                                
+
+                            }
+
+                            &--linear-list {
+                                margin: -8px;
+                                margin-top: 30px;
+                                flex-direction: column;
+
+                                @include mq(450px) {
+                                    margin-top: 20px;
+                                }
+                            }
+                        }
+                
+                        &__variants-item {
+                            margin: 0;
+                            padding: 0;
+                            cursor: pointer;
+                
+                            &--regular-card {
+                                flex-basis: calc(50% - 20px);
+                                margin: 10px;
+                                height: 190px;
+                                transition: all 0.3s;
+                                position: relative;
+                                background: $main-color;
+
+                                @include mq(550px) {
+                                    height: auto;
+                                }
+
+                                @include mq(450px) {
+                                    flex-basis: calc(50% - 10px);
+                                    margin: 5px;
+                                }
+
+                                &:hover {
+                                    transform: translateY(-5px);
+                                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+                                    @include mq(768px) {
+                                        transform: translateY(0px);
+                                    }
+                                }
+                
+                                & .quiz-content__variant-img {
+                                    margin: 0;
+                                    padding: 0;
+                                    height: 150px;
+                                    transition: all 0.3s;
+                                    padding: 10px;
+
+                                    @include mq(399px) {
+                                        height: 120px;
+                                        padding: 0;
+                                    }
+                                }
+                
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: cover;
+                                    transition: all 0.3s;
+                                }
+                
+                                h3 {
+                                    font-size: 15px;
+                                    line-height: 20px;
+                                    padding: 10px 20px;
+                                    color: #fff;
+                                    transition: all 0.3s;
+
+                                    @include mq(1023px) {
+                                        font-size: 14px;
+                                        padding: 10px;
+                                    }
+
+                                    @include mq(768px) {
+                                        font-size: 15px;
+                                        padding: 10px 20px;
+                                    }
+
+                                    @include mq(568px) {
+                                        font-size: 14px;
+                                        padding: 10px;
+                                    }
+
+                                    @include mq(450px) {
+                                        padding: 5px 10px;
+                                    }
+
+                                    
+                                    @include mq(350px) {
+                                        font-weight: normal;
+                                        font-size: 12px;
+                                    }
+                                }
+
+                                & .quiz-content__variant-checkbox {
+                                    position: absolute;
+                                    left: 8px;
+                                    top: 8px;
+                                }
+
+                                &_active {
+                                    background: $active-color;
+                                    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+                                    transition: all 0.3s;
+
+                                    // & .quiz-content__variant-img {
+                                    //     padding: 10px;
+                                    // }
+                                    h3 {
+                                        color: #222;
+    
+                                    }
+                                }
+                            }
+
+                            &--linear-card {
+                                font-size: 15px;
+                                line-height: 20px;
+                                background: #fff;
+                                border: 1px solid black;
+                                padding: 14px 20px;
+                                margin: 8px;
+                                transition: all 0.3s;
+
+                                @include mq(450px) {
+                                    margin: 5px;
+                                }
+
+                                &:hover {
+                                    transform: translateY(-2px);
+                                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+                                }
+
+                                &_active {
+                                    background: $main-color;
+                                    border: 1px solid transparent;
+                                    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.2);
+                                    color: #fff;
+                                }
+                            }
+                
+                            &::before {
+                                display: none;
+                            }
+                
+                            h3 {
+                                margin: 0;
+                            }
+                        }
+                
+                        &__progress {
+                            margin: 0 -20px;
+                            margin-top: 30px;
+                            display: flex;
+                            align-items: center;
+
+                            @include mq(1023px) {
+                                flex-direction: column;
+                            }
+                            
+                
+                            &-bar {
+                                width: 75%;
+                                height: 10px;
+                                background: #C4C4C4;
+                                border-radius: 2px;
+                                margin: 0 10px;
+                                
+                                @include mq(768px) {
+                                    width: 90%;
+                                }
+                                
+                                &--line {
+                                    display: block;
+                                    width: 0%;
+                                    height: 100%;
+                                    background: $main-color;
+                                    transition: all 0.3s;
+                                    border-radius: 2px;
+                                }
+                            }
+                
+                            &-info {
+                                margin: 0 10px;
+                                font-size: 12px;
+
+                                @include mq(1023px) {
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+                        &__btns {
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: flex-end;
+
+                            @include mq(1023px) {
+                                justify-content: center;
+                            }
+
+                            @include mq(768px) {
+                                justify-content: flex-end;
+                            }
+
+                            @include mq(600px) {
+                                justify-content: center;
+                            }
+                        }
+                        &__btn {
+                            margin-top: 30px;
+                            width: 162px;
+                            margin-left: 15px;
+                            outline: none;
+                            //display
+                            display: none;
+
+                            &-next {
+                                opacity: 0.7;
+                                pointer-events:none;
+
+                                &_active {
+                                    opacity: 1;
+                                    pointer-events: auto;
+                                }
+                            }
+
+                            &-back {
+
+                            }
+
+
+                        }
+                    }
+                }
+
+                &--right {
+                    width: calc(100% / 12 * 5);
+
+                    @include mq(768px) {
+                        width: 100%;
+                    }
+
+                    & .quiz-content {
+                        &__person {
+                            display: flex;
+                            align-items: center;
+                            margin: 0 -8px;
+
+                            @include mq(768px) {
+                                justify-content: center;
+                            }
+
+                            &-img {
+                                width: calc(30% - 16px);
+                                margin: 0 8px;
+                                max-width: 92px;
+                                min-width: 60px;
+
+                                img {
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: contain;
+                                }
+                            }
+
+                            &-desc {
+                                margin: 0 8px;
+                                width: calc(70% - 16px);
+
+                                @include mq(768px) {
+                                    width: auto;
+                                }
+
+                                h3 {
+                                    margin: 0;
+                                    font-weight: 500;
+                                    font-size: 15px;
+                                    line-height: 20px;
+                                }
+
+                                small {
+                                    display: block;
+                                    margin-top: 10px;
+                                    font-weight: 300;
+                                    font-size: 12px;
+                                    line-height: 20px;
+                                }
+                            }
+                        }
+
+                        &__polyline-wrap {
+                            width: 100%;
+                            height: 30px;
+
+                            @include mq(768px) {
+                                display: none;
+                            }
+                        }
+
+                        &__about {
+
+                            @include mq(768px) {
+                                border-top: 1px solid #e4e4e4;
+                            }
+
+                            &-text {
+                                margin-top: 30px;
+                                font-weight: 300;
+                                font-size: 16px;
+                                line-height: 20px;
+
+                                @include mq(968px) {
+                                    font-size: 15px;
+                                }
+
+                                @include mq(868px) {
+                                    font-size: 14px;
+                                }
+
+                                @include mq(768px) {
+                                    font-size: 16px;
+                                }
+
+                                @include mq(500px) {
+                                    font-size: 15px;
+                                }
+
+                                @include mq(374px) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                        
+                        &__comp-logo {
+                            display: block;
+                            margin-top: 60px;
+                            width: 55%;
+                            min-height: 140px;
+                            align-self: flex-end;
+                            max-width: 190px;
+
+                            @include mq(768px) {
+                                margin-top: 40px;
+                            }
+
+                            @include mq(374px) {
+                                margin-top: 30px;
+                            }
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                                object-fit: contain;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        &__title-know--fin {
+            background: white;
+            margin: 0;
+            margin-top: 40px;
+            padding: 40px 50px;
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 30px;
+
+            @include mq(450px) {
+                padding: 20px 30px;
+                font-size: 22px;
+            }
+        }
+
+        &__btn-close--fin {
+            top: -45px;
+        }
+
+        // fin
+        &__card {
+            &--fin {  
+            margin-top: 0;
+            }
+            &-side {
+
+                &--left {
+
+                    @include mq(768px) {
+                        min-height: 280px;
+                    }
+
+                    &-fin {
+                        position: relative;
+                    }
+
+                    & .quiz-content {
+
+                        &__gratitude {
+                            width: 85%;
+                            padding: 30px;
+                            position: absolute;
+                            bottom: 40px;
+                            left: 40px;
+                            z-index: 2;
+                            background: rgba(255, 255, 255, 0.8);
+
+                            @include mq(450px) {
+                                padding: 20px;
+                                width: 95%;
+                                left: 2.5%;
+                            }
+
+                            @include mq(374px) {
+                                padding: 12px;
+                            }
+
+                            &-text {
+                                margin: 0;
+                                font-size: 14px;
+                                line-height: 20px;
+                            }
+
+                            p + p {
+                                margin-top: 20px;    
+                            }
+                        }
+
+                        &__fin-bg {
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            width: 100%;
+                            height: 100%;
+                            z-index: 1;
+                            object-fit: cover;
+                        }
+                    }
+
+                }
+
+                &--right {
+
+                    &-fin {
+                        border-top: 1px solid rgba(0, 0, 0, 0.1);
+                        min-height: 500px;
+
+                        @include mq(768px) {
+                            min-height: auto;
+                        }
+                    }
+
+                    & .quiz-content {
+
+                        &__sketch {
+                            animation: quiz-bounce .8s running alternate infinite;
+                        }
+
+                        &__contacts {
+    
+                            &-add {
+                                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+                                position: relative;
+
+                                h4 {
+                                    margin: 0;
+                                    padding: 10px 20px;
+                                    color: #fff;
+                                    background: $main-color;
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                    font-weight: normal;
+                                }
+
+                                p {
+                                    margin: 0;
+                                    padding: 20px;
+                                    font-size: 14px;
+                                    line-height: 20px;
+                                    width: 74%;
+
+                                    @include mq(420px) {
+                                    //    width: 100%;
+                                    }
+                                }
+
+                                img {
+                                    position: absolute;
+                                    right: 10px;
+                                    top: -50px;
+                                    width: 135px;
+                                    z-index: 3;
+
+                                    @include mq(420px) {
+                                        top: -20px;
+                                        right: -20px;
+                                        
+                                     }
+                                }
+                            }
+    
+                            &-title {
+                                margin: 0;
+                                margin-top: 30px;
+
+                                @include mq(420px) {
+                                    font-size: 24px;
+                                }
+                            }
+    
+                            &-subtitle {
+                                margin-top: 10px;
+
+                                @include mq(420px) {
+                                    font-size: 18px;
+                                }
+                            }
+    
+                            &-form {
+                                margin-top: 30px;
+
+                                input {
+                                    width: 100%;
+
+                                    &:first-of-type {
+                                        margin-top: 24px;
+                                    }
+
+                                    &+input {
+                                        margin-top: 20px;
+                                    }
+                                }
+
+                                button {
+                                    width: 100%;
+                                    margin-top: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }    
+}
+
+@keyframes quiz-bounce {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+}

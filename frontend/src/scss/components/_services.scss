@@ -1,0 +1,207 @@
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+
+  @include mq(767px ,max) {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+  }
+
+  @include mq(545px ,max) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-item {
+    border: 1px solid $third-color;
+    border-top: 5px solid $third-color;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 30px;
+    transition: 1s ease;
+
+    $servFlashOffset: 0px;
+
+    @include mq(545px ,max) {
+      margin-top: 15px;
+      padding: 25px;
+    }
+
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:hover {
+      border-color: transparent;
+      border-top: 5px solid $third-color;
+    }
+
+    // &:hover &__flash:nth-of-type(1){
+    //   animation: fhAn1 1s linear infinite;
+    // animation-delay: 0.5s;
+    // }
+
+    &:hover &__flash:nth-of-type(2){
+      animation: fhAn2 1s linear infinite;
+
+    }
+
+    &:hover &__flash:nth-of-type(3){
+      animation: fhAn3 1s linear infinite;
+      animation-delay: 0.5s;
+    }
+
+    &:hover &__flash:nth-of-type(4){
+      animation: fhAn4 1s linear infinite;
+
+    }
+
+    &__flash {
+
+      position: absolute;
+
+      // &:nth-of-type(1) {
+      //   top: $servFlashOffset;
+      //   left: $servFlashOffset;
+      //   width: calc(100% - 16px);
+      //   height: 1px;
+      //   background: linear-gradient(to right, #ffffff, $third-color);
+      //   transform: translateX(-100%);
+      // }
+
+      &:nth-of-type(2) {
+        top: $servFlashOffset;
+        right: $servFlashOffset;
+        width: 1px;
+        height: 100%;
+        background: linear-gradient(to bottom, #ffffff, $third-color);
+        transform: translateY(-100%);
+      }
+
+      &:nth-of-type(3) {
+        bottom: $servFlashOffset;
+        right: $servFlashOffset;
+        width: 100%;
+        height: 1px;
+        background: linear-gradient(to left, #ffffff, $third-color);
+        transform: translateX(100%);
+      }
+
+      &:nth-of-type(4) {
+        top: $servFlashOffset;
+        left: $servFlashOffset;
+        width: 1px;
+        height: 100%;
+        background: linear-gradient(to top, #ffffff, $third-color);
+        transform: translateY(100%);
+      }
+
+      // @keyframes fhAn1 {
+      //   from {
+      //     transform: translateX(-100%);
+      //   }
+
+      //   to {
+      //     transform: translateX(100%);
+      //   }
+      // }
+
+      @keyframes fhAn2 {
+        from {
+          transform: translateY(-100%);
+        }
+
+        to {
+          transform: translateY(100%);
+        }
+      }
+
+      @keyframes fhAn3 {
+        from {
+          transform: translateX(100%);
+        }
+
+        to {
+          transform: translateX(-100%);
+        }
+      }
+
+      @keyframes fhAn4 {
+        from {
+          transform: translateY(100%);
+        }
+
+        to {
+          transform: translateY(-100%);
+        }
+      }
+    }
+
+    &--center {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+
+    &__title {
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 21px;
+      height: 62px;
+      position: relative;
+
+      &:after {
+        content: '';
+        display: block;
+        width: 0;
+        max-width: 100%;
+        height: 2px;
+        background: $third-color;
+        position: absolute;
+        top: 60px;
+        transition: .3s;
+        transition-delay: .3s;
+      }
+    }
+
+    &__text {
+      font-size: 15px;
+      line-height: 20px;
+      margin-top: 20px;
+      max-height: 0;
+      overflow: hidden;
+      transition: 1s;
+      transition-delay: .3s;
+
+      @include mq(960px ,max) {
+        font-size: 14px;
+      }
+
+      & li {
+        padding: 0;
+        &::before {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.visible {
+  &.services-item {
+    .services-item__title {
+      &:after {
+        width: 207px;
+      }
+    }
+
+    .services-item__text {
+      max-height: 400px;
+    }
+  }
+}

@@ -1,0 +1,139 @@
+.contacts-block {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    @include mq(768px ,max) {
+        flex-direction: column;
+    }
+
+    &__inner {
+        box-sizing: border-box;
+        width: 50%;
+
+        @include mq(768px ,max) {
+            width: 100%;
+            height: 400px;
+            margin-top: 30px;
+        }
+
+        @include mq(450px ,max) {
+            height: 300px;
+        }
+
+        &:first-of-type {
+            width: 45%;
+
+            @include mq(768px ,max) {
+                width: 100%;
+                height: auto;
+                margin-top: 0;
+            }
+        }
+    }
+
+    &__title {
+        margin: 0;
+        font-size: 32px;
+
+        @include mq(450px ,max) {
+            font-size: 28px;
+        }
+    }
+
+    &__info {
+
+        margin-top: 30px;
+
+        &-title {
+            margin: 0;
+            margin-bottom: 20px;
+            font-size: 18px;
+
+            @include mq(450px ,max) {
+                font-size: 16px;
+            }
+        }
+
+        &-line {
+
+            display: flex;
+
+            &:not(:first-of-type) {
+                margin-top: 15px;
+            }
+
+            &:hover &--sub_address path{
+                fill: #e74c3c;
+            }
+
+            &:hover &--sub_phone path{
+                fill: #2ecc71;
+            }
+
+            &:hover &--sub_mail path{
+                fill: #f39c12;
+            }
+
+            &--sub {
+
+                margin-right: 15px;
+                
+                & path {
+                    transition: all 0.4s;
+                }
+
+            }
+
+            &--text {
+                margin: 0;
+                font-size: 16px;
+                text-decoration: none;
+                color: #000;
+            }
+
+            &--icon {
+                width: 30px;
+                height: 30px;
+                max-width: 100%;
+                max-height: 100%;
+                margin-right: 20px;
+
+                & path {
+                    transition: all 0.4s;
+                }
+
+                &_whatsapp  {
+                    
+                    &:hover path{
+                        fill: #25d366;
+                    }
+                }
+
+                &_telegram {
+                    &:hover path{
+                        fill: #0088cc;
+                    }
+                }
+
+                &_viber {
+                    &:hover path{
+                        fill: #8f5db7;
+                    }
+                }
+
+                &_vk {
+                    &:hover path{
+                        fill: #71affa;
+                    }
+                }
+
+                &_fb {
+                    &:hover path{
+                        fill: #0850eb;
+                    }
+                }
+            }
+        }
+    }
+}

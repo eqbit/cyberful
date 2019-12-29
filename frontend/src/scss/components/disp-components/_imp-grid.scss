@@ -1,0 +1,88 @@
+.imp-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -25px 0px 5px;
+    margin-bottom: -90px;
+
+    @include mq(1023px) {
+        margin: 0px -10px 0px 5px;
+    }
+
+    @include mq(768px) {
+        margin: 0;
+        margin-left: 30px;
+        margin-bottom: -90px;
+    }
+
+    & .imp-card {
+        margin: 0 25px;
+        width: calc(50% - 50px);
+        margin-bottom: 90px;
+
+        @include mq(1023px) {
+            padding: 30px 50px 30px 90px;
+        }
+    
+        
+        @include mq(960px) {
+            padding: 30px 25px 30px 90px;
+        }
+
+        @include mq(768px) {
+            padding: 30px 89px 30px 100px;
+            margin: 0 auto;
+            margin-bottom: 70px;
+            width: 95%;
+            flex-basis: 95%;
+        }
+
+        @include mq(545px) {
+            padding: 30px 30px 30px 85px;
+        }
+
+        @include mq(480px) {
+            padding: 30px 20px 30px 65px;
+        }
+
+        @include mq(399px) {
+            padding: 20px 15px 15px 35px;
+        }
+
+        @include mq(355px) {
+            padding: 20px 12px 15px 25px;
+        }
+        
+        &__icon-wrap {
+
+            @include mq(480px) {
+                transform: scale(0.8);
+                left: -40px;
+                top: -35px;
+            }
+
+            @include mq(399px) {
+                transform: scale(0.65);
+                left: -60px;
+            }
+
+            @include mq(355px) {
+                transform: scale(0.55);
+                left: -62px;
+            }
+
+        }
+
+        &__title {
+
+            @include mq(399px) {
+                font-size: 16px;
+            }
+
+            &::after {
+                @include mq(399px) {
+                    width: 90%;
+                }
+            }
+        }
+    }
+}

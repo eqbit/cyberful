@@ -1,0 +1,35 @@
+@@include('../header.html')
+@@include('../components/header-menu.html', {
+    "bg-style": "bg-dark",
+    "color-style": "white-text"
+})
+<div class="block-distation"></div>
+<div class="block-margin"></div>
+
+@@include('../components/disp-components/sup-block.html')
+
+<div class="block-margin"></div>
+
+<div class="container">
+    @@include('../components/disp-components/sup-rate.html')
+</div>
+
+<div class="block-margin"></div>
+
+<div class="container">
+        <h3 class="section-title contacts-title">
+            Свяжитесь с нами
+        </h3>
+        <p class="section-subtitle section-subtitle_mt20 contacts-subtitle development-subtitle">
+            Хотите уточнить стоимость и условия сотрудничества? <br>
+            Заполните форму — проконсультируем и ответим на вопросы.
+        </p>
+    </div>
+    @@include('../components/main-form.html')
+
+<div class="block-margin"></div>
+
+
+@@include('../components/mobile-menu.html')
+@@include('../components/popup-form.html')
+@@include('../footer.html')

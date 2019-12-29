@@ -1,0 +1,49 @@
+@@include('../header.html')
+@@include('../components/header-menu.html', {
+"bg-style": "bg-dark",
+"color-style": "white-text"
+})
+
+<div class="block-distation"></div>
+<div class="block-margin"></div>
+
+@@include('../components/disp-components/opt-block.html')
+
+<div class="block-margin"></div>
+
+@@include('../components/disp-components/opt-clip.html')
+
+<div class="block-margin"></div>
+
+@@include('../components/linear-grid.html')
+
+<div class="block-margin"></div>
+
+@@include('../components/disp-components/rev-opt-block.html')
+
+<div class="block-margin"></div>
+
+<section class="seo-bottom">
+    <!-- this styles are in app-file-->
+    <div class="container-fluid seo-bottom__main-wrap">
+        <img src="/images/seo-bottom-bg.png" alt="bg-img" class="seo-bottom__bg-img">
+        <span class="seo-bottom__shadow"></span>
+        <div class="container">
+            <h3 class="section-title white-text">
+                Профессионалы своего дела
+            </h3>
+            <div class="sub-block-margin"></div>
+            <p class="seo-bottom__text white-text margin-bottom60">
+                Хороший специалист в сфере SEO-оптимизации встречается редко, ввиду сравнительно небольшой истории
+                данной
+                отрасли. Именно поэтому мы крайне избирательно относимся к выбору исполнителей. Благодаря чуткому
+                руководству и блестящим сотрудникам команда Cyberful всегда достигает поставленных задач.
+            </p>
+            @@include('../components/second-form.html')
+        </div>
+    </div>
+</section>
+
+@@include('../components/mobile-menu.html')
+@@include('../components/popup-form.html')
+@@include('../footer.html')

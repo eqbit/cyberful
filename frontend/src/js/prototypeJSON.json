@@ -1,0 +1,215 @@
+{
+    "base": {
+      "titleKnow": "Узнайте стоимость вашего проекта",
+      "srcImgPerson": "/images/quiz-person.png",
+      "namePerson": "Андрей Симонов",
+      "descPerson": "Руководитель “ТобольскСтройСерсис”",
+      "srcLogoPerson": "/images/quiz-logo.svg"
+    },
+    "fin": {
+      "titleKnow": "Готово! Куда вам выслать результаты?",
+      "gratitude-text": [
+        "<p class=\"quiz-content__gratitude-text\">Благодарим вас за ответы на вопросы! Вы сэкономили нашему инженеру-сметчику примерно 4 часа рабочего времени.</p>",
+        "<p class=\"quiz-content__gratitude-text\">При звонке в нашу компанию назовите оператору промо-код \"СПАСИБО\" и получите скидку 15% на фундамент для дома.</p>"
+      ],
+      "fin-bg": "/images/quiz-fin-bg.png",
+      "titleAdd": "Бесплатное дополнение",
+      "subtitleAdd": [
+        "<p>Каталог всех проектов<br>домов в стиле “классический”</p>"
+      ],
+      "sketch-img": "/images/quiz-sketch1.png",
+      "titleContacts": "Оставьте свои контакты",
+      "subtitleContacts": "Подготовим смету в течение 24 часов",
+      "btnForm": "Получить смету и каталог"
+    },
+    "dinamic": [
+      {
+        "cardSettings": {
+          "rowType": 2,
+          "multiSelect": true
+        },
+        "cardData": {
+          "cardInfo": [
+            [
+              "Сантехника",
+              "/images/quiz-v12.png"
+            ],
+            [
+              "Скважина",
+              "/images/quiz-v13.png"
+            ],
+            [
+              "Канализация и септик",
+              "/images/quiz-v14.png"
+            ],
+            [
+              "Электрика",
+              "/images/quiz-v15.png"
+            ]
+          ],
+          "titleQuestion": "Какая доп. комплектация дома нужна?"
+        },
+        "personData": {
+          "aboutText": [
+            "<p class=\"quiz-content__about-text\">Мы не просто продаём \"готовый дом\", но и можем полностью укомплектовать его всем необходимым для комфортного проживания.</p>",
+            "<p class=\"quiz-content__about-text\">Отметьте, какую дополнительную комплектацию вы бы хотели \"осметить\" и мы сделаем все необходимые расчёты и добавим позиции в смету.</p>"
+          ]
+        }
+      },
+      {
+        "cardSettings": {
+          "rowType": 2,
+          "multiSelect": false
+        },
+        "cardData": {
+          "cardInfo": [
+            [
+              "Капитальный домик",
+              "/images/quiz-v1.png"
+            ],
+            [
+              "Летний домик",
+              "/images/quiz-v2.png"
+            ],
+            [
+              "Дача",
+              "/images/quiz-v3.png"
+            ],
+            [
+              "Баня",
+              "/images/quiz-v4.png"
+            ]
+          ],
+          "titleQuestion": "Какой тип постройки вам нужен?"
+        },
+        "personData": {
+          "aboutText": [
+            "<p class=\"quiz-content__about-text\">От типа сооружения в первую очередь зависит его конечная стоимость</p>"
+          ]
+        }
+      },
+      {
+        "cardSettings": {
+          "rowType": 2,
+          "multiSelect": false
+        },
+        "cardData": {
+          "cardInfo": [
+            [
+              "Классический постсоветский",
+              "/images/quiz-v5.png"
+            ],
+            [
+              "Американская мечта",
+              "/images/quiz-v6.png"
+            ],
+            [
+              "Шале",
+              "/images/quiz-v7.png"
+            ],
+            [
+              "Эко",
+              "/images/quiz-v8.png"
+            ]
+          ],
+          "titleQuestion": "Какой стиль предпочитаете?"
+        },
+        "personData": {
+          "aboutText": [
+            "<p class=\"quiz-content__about-text\">При составлении коммерческого предложения мы учтём ваши пожелания по стилю и будем предлагать только подходящие проекты </p>"
+          ]
+        }
+      },
+      {
+        "cardSettings": {
+          "rowType": "linear",
+          "multiSelect": false
+        },
+        "cardData": {
+          "cardInfo": [
+            [
+              "40—70 м²"
+            ],
+            [
+              "70—100 м²"
+            ],
+            [
+              "100 — 150 м²"
+            ],
+            [
+              "150 — 200 м²"
+            ],
+            [
+              "200 — 300 м²"
+            ],
+            [
+              "более 200 м²"
+            ]
+          ],
+          "titleQuestion": "Планируемая площадь"
+        },
+        "personData": {
+          "aboutText": [
+            "<p class=\"quiz-content__about-text\">Чем более ранний предзаказ вы сделаете на дом, тем больше будет скидка, которую мы готовы будем вам предоставить. </p>"
+          ]
+        }
+      },
+      {
+        "cardSettings": {
+          "rowType": 2,
+          "multiSelect": false
+        },
+        "cardData": {
+          "cardInfo": [
+            [
+              "Металлочерепица",
+              "/images/quiz-v9.png"
+            ],
+            [
+              "Мягкая кровля",
+              "/images/quiz-v10.png"
+            ],
+            [
+              "Профнастил",
+              "/images/quiz-v11.png"
+            ]
+          ],
+          "titleQuestion": "Какую кровлю хотите использовать?"
+        },
+        "personData": {
+          "aboutText": [
+            "<p class=\"quiz-content__about-text\">Металлочерепица примерно в 2 раза дешевле, чем мягкая кровля, но в реальной жизни выглядит не очень \n                \"богато\". Срок службы у них примерно одинаков — 20-30 лет.</p>",
+            "<p class=\"quiz-content__about-text\">Самый дешевый вариант это профнастил.Однако он не очень эстетичен и недолговечен.</p>"
+          ]
+        }
+      },
+      {
+        "cardSettings": {
+          "rowType": "linear",
+          "multiSelect": false
+        },
+        "cardData": {
+          "cardInfo": [
+            [
+              "Как можно быстрее"
+            ],
+            [
+              "Через 3-6 месяцев"
+            ],
+            [
+              "Этой весной"
+            ],
+            [
+              "Через год"
+            ]
+          ],
+          "titleQuestion": "Сроки"
+        },
+        "personData": {
+          "aboutText": [
+            "<p class=\"quiz-content__about-text\">Чем более ранний предзаказ вы сделаете на дом, тем больше будет скидка, которую мы готовы будем вам предоставить.</p>"
+          ]
+        }
+      }
+    ]
+  }

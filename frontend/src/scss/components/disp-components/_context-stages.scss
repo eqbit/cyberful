@@ -1,0 +1,40 @@
+.context-stages {
+
+    &__list {
+        &::before {
+            left: 4%;
+        }
+    }
+
+    &__tab-wrap {
+        width: 48%;
+
+        @include mq(768px ,max) {
+            width: 80%;
+        }
+
+        @include mq(545px ,max) {
+            width: 100%;
+        }
+
+
+        &.visible {
+            padding: 30px;
+          }
+    }
+
+    &__tab {
+        width: 100%;
+
+        h3 {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        p {
+            @include mq(1279px ,max) {
+                width: 100%;
+            }
+        }
+    }
+}

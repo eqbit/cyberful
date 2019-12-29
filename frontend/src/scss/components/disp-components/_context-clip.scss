@@ -1,0 +1,73 @@
+.context-clip {
+
+
+    &__main-wrap {
+        
+    }
+
+    &__shadow {
+        clip-path: polygon(0 0, 45% 0, 55% 100%, 0 100%);
+        @include mq(1023px) {
+            clip-path: polygon(0 0, 55% 0, 70% 100%, 0 100%);
+        }
+        @include mq(960px) {
+            clip-path: polygon(0 0, 60% 0, 75% 100%, 0 100%);
+        }
+        @include mq(768px) {
+            clip-path: polygon(0 0, 70% 0, 85% 100%, 0 100%);
+        }
+        @include mq(639px) {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        }
+    }
+
+    &__content {
+        width: 45%;
+        max-width: 100%;
+
+        @include mq(960px) {
+            width: 60%;
+        }
+
+        @include mq(768px) {
+            width: 70%;
+        }
+        @include mq(639px) {
+            width: 100%;
+        }
+    }
+
+    &__brands-wrap {
+        margin-top: 30px;
+        display: flex;
+
+        @include mq(374px) {
+            flex-direction: column;
+        }
+    }
+
+    &__brand {
+
+        @include mq(374px) {
+            width: 131px;
+        }
+
+        h5 {
+            margin: 0;
+            margin-top: 8px;
+            text-align: center;
+        }
+
+        &:not(:first-child) {
+            margin-left: 65px;
+    
+            @include mq(374px) {
+                margin-left: 0;
+                margin-top: 20px;
+            }
+        }
+
+    }
+
+
+}

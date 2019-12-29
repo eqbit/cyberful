@@ -1,0 +1,73 @@
+@@include('../header.html')
+@@include('../components/header-menu.html', {
+"bg-style": "bg-dark",
+"color-style": "white-text"
+})
+
+<div class="block-distation"></div>
+<div class="block-margin"></div>
+
+@@include('../components/disp-components/site-block.html')
+
+<div class="block-margin"></div>
+
+<div class="container">
+    <h3 class="section-title contacts-title">
+        Модули каталога
+    </h3>
+    <div class="block-margin"></div>
+    @@include('../components/linear-heroes.html')
+</div>
+
+<div class="block-margin"></div>
+
+@@include('../components/specialization.html', {
+"title": "Простая админ панель"
+})
+
+<div class="block-margin"></div>
+
+<div class="container">
+    <h3 class="section-title">
+        C нами удобно
+    </h3>
+    <div class="block-margin"></div>
+    @@include('../components/disp-components/imp-grid.html')
+    <div class="block-margin"></div>
+    <!-- изменения в этой btn -->
+    <button class="btn btn_primary btn_primary-long center-el" data-info="Оставьте заявку на разработку сайта" data-popup-form-toggle>
+        ОСТАВЬТЕ ЗАЯВКУ НА РАЗРАБОТКУ САЙТА
+    </button>
+</div>
+<div class="block-margin"></div>
+
+@@include('../components/tabs-deadline.html')
+
+<div class="block-margin"></div>
+
+<div class="container">
+    <h3 class="section-title">
+        Cтек технологий
+    </h3>
+    <div class="sub-block-margin"></div>
+    @@include('../components/disp-components/half-stack.html')
+</div>
+
+<div class="block-margin"></div>
+
+<div class="container">
+    <h3 class="section-title contacts-title">
+        Свяжитесь с нами
+    </h3>
+    <p class="section-subtitle section-subtitle_mt20 contacts-subtitle development-subtitle">
+        Хотите уточнить стоимость и условия сотрудничества? <br>
+        Заполните форму — проконсультируем и ответим на вопросы.
+    </p>
+</div>
+@@include('../components/main-form.html')
+
+<div class="block-margin"></div>
+
+@@include('../components/mobile-menu.html')
+@@include('../components/popup-form.html')
+@@include('../footer.html')

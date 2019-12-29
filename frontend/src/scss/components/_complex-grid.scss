@@ -1,0 +1,66 @@
+.complex-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 220px);
+
+    grid-template-areas:    "cc1 cc1 cc3 cc3 cc4 cc4"
+                            "cc2 cc2 cc3 cc3 cc5 cc5"
+                            "cc6 cc6 cc6 cc7 cc7 cc7";        
+    grid-gap: 21px;
+
+    @include mq(959px ,max) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(4, 220px);
+        grid-template-areas:    "cc1 cc1 cc3 cc3"
+                                "cc2 cc2 cc3 cc3"
+                                "cc4 cc4 cc5 cc5"
+                                "cc6 cc6 cc7 cc7";    
+    }
+
+    @include mq(768px ,max) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: repeat(5, 220px);
+        grid-template-areas:    "cc1 cc1 cc2 cc2"
+                                "cc3 cc3 cc3 cc3"
+                                "cc4 cc4 cc5 cc5"
+                                "cc7 cc7 cc7 cc7"
+                                "cc6 cc6 cc6 cc6";    
+    }
+
+    @include mq(549px ,max) {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: -20px;
+    }
+
+    & .complex-card {
+
+        &:nth-of-type(1) {
+            grid-area: cc1;
+        }
+
+        &:nth-of-type(2) {
+            grid-area: cc2;
+        }
+
+        &:nth-of-type(3) {
+            grid-area: cc3;
+        }
+
+        &:nth-of-type(4) {
+            grid-area: cc4;
+        }
+
+        &:nth-of-type(5) {
+            grid-area: cc5;
+        }
+
+        &:nth-of-type(6) {
+            grid-area: cc6;
+        }
+
+        &:nth-of-type(7) {
+            grid-area: cc7;
+        }
+    }
+}

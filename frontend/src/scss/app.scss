@@ -1,0 +1,68 @@
+@import "./mixins";
+@import "./colors";
+@import "./base";
+@import "./ui";
+@import "./effects";
+
+@import "slick";
+@import "chart";
+@import "swiper";
+@import "./components/header";
+@import "./components/footer";
+
+@import "./components/top-screen";
+
+@import "./components/services";
+
+@import "./components/our-partners";
+@import "./components/slider-portfolio";
+@import "./components/our-advantages";
+@import "./components/tabs-deadline";
+@import "./components/front-prices";
+@import "./components/main-form.scss";
+@import "./components/map-part";
+
+@import "./components/mobile-menu";
+
+@import "./components/popup-form";
+
+@import "./components/img-info.scss";
+@import "./components/work-process";
+@import "./components/specialization";
+@import "./components/tech-stack";
+
+@import "./components/disp-components/opt-block";
+@import "./components/disp-components/opt-clip";
+
+@import "./components/linear-grid";
+@import "./components/disp-components/rev-opt-block";
+@import "./components/second-form";
+
+@import "./components/disp-components/mnt-block";
+@import "./components/disp-components/mnt-points";
+@import "./components/disp-components/mnt-clip";
+@import "./components/disp-components/rev-mnt-block";
+@import "./components/complex-grid";
+@import "./components/disp-components/rev-opt-block";
+@import "./components/second-form";
+
+@import "./components/disp-components/sup-block";
+@import "./components/disp-components/sup-rate";
+
+@import "./components/disp-components/site-block.scss";
+@import "./components/linear-heroes";
+@import "./components/disp-components/imp-grid";
+
+@import "./components/disp-components/contacts-block";
+
+@import "./components/disp-components/context-block";
+@import "./components/disp-components/context-clip";
+@import "./components/disp-components/context-stages";
+@import "./components/chart-block";
+
+@import "./components/quiz";
+
+// sub-components
+@import "./components/sub-components/linear-card";
+@import "./components/sub-components/complex-card";
+@import "./components/sub-components/imp-card";

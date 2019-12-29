@@ -1,0 +1,120 @@
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+
+  &-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+
+    @include mq(768px ,max) {
+      justify-content: center;
+    }
+
+    &-container {
+      background: #fff;
+      border-bottom: 1px solid #EEE;
+    }
+
+    &__logo {
+      display: flex;
+      align-items: center;
+
+      @include mq(960px ,max) {
+        transform: scale(0.6);
+      }
+
+      @include mq(960px ,max) {
+        transform: scale(0.7);
+      }
+
+    }
+
+    &-contacts {
+      display: flex;
+      align-items: center;
+
+      @include mq(768px ,max) {
+        display: none;
+      }
+
+      &-phones {
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        position: relative;
+
+        svg {
+          position: absolute;
+          left: -50px;
+          top: calc(50% - 20px);
+          transform: scale(0.7);
+        }
+
+        &__item {
+          font-weight: bold;
+          font-size: 22px;
+          line-height: 23px;
+          text-align: center;
+          color: #000;
+          text-decoration: none;
+
+          & + & {
+            margin-top: 10px;
+
+            &:before {
+              content: '';
+              display: block;
+              width: 100%;
+              height: 2px;
+              background: $primary;
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-menu {
+    display: flex;
+    justify-content: center;
+    padding: 23px;
+
+    @include mq(768px ,max) {
+      display: none;
+    }
+
+    &-item {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color: #EEEEEE;
+      margin: 0 13px;
+      display: block;
+      text-decoration: none;
+      position: relative;
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: currentColor;
+        transition: .3s;
+        transition-delay: .15s;
+      }
+
+      &:hover:after {
+        width: 100%;
+        transition-delay: 0s;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@keyframes pulse {
+  25% {
+    background-color: #BABABA;
+  }
+  50% {
+    background-color: $primary;
+  }
+  75% {
+    background-color: #BABABA;
+  }
+}

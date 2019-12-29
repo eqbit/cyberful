@@ -1,0 +1,108 @@
+.front-prices {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  
+    @include mq(767px ,max) {
+      grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    }
+  
+    
+    &-wrap {
+      position: relative;
+    }
+  
+    &-item {
+      color: #FFF;
+      padding: 30px;
+      position: relative;
+      min-height: 226px;
+
+      &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        transition: .3s;
+        transition-delay: .3s;
+        z-index: -1;
+        background: linear-gradient(118.75deg, rgba(89, 89, 89, 0.78) 0%, rgba(89, 89, 89, 0.62) 50%, rgba(89, 89, 89, 0.84) 100%);
+        background-size: 500px 500px;
+        background-position: -100px -100px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        opacity: .9;
+      }
+
+      &:nth-child(2),
+      &:nth-child(4),
+      &:nth-child(6) {
+        &:after {
+          opacity: .7;
+        }
+      }
+
+      @include mq(1024px, min) {
+        &:hover {
+          &:after {
+            transform: scale(1.062);
+            transition-delay: .0s;
+            z-index: 1;
+            opacity: 1;
+            background-position: 0 0;
+          }
+        }
+      }
+
+      @include mq(1023px) {
+        @include mq(768px, min) {
+          &:nth-child(3) {
+            grid-column-start: 2;
+            grid-row-start: 2;
+          }
+        }
+      }
+  
+      &__title {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        width: 80%;
+        position: relative;
+        z-index: 2;
+  
+        @include mq(699px ,max) {
+          width: 68%;
+        }
+  
+        @include mq(350px ,max) {
+          width: 77%;
+        }
+      }
+  
+      &__img {
+        position: absolute;
+        right: 60px;
+        top: 50px;
+        z-index: 2;
+  
+        @include mq(350px ,max) {
+          right: 30px;
+          top: 35px;
+        }
+      }
+  
+      &__price {
+        position: absolute;
+        background: rgba(0, 0, 0, 0.1);
+        padding: 20px 30px;
+        width: calc(100% - 60px);
+        bottom: 30px;
+        text-align: right;
+        font-weight: 300;
+        z-index: 2;
+      }
+    }
+  }

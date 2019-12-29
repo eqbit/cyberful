@@ -1,0 +1,60 @@
+@@include('../header.html')
+@@include('../components/header-menu.html', {
+    "bg-style": "bg-dark",
+    "color-style": "white-text"
+})
+<div class="block-distation"></div>
+<div class="block-margin"></div>
+
+@@include('../components/img-info.html', {
+    "src": "/images/dev-img1.png",
+    "title-text": "Разработка сайтов",
+    "main-text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "main-text2": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+})
+
+<div class="block-margin"></div>
+
+<div class="front-prices-wrap">
+	<div class="container">
+		@@include('../components/front-prices.html')
+	</div>
+</div>
+
+<div class="block-margin"></div>
+
+@@include('../components/work-process.html')
+
+<div class="block-margin"></div>
+
+@@include('../components/specialization.html', {
+    "title": "Специализация"
+})
+
+<div class="block-margin"></div>
+
+@@include('../components/chart-block.html')
+
+<div class="block-margin"></div>
+
+
+@@include('../components/tech-stack.html')
+
+<div class="block-margin"></div>
+
+<div class="container">
+    <h3 class="section-title contacts-title">
+        Свяжитесь с нами
+    </h3>
+    <p class="section-subtitle section-subtitle_mt20 contacts-subtitle development-subtitle">
+        Хотите уточнить стоимость и условия сотрудничества? <br>
+        Заполните форму — проконсультируем и ответим на вопросы.
+    </p>
+</div>
+@@include('../components/main-form.html')
+
+<div class="block-margin"></div>
+
+@@include('../components/mobile-menu.html')
+@@include('../components/popup-form.html')
+@@include('../footer.html')

@@ -1,0 +1,26 @@
+.mnt-block {
+
+    &__inner {
+
+    }
+
+    &__img-wrap {
+
+        @include mq(768px) {
+            margin: 0 auto;
+            width: 80%;
+        }
+        & img {
+            width: 82%;
+            @include mq(768px) {
+                width: 100%;
+              }
+        }
+    }
+
+    &__title {
+        @include mq(768px) {
+            margin-top: 20px;
+          }
+    }
+}

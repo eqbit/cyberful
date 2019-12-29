@@ -1,0 +1,126 @@
+.popup-form__main-wrapper {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-form {
+    z-index: 120;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 600px;
+    max-width: 80%;
+    padding: 30px 30px;
+    border-radius: 6px;
+    // border: 3px solid rgba(230, 229, 229, 0.815);
+    // border-top: 5px solid rgba(230, 229, 229, 0.815);
+    box-shadow: 0px 0px 10px rgba(177, 177, 177, 0.63);
+    display: none;
+
+    @include mq(768px ,max) {
+
+    }
+
+    @include mq(649px ,max) {
+        max-width: 85%;
+    }
+
+    @include mq(499px ,max) {
+        max-width: 90%;
+    }
+
+    @include mq(399px ,max) {
+        max-width: 95%;
+    }
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__field {
+        font-size: 16px;
+        box-shadow: 0px 3px 7px rgba(26, 26, 26, 0.137);
+        transition: all 0.4s;
+        @include mq(499px ,max) {
+            font-size: 14px;
+        }
+
+        &:focus {
+            box-shadow: 0px 3px 9px rgba(44, 44, 44, 0.24);
+        }
+    }
+
+    &__input {
+        margin: 0;
+        width: 100%;
+
+        &:first-child {
+            margin-top: 20px;
+        }
+
+        &:not(:last-of-type) {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__textarea {
+        margin-top: 20px;
+        resize: none;
+    }
+
+    &__privacy {
+        font-size: 14px;
+        @include mq(399px ,max) {
+            font-size: 12px;
+        }
+    }
+
+    &__btn-submit {
+        margin-top: 20px;
+    }
+
+    &__btn-close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        width: 35px;
+        height: 35px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        transition: all 0.4s;
+        outline: none;
+
+
+        &:hover span  {
+            background: darken($third-color, 100);
+            transform: translate(-50%, -50%) rotate(135deg);
+        }
+
+        &:hover span:last-child {
+            transform: translate(-50%, -50%) rotate(-135deg);
+        }
+
+        & span {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 85%;
+            height: 4px;
+            background: $third-color;
+            transform-origin: center, center;
+            transform: translate(-50%, -50%) rotate(45deg);
+            transition: all 0.4s;
+        }
+
+        & span:last-child {
+            transform: translate(-50%, -50%) rotate(-45deg);
+        }
+    }
+}
