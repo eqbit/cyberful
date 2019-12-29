@@ -87,13 +87,10 @@
 	<div class="container-fluid  dark-bg">
 		<div class="container">
 			<div class="header-menu">
-				<a href="/" class="header-menu-item">ГЛАВНАЯ</a>
-				<a href="/dev" class="header-menu-item">РАЗРАБОТКА</a>
-				<a href="/optimization" class="header-menu-item">ПРОДВИЖЕНИЕ</a>
-				<a href="/support" class="header-menu-item">ПОДДЕРЖКА</a>
-				<a href="/maintenance" class="header-menu-item">СОПРОВОЖДЕНИЕ</a>
-				<a href="/context" class="header-menu-item">КОНТЕКСТ</a>
-				<a href="/contacts" class="header-menu-item">КОНТАКТЫ</a>
+				<a href="/" class="header-menu-item">Главная</a>
+				<a href="/dev" class="header-menu-item">Разработка</a>
+				<a href="/support" class="header-menu-item">Техническая поддержка</a>
+				<a href="/contacts" class="header-menu-item">Контакты</a>
 			</div>
 		</div>
 	</div>
@@ -104,31 +101,22 @@
 		<nav class="m-menu__nav" data-m-menu-nav>
 			<ul class="m-menu__list" data-m-menu-list>
 				<li class="m-menu__item">
-					<a href="#0"><img src="<?= get_template_directory_uri(); ?>/images/logo.svg" alt="logo"></a>
+					<a href="/"><img src="<?= get_template_directory_uri(); ?>/images/logo.svg" alt="logo"></a>
 				</li>
 				<li class="m-menu__item">
-					<a href="/" class="m-menu__link">ГЛАВНАЯ</a>
+					<a href="/" class="m-menu__link">Главная</a>
 				</li>
 				<li class="m-menu__item">
-					<a href="/dev" class="m-menu__link">РАЗРАБОТКА</a>
+					<a href="/dev" class="m-menu__link">Раработка</a>
 				</li>
 				<li class="m-menu__item">
-					<a href="/optimization" class="m-menu__link">ПРОДВИЖЕНИЕ</a>
+					<a href="/support" class="m-menu__link">Техподдержка</a>
 				</li>
 				<li class="m-menu__item">
-					<a href="/support" class="m-menu__link">ПОДДЕРЖКА</a>
+					<a href="/contacts" class="m-menu__link">Контакты</a>
 				</li>
 				<li class="m-menu__item">
-					<a href="/maintenance" class="m-menu__link">СОПРОВОЖДЕНИЕ</a>
-				</li>
-				<li class="m-menu__item">
-					<a href="/context" class="m-menu__link">КОНТЕКСТ</a>
-				</li>
-				<li class="m-menu__item">
-					<a href="/contacts" class="m-menu__link">КОНТАКТЫ</a>
-				</li>
-				<li class="m-menu__item">
-					<a href="tel:+73452699968" class="m-menu__link">+7 (3452) 69-99-68</a>
+					<a href="tel:+79028137911" class="m-menu__link">+7 (902) 813-79-11</a>
 				</li>
 			</ul>
 		</nav>
@@ -138,7 +126,9 @@
 			<span class="m-menu__hamburger-line"></span>
 		</button>
 	</div>
+	
 	<? global $no_top_margin; ?>
+	
 	<? if ( ! is_front_page() ) : ?>
 		<div class="block-distation"></div>
 		<? if ( ! $no_top_margin ) : ?>

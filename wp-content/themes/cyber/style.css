@@ -317,3 +317,25 @@ h3.swiper-slide__title {
     top: 40px;
     z-index: 2;
 }
+
+.contacts-block__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100% !important;
+}
+
+.contacts-block__info {
+    margin: 0 !important;
+    width: calc(50% - 20px) !important;
+}
+
+@media (max-width: 767px) {
+    .contacts-block__info {
+        width: 100% !important;
+    }
+
+    .contacts-block__info + .contacts-block__info {
+        margin-top: 40px;
+    }
+}

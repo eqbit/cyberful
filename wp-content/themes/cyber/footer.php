@@ -19,35 +19,17 @@ if(!is_front_page() && !$no_form) {
 					</li>
 				</ul>
 			</div>
+			
 			<div class="footer-part">
 				<ul class="footer-part__list">
 					<li class="footer-part__item">
 						<a href="/dev">
-							Разработка сайта
-						</a>
-					</li>
-					<li class="footer-part__item">
-						<a href="/optimization">
-							Продвижение сайта
+							Разработка
 						</a>
 					</li>
 					<li class="footer-part__item">
 						<a href="/support">
 							Техническая поддержка
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div class="footer-part">
-				<ul class="footer-part__list">
-					<li class="footer-part__item">
-						<a href="/maintenance">
-							Сопровождение
-						</a>
-					</li>
-					<li class="footer-part__item">
-						<a href="/context">
-							Контекст
 						</a>
 					</li>
 					<li class="footer-part__item">
@@ -57,17 +39,12 @@ if(!is_front_page() && !$no_form) {
 					</li>
 				</ul>
 			</div>
+			
 			<div class="footer-part">
 				<ul class="footer-part__list">
 					<li class="footer-part__item">
-						<p>
-							Офис разработки: <br>
-							Тюмень, ул. 50 лет Октября 206, офис 11
-						</p>
-					</li>
-					<li class="footer-part__item">
 						<a href="tel:+73452699968">
-							+7 (3452) 69-99-68
+							+7 (902) 813-79-11
 						</a>
 					</li>
 				</ul>

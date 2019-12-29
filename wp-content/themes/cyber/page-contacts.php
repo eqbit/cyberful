@@ -2,29 +2,16 @@
 	
 	<div class="container">
 		<div class="contacts-block">
+			<h3 class="section-title contacts-block__title">
+				Способы связи:
+			</h3>
+			
 			<div class="contacts-block__inner">
-				<h3 class="section-title contacts-block__title">
-					Интернет агентство Cyberful
-				</h3>
 				<div class="contacts-block__info">
 					<h4 class="contacts-block__info-title">
-						Офис разработки в Тюмени
+						Почта, телефон
 					</h4>
-					<div class="contacts-block__info-line">
-						<i class="contacts-block__info-line--sub contacts-block__info-line--sub_address">
-							<svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path
-									d="M7.99916 10.8126C9.85782 10.8126 11.3646 9.30588 11.3646 7.44722C11.3646 5.58856 9.85782 4.08182 7.99916 4.08182C6.1405 4.08182 4.63376 5.58856 4.63376 7.44722C4.63376 9.30588 6.1405 10.8126 7.99916 10.8126Z"
-									fill="#595959" />
-								<path
-									d="M7.99935 20C7.99935 20 15.4469 11.5607 15.4469 7.4476C15.4469 3.33442 12.1125 0 7.99935 0C3.88618 0 0.551758 3.33442 0.551758 7.44756C0.551758 11.5607 7.99935 20 7.99935 20ZM7.99935 2.30521C10.839 2.30521 13.1414 4.60718 13.1414 7.44722C13.1414 10.2873 10.839 12.5892 7.99935 12.5892C5.15969 12.5892 2.85738 10.2872 2.85738 7.44722C2.85738 4.60722 5.15969 2.30521 7.99935 2.30521Z"
-									fill="#595959" />
-							</svg>
-						</i>
-						<p class="contacts-block__info-line--text">
-							50 лет Октября 206 офис 11
-						</p>
-					</div>
+					
 					<div class="contacts-block__info-line">
 						<i class="contacts-block__info-line--sub contacts-block__info-line--sub_phone">
 							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,8 +26,9 @@
 									fill="#595959" />
 							</svg>
 						</i>
-						<a href="tel:+73452699968" class="contacts-block__info-line--text">+7 (3452) 69-99-68</a>
+						<a href="tel:+79028137911" class="contacts-block__info-line--text">+7 (902) 813-79-11</a>
 					</div>
+					
 					<div class="contacts-block__info-line">
 						<i class="contacts-block__info-line--sub contacts-block__info-line--sub_mail">
 							<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,14 +41,16 @@
 							</svg>
 						</i>
 						<a href="mailto:info@cyberful.ru" class="contacts-block__info-line--text">
-							info@cyberful.ru
+							nik@cyberful.ru
 						</a>
 					</div>
 				</div>
+				
 				<div class="contacts-block__info">
 					<h4 class="contacts-block__info-title">
-						Напишите нам через мессенджеры:
+						Мессенджеры, соцсети
 					</h4>
+					
 					<div class="contacts-block__info-line">
 						<i class="contacts-block__info-line--icon contacts-block__info-line--icon_whatsapp">
 							<a href="https://wa.me/79028137911">
@@ -91,6 +81,7 @@
 								</svg>
 							</a>
 						</i>
+						
 						<i class="contacts-block__info-line--icon contacts-block__info-line--icon_telegram">
 							<a href="tg://resolve?domain=eqbit">
 								<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
@@ -101,6 +92,7 @@
 								</svg>
 							</a>
 						</i>
+						
 						<i class="contacts-block__info-line--icon contacts-block__info-line--icon_viber">
 							<a href="viber://add?number=79028137911">
 								<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
@@ -114,15 +106,9 @@
 								</svg>
 							</a>
 						</i>
-					</div>
-				</div>
-				<div class="contacts-block__info">
-					<h4 class="contacts-block__info-title">
-						Мы в соц.сетях:
-					</h4>
-					<div class="contacts-block__info-line">
+						
 						<i class="contacts-block__info-line--icon contacts-block__info-line--icon_vk">
-							<a href="https://vk.com/cyberful">
+							<a href="https://vk.com/eqbit">
 								<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
 								     xmlns="http://www.w3.org/2000/svg">
 									<g clip-path="url(#clip0)">
@@ -137,24 +123,13 @@
 									</defs>
 								</svg>
 							</a>
-						</i><!--
-						<i class="contacts-block__info-line--icon contacts-block__info-line--icon_fb">
-							<a href="#">
-								<svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-								     xmlns="http://www.w3.org/2000/svg">
-									<path
-										d="M22.4982 0.006242L18.6079 0C14.2373 0 11.4129 2.89785 11.4129 7.38304V10.7871H7.50136C7.16336 10.7871 6.88965 11.0611 6.88965 11.3991V16.3313C6.88965 16.6693 7.16367 16.943 7.50136 16.943H11.4129V29.3883C11.4129 29.7263 11.6866 30 12.0246 30H17.128C17.466 30 17.7397 29.726 17.7397 29.3883V16.943H22.3132C22.6512 16.943 22.9249 16.6693 22.9249 16.3313L22.9267 11.3991C22.9267 11.2369 22.8621 11.0814 22.7476 10.9666C22.6331 10.8517 22.477 10.7871 22.3147 10.7871H17.7397V7.90144C17.7397 6.51447 18.0702 5.81037 19.8769 5.81037L22.4976 5.80943C22.8353 5.80943 23.109 5.53541 23.109 5.19772V0.617958C23.109 0.280578 22.8356 0.0068662 22.4982 0.006242Z"
-										fill="#595959" />
-								</svg>
-							</a>
-						</i>-->
+						</i>
 					</div>
 				</div>
-				<div class="block-margin desktop-only_hard"></div>
 			</div>
-			<div class="contacts-block__inner">
-				<div id="map" style="width: 100%; height: 100%"></div>
-			</div>
+			
+			<div class="block-margin desktop-only_hard"></div>
+			
 		</div>
 	</div>
 

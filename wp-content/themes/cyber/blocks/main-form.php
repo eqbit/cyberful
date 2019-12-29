@@ -2,11 +2,10 @@
 	<div class="block-margin"></div>
 	<div class="container">
 		<h3 class="section-title contacts-title">
-			Свяжитесь с нами
+			Свяжитесь со мной
 		</h3>
 		<p class="section-subtitle section-subtitle_mt20 contacts-subtitle">
-			Хотите уточнить стоимость и условия сотрудничества?<br>
-			Заполните форму — проконсультируем и ответим на вопросы.
+			Отвечу на все вопросы по условиям сотрудничества
 		</p>
 	</div>
 	<div class="container">
