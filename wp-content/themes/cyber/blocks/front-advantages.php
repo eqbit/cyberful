@@ -1,6 +1,6 @@
 <div class="container">
 	<h3 class="section-title our-advantages__main-title">
-		Почему с нами выгодно
+		В чем преимущества
 	</h3>
 	<div class="sub-block-margin"></div>
 	<div class="our-advantages">
@@ -20,7 +20,7 @@
 					<path d="M70.2538 84.1797H65.6837C64.0663 84.1797 62.7541 85.4912 62.7541 87.1094C62.7541 88.7276 64.0663 90.0391 65.6837 90.0391H70.2538C71.8719 90.0391 73.1834 88.7276 73.1834 87.1094C73.1834 85.4912 71.8719 84.1797 70.2538 84.1797Z" fill="#4EB8F4"/>
 				</svg>
 				<h4 class="our-advantages__item--title">
-					Оперативно реагируем на потребности вашего бизнеса
+					Оперативно реагирую на срочные задачи
 				</h4>
 			</li>
 			<li class="our-advantages__item" data-check-visibility>
@@ -30,7 +30,7 @@
 				</svg>
 				
 				<h4 class="our-advantages__item--title">
-					100% наших работ выполнено в заявленный срок
+					Даю конкретную оценку по времени, выполняю работу в срок в 100% случаев
 				</h4>
 			</li>
 			<li class="our-advantages__item" data-check-visibility>

@@ -318,6 +318,14 @@ h3.swiper-slide__title {
     z-index: 2;
 }
 
+.contacts-block {
+    display: block !important;
+}
+
+.contacts-block__title {
+    margin-bottom: 30px;
+}
+
 .contacts-block__inner {
     display: flex;
     justify-content: space-between;
@@ -328,6 +336,19 @@ h3.swiper-slide__title {
 .contacts-block__info {
     margin: 0 !important;
     width: calc(50% - 20px) !important;
+}
+
+.footer-wrap {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.header-menu {
+    justify-content: unset !important;
 }
 
 @media (max-width: 767px) {

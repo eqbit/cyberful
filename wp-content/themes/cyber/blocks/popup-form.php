@@ -1,9 +1,9 @@
 <form class="popup-form" data-popup-form-item data-form-handle>
 	<h3 class="section-title popup-title">
-		Заявка на получение коммерческого предложения
+		Оставьте свои контакты
 	</h3>
 	<p class="section-subtitle popup-subtitle">
-		Мы свяжемся с вами в течение рабочего дня
+		Я свяжусь с вами в течение рабочего дня
 	</p>
 	<div class="popup-form__wrap">
 		
@@ -23,7 +23,7 @@
 		<textarea name="message" id="#" cols="30" rows="5"
 		          class="popup-form__field popup-form__textarea  main-form__field main-form__textarea"
 		          required
-		          placeholder="Кратко опишите ваш проект"></textarea>
+		          placeholder="Можете кратко описать вашу проблему"></textarea>
 		
 		<input type="hidden" name="form_name" value="Заявка со страницы <? the_title(); ?>">
 		

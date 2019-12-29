@@ -5,8 +5,7 @@
 	
 	<div class="container">
 		<h1 class="top-screen__title">
-			Разработка корпоративных сайтов <br>
-			и сервисов в Тюмени
+			Частный специалист по разработке и технической поддержке сайтов
 		</h1>
 		
 		<div class="top-screen-subtitle">

@@ -1,9 +1,4 @@
 
-<?
-global $no_form;
-if(!is_front_page() && !$no_form) {
-	get_block("main-form");
-}?>
 
 </main>
 <footer class="footer" id="footer">
@@ -16,26 +11,6 @@ if(!is_front_page() && !$no_form) {
 					</li>
 					<li class="footer-part__item">
 						<a href="#policy" data-fancybox>Политика обработки персональных данных</a>
-					</li>
-				</ul>
-			</div>
-			
-			<div class="footer-part">
-				<ul class="footer-part__list">
-					<li class="footer-part__item">
-						<a href="/dev">
-							Разработка
-						</a>
-					</li>
-					<li class="footer-part__item">
-						<a href="/support">
-							Техническая поддержка
-						</a>
-					</li>
-					<li class="footer-part__item">
-						<a href="/contacts">
-							Контакты
-						</a>
 					</li>
 				</ul>
 			</div>

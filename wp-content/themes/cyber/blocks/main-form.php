@@ -2,10 +2,10 @@
 	<div class="block-margin"></div>
 	<div class="container">
 		<h3 class="section-title contacts-title">
-			Свяжитесь со мной
+			Оставьте контакты
 		</h3>
 		<p class="section-subtitle section-subtitle_mt20 contacts-subtitle">
-			Отвечу на все вопросы по условиям сотрудничества
+			Свяжусь с вами в течение рабочего дня и отвечу на все вопросы по условиям сотрудничества
 		</p>
 	</div>
 	<div class="container">
@@ -20,7 +20,7 @@
 					<input type="email" class="main-form__field main-form__input" name="email" placeholder="Почта">
 				</div>
 				<textarea name="message" cols="30" rows="5" class="main-form__field main-form__textarea"
-				          placeholder="Кратко опишите ваш проект"></textarea>
+				          placeholder="Можете кратко описать вашу проблему"></textarea>
 				<small class="main-form__privacy">
 					Отправляя заявку, вы соглашаетесь с <a href="#policy" data-fancybox>Политикой
 						конфиденциональности</a>

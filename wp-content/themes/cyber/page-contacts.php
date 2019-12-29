@@ -2,10 +2,6 @@
 	
 	<div class="container">
 		<div class="contacts-block">
-			<h3 class="section-title contacts-block__title">
-				Способы связи:
-			</h3>
-			
 			<div class="contacts-block__inner">
 				<div class="contacts-block__info">
 					<h4 class="contacts-block__info-title">

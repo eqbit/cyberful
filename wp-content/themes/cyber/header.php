@@ -77,9 +77,9 @@
 								d="M20.0796 14.0625C19.4325 14.0625 18.9079 14.5872 18.9079 15.2343C18.9079 15.8814 19.4325 16.4061 20.0796 16.4061C22.018 16.4061 23.595 17.983 23.595 19.9214C23.595 20.5686 24.1197 21.0932 24.7668 21.0932C25.4139 21.0932 25.9386 20.5686 25.9386 19.9214C25.9385 16.6908 23.3103 14.0625 20.0796 14.0625Z"
 								fill="black"/>
 						</svg>
-						<a href="tel:+73452699968" class="header-top-contacts-phones__item">+7(3452)69-99-68</a>
+						<a href="tel:+79028137911" class="header-top-contacts-phones__item">+7(902)813-79-11</a>
 					</div>
-					<div class="btn btn_primary" data-popup-form-toggle>Получить КП</div>
+					<div class="btn btn_primary" data-popup-form-toggle>Связаться</div>
 				</div>
 			</div>
 		</div>
