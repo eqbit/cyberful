@@ -62,25 +62,6 @@
             "mime_types": ""
         },
         {
-            "key": "field_5dbaeea48fc4b",
-            "label": "Адрес сайта",
-            "name": "url",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
             "key": "field_5dbaeea48fc83",
             "label": "Подробно",
             "name": "",
@@ -160,5 +141,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1572531920
+    "modified": 1572600306
 }
