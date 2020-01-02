@@ -1,7 +1,7 @@
 <section class="section-deadline">
 	
 	<div class="container">
-		<div class="section-title">Этапы создания сайта</div>
+		<div class="section-title">Как мы работаем</div>
 	</div>
 	<div class="sub-block-margin"></div>
 	
@@ -9,11 +9,11 @@
 		<div class="tabs-deadline">
 			<ul class="tabs-deadline__list" data-deadlines data-lazy="true">
 				<li class="tabs-deadline__item">
-					<a href="#tab-analytics" class="tabs-deadline__point" data-deadline="3">
+					<a href="#tab-analytics" class="tabs-deadline__point" data-deadline="1">
 						<span class="tabs-deadline__inside-dot"></span>
 					</a>
 					<h2 class="tabs-deadline__item-title">
-						Аналитика
+						Обсуждение
 					</h2>
 				</li>
 				<li class="tabs-deadline__item">
@@ -21,39 +21,23 @@
 						<span class="tabs-deadline__inside-dot"></span>
 					</a>
 					<h2 class="tabs-deadline__item-title">
-						Контент
+						Анализ
 					</h2>
 				</li>
 				<li class="tabs-deadline__item">
-					<a href="#tab-prototype" class="tabs-deadline__point" data-deadline="3">
+					<a href="#tab-design" class="tabs-deadline__point" data-deadline="8">
 						<span class="tabs-deadline__inside-dot"></span>
 					</a>
 					<h2 class="tabs-deadline__item-title">
-						Прототип
+						В работу
 					</h2>
 				</li>
 				<li class="tabs-deadline__item">
-					<a href="#tab-design" class="tabs-deadline__point" data-deadline="10">
+					<a href="#tab-coding" class="tabs-deadline__point" data-deadline="1">
 						<span class="tabs-deadline__inside-dot"></span>
 					</a>
 					<h2 class="tabs-deadline__item-title">
-						Дизайн
-					</h2>
-				</li>
-				<li class="tabs-deadline__item">
-					<a href="#tab-coding" class="tabs-deadline__point" data-deadline="8">
-						<span class="tabs-deadline__inside-dot"></span>
-					</a>
-					<h2 class="tabs-deadline__item-title">
-						Верстка
-					</h2>
-				</li>
-				<li class="tabs-deadline__item">
-					<a href="#tab-production" class="tabs-deadline__point" data-deadline="4">
-						<span class="tabs-deadline__inside-dot"></span>
-					</a>
-					<h2 class="tabs-deadline__item-title">
-						Публикация
+						Закрытие
 					</h2>
 				</li>
 			</ul>
@@ -61,52 +45,40 @@
 			<div class="tabs-deadline__tab-wrap"  data-deadline-screen>
 				<div class="tabs-deadline__tab" id="tab-analytics">
 					<h3 class="tabs-deadline__tab-title">
-						Аналитика и разработка ТЗ
+						Заявка на работы
 					</h3>
 					<p class="tabs-deadline__tab-descr">
-						Проведем анализ конкурентов, учтем особенности и потребности вашего бизнеса
+						По телефону, в мессенджерах либо при личной встрече обсуждаем с заказчиком что нужно сделать,
+						какие поставлены цели, уточняем сроки. Если задача горящая, даем ей высший приоритет.
 					</p>
 				</div>
 				<div class="tabs-deadline__tab" id="tab-content" style="display: none">
 					<h3 class="tabs-deadline__tab-title">
-						Подготовка контента
+						Оценка задачи
 					</h3>
 					<p class="tabs-deadline__tab-descr">
-						Тексты могут быть как предоставлены заказчиком, так и быть написаны нашими специалистами
+						Составляем формальный список задач, которые нужно выполнить. В соответствии с ним даем точную
+						оценку стоимости работ. Согласуем с заказчиком, составляем договор, где прописываем конкретные
+						работы и конкретную стоимость их выполнения.
 					</p>
 				</div>
 				<div class="tabs-deadline__tab" id="tab-prototype" style="display: none">
 					<h3 class="tabs-deadline__tab-title">
-						Создание прототипа
+						Запускаем задачу в работу
 					</h3>
 					<p class="tabs-deadline__tab-descr">
-						Разработаем прототип проекта, призванный обозначить окончательную структуру веб-приложения
+						Выполняем оговоренный список работ на тестовой копии сайта. Проводим внутреннее тестирование на
+						наличие скрытых ошибок. Когда убеждаемся, что задача выполнена корректно и без косяков,
+						переносим работу с тестовой площадки на боевой сайт
 					</p>
 				</div>
 				<div class="tabs-deadline__tab" id="tab-design" style="display: none">
 					<h3 class="tabs-deadline__tab-title">
-						Дизайн и согласование
+						Закрываем задачу
 					</h3>
 					<p class="tabs-deadline__tab-descr">
-						Нарисуем макет, главной миссией которого будет донесение нужных идей до
-						конечного пользователя
-					</p>
-				</div>
-				<div class="tabs-deadline__tab" id="tab-coding" style="display: none">
-					<h3 class="tabs-deadline__tab-title">
-						Верстка и программирование
-					</h3>
-					<p class="tabs-deadline__tab-descr">
-						Проводим разработку на 1С Битрикс или Wordpress, в зависимости от требований конктретного проекта
-					</p>
-				</div>
-				<div class="tabs-deadline__tab" id="tab-production" style="display: none">
-					<h3 class="tabs-deadline__tab-title">
-						Наполнение, тестирование и публикация
-					</h3>
-					<p class="tabs-deadline__tab-descr">
-						После выполнения всех работ наши специалисты проверят потенциально слабые места и
-						отправят на публикацию полностью готовый продукт
+						Ждем от заказчика подтверждение, что результат его устраивает, после чего закрываем задачу и
+						подписываем соответствующие закрывающие акты
 					</p>
 				</div>
 				<div class="tabs-deadline__watch">

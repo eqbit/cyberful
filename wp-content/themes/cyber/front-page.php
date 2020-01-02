@@ -7,13 +7,15 @@
 
 <? get_block("front-partners", $fields); ?>
 
-<div class="block-margin"></div>
-
 <? get_block("portfolio-slider"); ?>
 
 <div class="block-margin"></div>
 
-<? get_block("front-advantages"); ?>
+<? get_block("services"); ?>
+
+<div class="block-margin"></div>
+
+<? get_block("front-dot-tabs"); ?>
 
 <? get_block("main-form"); ?>
 
