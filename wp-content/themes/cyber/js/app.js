@@ -1159,7 +1159,8 @@ $(function () {
     $(this).siblings().css('font-weight', 500);
     dots.removeClass('tabs-deadline__inside-dot_active');
     $(this).children().addClass('tabs-deadline__inside-dot_active');
-    time.text("\u043E\u0442 ".concat($(this).attr('data-deadline'), " \u0434\u043D\u0435\u0439"));
+    var time = +$(this).attr('data-deadline');
+    time.text("\u043E\u0442 ".concat(time, " ").concat(time === 1 ? 'часа' : 'часов'));
     $arrow.css('transform', "rotate(".concat($(this).data('deadline') * 45 / 1.5, "deg)"));
   });
 });

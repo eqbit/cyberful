@@ -72,7 +72,7 @@
 						переносим работу с тестовой площадки на боевой сайт
 					</p>
 				</div>
-				<div class="tabs-deadline__tab" id="tab-design" style="display: none">
+				<div class="tabs-deadline__tab" id="tab-coding" style="display: none">
 					<h3 class="tabs-deadline__tab-title">
 						Закрываем задачу
 					</h3>
@@ -121,7 +121,7 @@
 						<span class="tabs-deadline__watch-icon--arrow" data-deadline-arrow></span>
 					</i>
 					<p class="tabs-deadline__watch-time">
-						от 20 дней
+						от 1 часа
 					</p>
 				</div>
 			</div>

@@ -53,7 +53,8 @@ $(function () {
     $(this).siblings().css('font-weight', 500);
     dots.removeClass('tabs-deadline__inside-dot_active');
     $(this).children().addClass('tabs-deadline__inside-dot_active');
-    time.text(`от ${$(this).attr('data-deadline')} дней`);
+    const time = +$(this).attr('data-deadline');
+    time.text(`от ${time} ${time === 1 ? 'часа' : 'часов'}`);
     
     $arrow.css('transform', `rotate(${$(this).data('deadline') * 45 / 1.5}deg)`);
   });
