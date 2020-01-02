@@ -5,10 +5,10 @@
 	
 	<div class="container">
 		<h1 class="top-screen__title">
-			Частный специалист по разработке и технической поддержке сайтов
+			Разработка сайтов и интерактивных веб&nbsp;приложений
 		</h1>
 		
-		<div class="top-screen-subtitle">
+		<div class="top-screen__subtitle">
 			<div id="typed"></div>
 		</div>
 	</div>
