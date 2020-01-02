@@ -1159,8 +1159,8 @@ $(function () {
     $(this).siblings().css('font-weight', 500);
     dots.removeClass('tabs-deadline__inside-dot_active');
     $(this).children().addClass('tabs-deadline__inside-dot_active');
-    var time = parseInt($(this).data('deadline'));
-    time.text("\u043E\u0442 ".concat(time, " ").concat(time === 1 ? 'часа' : 'часов'));
+    var hours = parseInt($(this).data('deadline'));
+    time.text("\u043E\u0442 ".concat(hours, " ").concat(hours === 1 ? 'часа' : 'часов'));
     $arrow.css('transform', "rotate(".concat($(this).data('deadline') * 45 / 1.5, "deg)"));
   });
 });
