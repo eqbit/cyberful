@@ -9,7 +9,7 @@
 		<div class="tabs-deadline">
 			<ul class="tabs-deadline__list" data-deadlines data-lazy="true">
 				<li class="tabs-deadline__item">
-					<a href="#tab-analytics" class="tabs-deadline__point" data-deadline="1">
+					<a href="#tab-income" class="tabs-deadline__point" data-deadline="1">
 						<span class="tabs-deadline__inside-dot"></span>
 					</a>
 					<h2 class="tabs-deadline__item-title">
@@ -17,7 +17,7 @@
 					</h2>
 				</li>
 				<li class="tabs-deadline__item">
-					<a href="#tab-content" class="tabs-deadline__point" data-deadline="2">
+					<a href="#tab-analisys" class="tabs-deadline__point" data-deadline="2">
 						<span class="tabs-deadline__inside-dot"></span>
 					</a>
 					<h2 class="tabs-deadline__item-title">
@@ -25,7 +25,7 @@
 					</h2>
 				</li>
 				<li class="tabs-deadline__item">
-					<a href="#tab-design" class="tabs-deadline__point" data-deadline="8">
+					<a href="#tab-work" class="tabs-deadline__point" data-deadline="8">
 						<span class="tabs-deadline__inside-dot"></span>
 					</a>
 					<h2 class="tabs-deadline__item-title">
@@ -33,7 +33,7 @@
 					</h2>
 				</li>
 				<li class="tabs-deadline__item">
-					<a href="#tab-coding" class="tabs-deadline__point" data-deadline="1">
+					<a href="#tab-end" class="tabs-deadline__point" data-deadline="1">
 						<span class="tabs-deadline__inside-dot"></span>
 					</a>
 					<h2 class="tabs-deadline__item-title">
@@ -43,7 +43,7 @@
 			</ul>
 			
 			<div class="tabs-deadline__tab-wrap"  data-deadline-screen>
-				<div class="tabs-deadline__tab" id="tab-analytics">
+				<div class="tabs-deadline__tab" id="tab-income">
 					<h3 class="tabs-deadline__tab-title">
 						Заявка на работы
 					</h3>
@@ -52,7 +52,7 @@
 						какие поставлены цели, уточняем сроки. Если задача горящая, даем ей высший приоритет.
 					</p>
 				</div>
-				<div class="tabs-deadline__tab" id="tab-content" style="display: none">
+				<div class="tabs-deadline__tab" id="tab-analisys" style="display: none">
 					<h3 class="tabs-deadline__tab-title">
 						Оценка задачи
 					</h3>
@@ -62,7 +62,7 @@
 						работы и конкретную стоимость их выполнения.
 					</p>
 				</div>
-				<div class="tabs-deadline__tab" id="tab-prototype" style="display: none">
+				<div class="tabs-deadline__tab" id="tab-work" style="display: none">
 					<h3 class="tabs-deadline__tab-title">
 						Запускаем задачу в работу
 					</h3>
@@ -72,7 +72,7 @@
 						переносим работу с тестовой площадки на боевой сайт
 					</p>
 				</div>
-				<div class="tabs-deadline__tab" id="tab-coding" style="display: none">
+				<div class="tabs-deadline__tab" id="tab-end" style="display: none">
 					<h3 class="tabs-deadline__tab-title">
 						Закрываем задачу
 					</h3>
