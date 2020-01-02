@@ -283,4 +283,29 @@ body.customize-support .header {
       margin-top: .5em;
     }
   }
+
+  img {
+    height: auto;
+    max-width: 100%;
+  }
 }
+
+.dev-message {
+  position: fixed;
+  z-index: 100000;
+  font-size: 14px;
+  padding: 20px 60px;
+  background: darkred;
+  color: #FFF;
+  font-weight: bold;
+  top: 0;
+  right: 0;
+  transform: rotate(45deg) translate(25%, -51%);
+
+  p {
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+  }
+}
+

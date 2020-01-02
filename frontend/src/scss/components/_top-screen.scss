@@ -75,13 +75,19 @@
     }
   }
 
+  &__text {
+    color: #FFF;
+    font-size: 24px;
+    margin-top: 50px;
+  }
 
-  &-subtitle {
+  &__subtitle {
     font-size: 22px;
     line-height: 26px;
-    color: #FFFFFF;
-    margin: 70px 40px 0;
+    color: #a2a2a2;
+    margin-top: 70px;
     display: flex;
+    margin-left: 40px;
 
     @include mq(474px ,max) {
       margin: 60px 40px 0;
