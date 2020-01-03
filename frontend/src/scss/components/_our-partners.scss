@@ -1,3 +1,5 @@
+@import "../mixins";
+
 .our-clients {
   display: flex;
   align-items: center;
@@ -43,6 +45,10 @@
     width: calc(100% - 250px);
     max-width: 100%;
     padding: 0;
+
+    @include mq(767px) {
+      width: calc(100% - 120px);
+    }
 
     &:not(.slick-initialized) {
       width: calc(100% - 250px);
