@@ -4,11 +4,19 @@
 	<div class="blog__list">
 		<? if(have_posts()) : while(have_posts()) : the_post(); ?>
 			<div class="blog-item">
-				<div class="blog-item__img">
-					<img src="" alt="">
-				</div>
+				<a href="<?= get_the_permalink(); ?>" class="blog-item__title"><? the_title(); ?></a>
 				
-				<div class="blog-item__title"><? the_title(); ?></div>
+				<? if(get_field('preview-img')) : ?>
+					<div class="blog-item__img">
+						<img src="<?= get_field('preview-img'); ?>" alt="">
+					</div>
+				<? endif; ?>
+				
+				<? if(get_field('short-description')) : ?>
+					<div class="blog-item__short-description">
+						<?= get_field('short-description'); ?>
+					</div>
+				<? endif; ?>
 			</div>
 		<? endwhile; endif; ?>
 	</div>
