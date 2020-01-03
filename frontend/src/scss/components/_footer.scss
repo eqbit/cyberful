@@ -1,94 +1,95 @@
+@import "../mixins";
+
 .footer {
+  background: $bg-dark;
+  border-top: 1px solid #ffffff;
 
-    background: $bg-dark;
-    border-top: 1px solid #ffffff;
+  &-wrap {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
-    &-wrap {
-        margin: 40px 0px;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-
-        @include mq(1023px ,max) {
-            margin: 30px 0px;
-        }
-
-        @include mq(767px ,max) {
-            margin: 20px 0px;
-        }
-
-        @include mq(479px ,max) {
-            flex-direction: column;
-            margin: 10px 0px;
-        }
+    @include mq(1023px, max) {
+      margin: 30px 0;
     }
 
-    &-part {
-        font-size: 14px;
-        width: calc(100% / 12 * 4);
-
-        @include mq(967px ,max) {
-            width: calc(100% / 12 * 3);
-        }
-
-        @include mq(767px ,max) {
-            width: calc(100% / 12 * 5);
-        }
-
-        @include mq(479px ,max) {
-            margin-top: 7px;
-            width: 100%;
-        }
-
-        &:first-child {
-            margin-top: 0;
-        }
-
-        &:nth-child(2), &:nth-child(3) {
-            width: calc(100% / 12 * 2);
-
-            @include mq(767px ,max) {
-                display: none;
-            }
-        }
-
-        @include mq(1023px ,max) {
-            font-size: 12px;
-        }
-
-        @include mq(767px ,max) {
-            // font-size: 10px;
-        }
-
-        &__list {
-
-        }
-
-        &__item {
-                margin: 0;
-                padding: 0;
-                margin-top: 10px;
-
-                @include mq(479px ,max) {
-                    margin-top: 7px;
-                }
-
-                & a, p {
-                    font-weight: 200;
-                    color: #ffffff;
-                    text-decoration: none;
-                }
-
-                & a {
-                    transition: all 0.3s;
-                    &:hover {
-                        color: #dddddd
-                    }
-                }
-
-            &::before {
-                display: none;
-            }
-        }
+    @include mq(767px, max) {
+      margin: 20px 0;
     }
+
+    @include mq(479px, max) {
+      flex-direction: column;
+      margin: 10px 0;
+    }
+  }
+
+  &-part {
+    font-size: 14px;
+    width: calc(100% / 12 * 4);
+
+    @include mq(967px, max) {
+      width: calc(100% / 12 * 3);
+    }
+
+    @include mq(767px, max) {
+      width: calc(100% / 12 * 5);
+    }
+
+    @include mq(479px, max) {
+      margin-top: 7px;
+      width: 100%;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:nth-child(2), &:nth-child(3) {
+      width: calc(100% / 12 * 2);
+
+      @include mq(767px, max) {
+        display: none;
+      }
+    }
+
+    @include mq(1023px, max) {
+      font-size: 12px;
+    }
+
+    @include mq(767px, max) {
+      // font-size: 10px;
+    }
+
+    &__list {
+
+    }
+
+    &__item {
+      margin: 0;
+      padding: 0;
+      margin-top: 10px;
+
+      @include mq(479px, max) {
+        margin-top: 7px;
+      }
+
+      & a, p {
+        font-weight: 200;
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      & a {
+        transition: all 0.3s;
+        &:hover {
+          color: #dddddd
+        }
+      }
+
+      &::before {
+        display: none;
+      }
+    }
+  }
 }
