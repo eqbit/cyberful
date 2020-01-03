@@ -1,8 +1,17 @@
 @import "../mixins";
 
 .footer {
+  margin-top: 80px;
   background: $bg-dark;
   border-top: 1px solid #ffffff;
+
+  @include mq(1023px) {
+    margin-top: 50px;
+  }
+
+  @include mq(767px) {
+    margin-top: 30px;
+  }
 
   &-wrap {
     margin: 40px 0;
@@ -10,17 +19,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
 
-    @include mq(1023px, max) {
-      margin: 30px 0;
-    }
-
-    @include mq(767px, max) {
-      margin: 20px 0;
-    }
-
     @include mq(479px, max) {
       flex-direction: column;
-      margin: 10px 0;
     }
   }
 
