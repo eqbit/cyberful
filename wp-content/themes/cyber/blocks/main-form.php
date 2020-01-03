@@ -33,5 +33,4 @@
 			</div>
 		</form>
 	</div>
-	<div class="block-margin"></div>
 </section>
