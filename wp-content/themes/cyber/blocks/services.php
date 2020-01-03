@@ -4,54 +4,39 @@
 	<div class="sub-block-margin"></div>
 	
 	<div class="services">
-		<a href="/dev" class="services-item" data-check-visibility>
+		<div class="services-item" data-check-visibility>
 			<div class="services-item__title">
-				Создание сайта <br>
-				под ключ
+				Frontend аутсорс
 			</div>
 			<div class="services-item__text">
-				От этапа неоформленной мысли до полноценно функционирующего продукта, генерирующего новых клиентов
+				Разработаем клиентскую часть вашего проекта. Любая сложность. <br>
+				Специализируемся на React / HTML5 + jQuery
 			</div>
 			<span class="services-item__flash"></span>
 			<span class="services-item__flash"></span>
 			<span class="services-item__flash"></span>
 			<span class="services-item__flash"></span>
-		</a>
+		</div>
 		
-		<a href="/mainten" class="services-item services-item--center" data-check-visibility>
+		<div class="services-item services-item--center" data-check-visibility>
 			<div class="services-item__title">
-				Сопровождение сайта
+				Full stuck аутсорс
 			</div>
 			<div class="services-item__text">
 				<ul>
-					<li>Мониторим рынок и конкурентов. Оперативно даем рекомендации по улучшению ваших позиций в
-						интернете</li>
-					<li>Генерируем контент</li>
-					<li>Поддерживаем актуальность информации на сайте</li>
-					<li>Постоянно анализируем показатели трафика и конверсии</li>
+					<li>Полностью соберем фронт вашего проекта</li>
+					<li>Объеденим с Wordpress или Bitrix</li>
+					<li>Специализируемся на корпоративных сайтах, сайтах-визитках, лендингах</li>
+					<li>Добиваемся загрузки страницы в пределах 3 секунд</li>
 				</ul>
 			</div>
 			<span class="services-item__flash"></span>
 			<span class="services-item__flash"></span>
 			<span class="services-item__flash"></span>
 			<span class="services-item__flash"></span>
-		</a>
+		</div>
 		
-		<a href="/optimization" class="services-item" data-check-visibility>
-			<div class="services-item__title">
-				Поисковое <br>
-				продвижение
-			</div>
-			<div class="services-item__text">
-				Доставим в топ поисковой выдачи. Конкретные сроки и конкретные цифры
-			</div>
-			<span class="services-item__flash"></span>
-			<span class="services-item__flash"></span>
-			<span class="services-item__flash"></span>
-			<span class="services-item__flash"></span>
-		</a>
-		
-		<a href="/support" class="services-item" data-check-visibility>
+		<div class="services-item" data-check-visibility>
 			<div class="services-item__title">
 				Техническая <br>
 				поддержка
@@ -63,20 +48,6 @@
 			<span class="services-item__flash"></span>
 			<span class="services-item__flash"></span>
 			<span class="services-item__flash"></span>
-		</a>
-		
-		<a href="/context" class="services-item" data-check-visibility>
-			<div class="services-item__title">
-				Ведение кампаний
-				контекстной рекламы
-			</div>
-			<div class="services-item__text">
-				Выбираем нужные инструменты для максимальной отдачи от привлеченного трафика
-			</div>
-			<span class="services-item__flash"></span>
-			<span class="services-item__flash"></span>
-			<span class="services-item__flash"></span>
-			<span class="services-item__flash"></span>
-		</a>
+		</div>
 	</div>
 </div>
