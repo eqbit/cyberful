@@ -4,7 +4,9 @@
 	<div class="blog__list">
 		<? if(have_posts()) : while(have_posts()) : the_post(); ?>
 			<div class="blog-item">
-				<a href="<?= get_the_permalink(); ?>" class="blog-item__title"><? the_title(); ?></a>
+				<a href="<?= get_the_permalink(); ?>" class="blog-item__title">
+					<h2 class="blog-item__title"><? the_title(); ?></h2>
+				</a>
 				
 				<? if(get_field('preview-img')) : ?>
 					<div class="blog-item__img">
