@@ -20,7 +20,7 @@
 				<? endif; ?>
 				
 				<a href="<?= get_the_permalink(); ?>" class="blog-item__read-more">
-					Читать полностью
+					<span>Читать полностью</span>
 				</a>
 			</div>
 		<? endwhile; endif; ?>
