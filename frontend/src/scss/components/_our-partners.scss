@@ -45,12 +45,19 @@
     padding: 0;
 
     &:not(.slick-initialized) {
-      width: auto;
-      flex: 1;
-      margin-left: 30px;
+      width: calc(100% - 250px);
+      display: flex;
+      align-items: center;
 
       .our-partners__item {
         margin: 0 5px;
+
+        &:not(:nth-child(1))
+        &:not(:nth-child(2))
+        &:not(:nth-child(3))
+        &:not(:nth-child(4)) {
+          display: none;
+        }
       }
     }
 
