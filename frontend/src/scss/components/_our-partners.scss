@@ -62,7 +62,13 @@
       }
     }
 
+    .slick-list {
+      width: 100%;
+    }
+
     & .slick-track {
+      display: flex;
+      align-items: center;
 
       & .slick-slide {
         display: flex;
