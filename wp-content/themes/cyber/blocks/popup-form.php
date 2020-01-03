@@ -3,7 +3,7 @@
 		Оставьте свои контакты
 	</h3>
 	<p class="section-subtitle popup-subtitle">
-		Я свяжусь с вами в течение рабочего дня
+		Мы свяжемся с вами в течение рабочего дня
 	</p>
 	<div class="popup-form__wrap">
 		

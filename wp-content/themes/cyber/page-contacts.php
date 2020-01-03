@@ -37,7 +37,7 @@
 							</svg>
 						</i>
 						<a href="mailto:info@cyberful.ru" class="contacts-block__info-line--text">
-							nik@cyberful.ru
+							info@cyberful.ru
 						</a>
 					</div>
 				</div>
