@@ -19,6 +19,10 @@
 						<?= get_field('short-description'); ?>
 					</div>
 				<? endif; ?>
+				
+				<a href="<?= get_the_permalink(); ?>" class="blog-item__read-more">
+					Читать полностью
+				</a>
 			</div>
 		<? endwhile; endif; ?>
 	</div>
