@@ -14,8 +14,7 @@
 				<div class="blog-item__content">
 					<? if(get_field('preview-img')) : ?>
 						<div class="blog-item__img">
-							<? pre(get_field('preview-img')); ?>
-							<img src="<?= get_field('preview-img'); ?>" alt="">
+							<img src="<?= get_field('preview-img')["sizes"]["blog-thumb"]; ?>" alt="">
 						</div>
 					<? endif; ?>
 					
