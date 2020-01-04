@@ -2,6 +2,7 @@
 
 if (function_exists('add_image_size')){
 	add_image_size( 'category-thumb',300,300, true);
+	add_image_size( 'blog-thumb', 120, 120, array( 'center', 'center' ) );
 }
 
 add_filter( 'wp_mail_from_name', function($from_name){
