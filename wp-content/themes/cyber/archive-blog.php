@@ -11,17 +11,19 @@
 					<h2 class="blog-item__title"><? the_title(); ?></h2>
 				</a>
 				
-				<? if(get_field('preview-img')) : ?>
-					<div class="blog-item__img">
-						<img src="<?= get_field('preview-img'); ?>" alt="">
-					</div>
-				<? endif; ?>
-				
-				<? if(get_field('short-description')) : ?>
-					<div class="blog-item__short-description">
-						<?= get_field('short-description'); ?>
-					</div>
-				<? endif; ?>
+				<div class="blog-item__content">
+					<? if(get_field('preview-img')) : ?>
+						<div class="blog-item__img">
+							<img src="<?= get_field('preview-img'); ?>" alt="">
+						</div>
+					<? endif; ?>
+					
+					<? if(get_field('short-description')) : ?>
+						<div class="blog-item__short-description">
+							<?= get_field('short-description'); ?>
+						</div>
+					<? endif; ?>
+				</div>
 				
 				<a href="<?= get_the_permalink(); ?>" class="blog-item__read-more">
 					<span>Читать полностью</span>
