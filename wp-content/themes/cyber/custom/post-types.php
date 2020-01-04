@@ -77,7 +77,7 @@ add_action('init', 'register_post_type_blog');
 function register_post_type_blog(){
 	register_post_type('blog', array(
 		'labels'             => array(
-			'name'               => 'Статьи', // Основное название типа записи
+			'name'               => 'Блог', // Основное название типа записи
 			'singular_name'      => 'Статья', // отдельное название записи типа Book
 			'add_new'            => 'Добавить статью',
 			'add_new_item'       => 'Добавить статью',
