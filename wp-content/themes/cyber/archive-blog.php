@@ -3,6 +3,10 @@
 	<div class="blog__list">
 		<? if(have_posts()) : while(have_posts()) : the_post(); ?>
 			<div class="blog-item">
+				<div class="blog-item__date">
+					<? the_date('j F Y'); ?>
+				</div>
+				
 				<a href="<?= get_the_permalink(); ?>" class="blog-item__title">
 					<h2 class="blog-item__title"><? the_title(); ?></h2>
 				</a>
