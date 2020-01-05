@@ -3,8 +3,8 @@ add_action('init', 'register_post_type_frontend');
 function register_post_type_frontend(){
 	register_post_type('frontend', array(
 		'labels'             => array(
-			'name'               => 'Статьи', // Основное название типа записи
-			'singular_name'      => 'Статья', // отдельное название записи типа Book
+			'name'               => 'Frontend Статьи',
+			'singular_name'      => 'Статья',
 			'add_new'            => 'Добавить статью',
 			'add_new_item'       => 'Добавить статью',
 			'edit_item'          => 'Редактировать статью',

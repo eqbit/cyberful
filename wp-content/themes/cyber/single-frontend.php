@@ -2,7 +2,7 @@
 
 <?
 the_post();
-$post_tags = get_the_terms( get_the_ID(), 'portfolio_tag' );
+$post_tags = get_the_terms( get_the_ID(), 'frontend_tag' );
 
 $fields = get_fields();
 ?>
