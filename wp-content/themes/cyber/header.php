@@ -90,6 +90,13 @@
 				<a href="/" class="header-menu-item">Главная</a>
 				<a href="/dev" class="header-menu-item">Fullstuck разработка</a>
 				<a href="/support" class="header-menu-item">Техническая поддержка</a>
+				<div class="header-menu-item">
+					Публикации
+					<div class="header-menu-sub-menu">
+						<a href="/blog/" class="header-menu-sub-menu__item">Блог</a>
+						<a href="/front/" class="header-menu-sub-menu__item">Фронт</a>
+					</div>
+				</div>
 				<a href="/contacts" class="header-menu-item">Контакты</a>
 			</div>
 		</div>
