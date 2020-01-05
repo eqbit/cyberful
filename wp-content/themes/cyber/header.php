@@ -92,9 +92,9 @@
 				<a href="/support" class="header-menu-item">Техническая поддержка</a>
 				<div class="header-menu-item header-menu-item--got-child">
 					Публикации
-					<div class="header-menu-sub-menu">
-						<a href="/blog/" class="header-menu-sub-menu__item">Блог</a>
-						<a href="/front/" class="header-menu-sub-menu__item">Фронт</a>
+					<div class="header-menu-item-sub-menu">
+						<a href="/blog/" class="header-menu-item-sub-menu__item">Блог</a>
+						<a href="/front/" class="header-menu-item-sub-menu__item">Фронт</a>
 					</div>
 				</div>
 				<a href="/contacts" class="header-menu-item">Контакты</a>

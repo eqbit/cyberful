@@ -101,8 +101,8 @@
         content: '';
         display: block;
         position: absolute;
-        bottom: -10px;
-        left: 0;
+        bottom: 10px;
+        left: 23px;
         width: 0;
         height: 2px;
         background: currentColor;
@@ -111,18 +111,36 @@
       }
 
       &:not(&--got-child):hover:after {
-        width: 100%;
+        width: calc(100% - 46px);
         transition-delay: 0s;
       }
-    }
 
-    &-sub-menu {
-      position: absolute;
-      top: 100%;
-      left: -9px;
-      background: #32323c;
-      padding: 10px;
-      min-width: 100%;
+      &-sub-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #32323c;
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        transition-delay: .15s;
+        transition: .3s;
+        transform: translateY(-10px);
+        opacity: 0;
+        visibility: hidden;
+
+        &__item {
+          padding: 10px 23px;
+        }
+      }
+
+      &--got-child:hover {
+        .header-menu-sub-menu {
+          transform: none;
+          opacity: 1;
+          visibility: visible;
+        }
+      }
     }
   }
 }
