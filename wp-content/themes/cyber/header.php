@@ -88,7 +88,7 @@
 		<div class="container">
 			<div class="header-menu">
 				<a href="/" class="header-menu-item">Главная</a>
-				<a href="/dev" class="header-menu-item">Fullstuck аутсорс</a>
+				<a href="/dev" class="header-menu-item">Fullstuck разработка</a>
 				<a href="/support" class="header-menu-item">Техническая поддержка</a>
 				<a href="/contacts" class="header-menu-item">Контакты</a>
 			</div>
@@ -97,42 +97,42 @@
 </header>
 <main>
 	
-	<div class="m-menu" data-m-menu>
-		<nav class="m-menu__nav" data-m-menu-nav>
-			<ul class="m-menu__list" data-m-menu-list>
-				<li class="m-menu__item">
-					<a href="/"><img src="<?= get_template_directory_uri(); ?>/images/logo.svg" alt="logo"></a>
-				</li>
-				<li class="m-menu__item">
-					<a href="/" class="m-menu__link">Главная</a>
-				</li>
-				<li class="m-menu__item">
-					<a href="/dev" class="m-menu__link">Fullstuck аутсорс</a>
-				</li>
-				<li class="m-menu__item">
-					<a href="/support" class="m-menu__link">Техподдержка</a>
-				</li>
-				<li class="m-menu__item">
-					<a href="/contacts" class="m-menu__link">Контакты</a>
-				</li>
-				<li class="m-menu__item">
-					<a href="tel:+79028137911" class="m-menu__link">+7 (902) 813-79-11</a>
-				</li>
-			</ul>
-		</nav>
-		<button class="m-menu__hamburger" data-toggle-m-menu-ham>
-			<span class="m-menu__hamburger-line"></span>
-			<span class="m-menu__hamburger-line"></span>
-			<span class="m-menu__hamburger-line"></span>
-		</button>
-	</div>
-	
-	<? global $no_top_margin; ?>
-	
-	<? if ( ! is_front_page() ) : ?>
-		<div class="block-distation"></div>
-		<? if ( ! $no_top_margin ) : ?>
-			<div class="block-margin"></div>
-		<? endif; ?>
+<div class="m-menu" data-m-menu>
+	<nav class="m-menu__nav" data-m-menu-nav>
+		<ul class="m-menu__list" data-m-menu-list>
+			<li class="m-menu__item">
+				<a href="/"><img src="<?= get_template_directory_uri(); ?>/images/logo.svg" alt="logo"></a>
+			</li>
+			<li class="m-menu__item">
+				<a href="/" class="m-menu__link">Главная</a>
+			</li>
+			<li class="m-menu__item">
+				<a href="/dev" class="m-menu__link">Fullstuck разработка</a>
+			</li>
+			<li class="m-menu__item">
+				<a href="/support" class="m-menu__link">Техподдержка</a>
+			</li>
+			<li class="m-menu__item">
+				<a href="/contacts" class="m-menu__link">Контакты</a>
+			</li>
+			<li class="m-menu__item">
+				<a href="tel:+79028137911" class="m-menu__link">+7 (902) 813-79-11</a>
+			</li>
+		</ul>
+	</nav>
+	<button class="m-menu__hamburger" data-toggle-m-menu-ham>
+		<span class="m-menu__hamburger-line"></span>
+		<span class="m-menu__hamburger-line"></span>
+		<span class="m-menu__hamburger-line"></span>
+	</button>
+</div>
+
+<? global $no_top_margin; ?>
+
+<? if ( ! is_front_page() ) : ?>
+	<div class="block-distation"></div>
+	<? if ( ! $no_top_margin ) : ?>
+		<div class="block-margin"></div>
 	<? endif; ?>
+<? endif; ?>
 	
