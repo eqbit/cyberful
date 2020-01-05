@@ -1,9 +1,9 @@
 <?php
-add_action('init', 'register_post_type_front');
-function register_post_type_front(){
-	register_post_type('front', array(
+add_action('init', 'register_post_type_frontend');
+function register_post_type_frontend(){
+	register_post_type('frontend', array(
 		'labels'             => array(
-			'name'               => 'Front Статьи',
+			'name'               => 'frontend Статьи',
 			'singular_name'      => 'Статья',
 			'add_new'            => 'Добавить статью',
 			'add_new_item'       => 'Добавить статью',
@@ -14,7 +14,7 @@ function register_post_type_front(){
 			'not_found'          =>  'Статей не найдено',
 			'not_found_in_trash' => 'В корзине статей не найдено',
 			'parent_item_colon'  => '',
-			'menu_name'          => 'Frontend'
+			'menu_name'          => 'frontendend'
 		
 		),
 		'public'             => true,
@@ -31,7 +31,7 @@ function register_post_type_front(){
 	) );
 }
 
-register_taxonomy('front_tag', 'front', array(
+register_taxonomy('frontend_tag', 'frontend', array(
 		'hierarchical' => false,
 		'label' => "Теги",
 		'singular_name' => "Тег",
