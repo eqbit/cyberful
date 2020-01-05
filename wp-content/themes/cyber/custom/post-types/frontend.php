@@ -1,6 +1,6 @@
 <?php
-add_action('init', 'register_post_type_blog');
-function register_post_type_blog(){
+add_action('init', 'register_post_type_frontend');
+function register_post_type_frontend(){
 	register_post_type('frontend', array(
 		'labels'             => array(
 			'name'               => 'Статьи', // Основное название типа записи
