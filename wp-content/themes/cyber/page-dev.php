@@ -20,10 +20,6 @@
 	
 	<div class="block-margin"></div>
 	
-	<? get_block("prices"); ?>
-	
-	<div class="block-margin"></div>
-	
 	<div class="container">
 		<div class="work-process">
 			<div class="work-process__icon-slider">
@@ -86,25 +82,6 @@
 							<?= $fields["img-text-text"]; ?>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div class="block-margin"></div>
-	
-	<div class="container">
-		<div class="chart-block opt-block">
-			<div class="chart-block__inner opt-block__inner">
-				<canvas class="chart-block__chart-wrap opt-block__img-wrap" id="chart-wrap" data-check-visibility></canvas>
-			</div>
-			<div id="animationProgress"></div>
-			<div class="chart-block__inner opt-block__inner">
-				<h3 class="section-title chart-block__title opt-block__title">
-					<?= $fields["chart-title"]; ?>
-				</h3>
-				<div class="chart-block__text opt-block__text styled-redactor">
-					<?= $fields["chart-text"]; ?>
 				</div>
 			</div>
 		</div>

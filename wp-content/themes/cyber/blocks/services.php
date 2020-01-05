@@ -20,7 +20,7 @@
 		
 		<div class="services-item services-item--center" data-check-visibility>
 			<div class="services-item__title">
-				Full stuck аутсорс
+				Fullstuck аутсорс
 			</div>
 			<div class="services-item__text">
 				<ul>
