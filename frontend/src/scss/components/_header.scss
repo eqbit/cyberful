@@ -82,7 +82,6 @@
   &-menu {
     display: flex;
     justify-content: center;
-    padding: 23px 0;
 
     @include mq(768px ,max) {
       display: none;
@@ -93,10 +92,10 @@
       font-size: 14px;
       line-height: 16px;
       color: #EEEEEE;
-      margin: 0 13px;
       display: block;
       text-decoration: none;
       position: relative;
+      padding: 23px;
 
       &:after {
         content: '';
@@ -111,10 +110,19 @@
         transition-delay: .15s;
       }
 
-      &:hover:after {
+      &:not(&--got-child):hover:after {
         width: 100%;
         transition-delay: 0s;
       }
+    }
+
+    &-sub-menu {
+      position: absolute;
+      top: 100%;
+      left: -9px;
+      background: #32323c;
+      padding: 10px;
+      min-width: 100%;
     }
   }
 }
