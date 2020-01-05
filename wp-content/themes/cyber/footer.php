@@ -42,6 +42,9 @@
 <script src="<?= get_template_directory_uri(); ?>/vendor/chart.js"></script>
 <script src="<?= get_template_directory_uri(); ?>/vendor/input-mask.js"></script>
 <script src="<?= get_template_directory_uri(); ?>/vendor/swiper.js"></script>
+<link rel="stylesheet" href="<?= get_template_directory_uri(); ?>/vendor/highlight/styles/default.css">
+<script src="<?= get_template_directory_uri(); ?>/vendor/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 <script src="<?= get_template_directory_uri(); ?>/js/app.js"></script>
 <script src="<?= get_template_directory_uri(); ?>/js/custom.js"></script>
 </body>
