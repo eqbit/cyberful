@@ -96,6 +96,7 @@
       text-decoration: none;
       position: relative;
       padding: 23px;
+      cursor: pointer;
 
       &:after {
         content: '';
@@ -119,11 +120,10 @@
         position: absolute;
         top: 100%;
         left: 0;
-        background: #32323c;
         min-width: 100%;
         display: flex;
         flex-direction: column;
-        transition-delay: .15s;
+        transition-delay: .3s;
         transition: .3s;
         transform: translateY(-10px);
         opacity: 0;
@@ -131,6 +131,12 @@
 
         &__item {
           padding: 10px 23px;
+          background: #32323c;
+          transition: .3s;
+          
+          &:hover {
+            background: #50505b;
+          }
         }
       }
 
@@ -139,6 +145,7 @@
           transform: none;
           opacity: 1;
           visibility: visible;
+          transition-delay: 0s;
         }
       }
     }
