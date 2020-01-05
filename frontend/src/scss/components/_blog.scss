@@ -40,11 +40,14 @@
     }
 
     &__short-description {
-      margin-left: 30px;
       padding: 15px;
       background: #fff;
       flex: 1;
       font-size: 16px;
+    }
+
+    &__img + &__short-description {
+      margin-left: 30px;
     }
 
     &__read-more {

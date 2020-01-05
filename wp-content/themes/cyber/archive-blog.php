@@ -29,11 +29,11 @@
 					<span>Читать полностью</span>
 				</a>
 			</div>
-		<? endwhile; ?>
-			<div class="pagination">
-				<? pre(get_the_posts_pagination()); ?>
-			</div>
-		<?endif; ?>
+		<? endwhile; endif; ?>
+		
+		<div class="pagination">
+			<?= get_the_posts_pagination(); ?>
+		</div>
 	</div>
 </div>
 <? get_footer();

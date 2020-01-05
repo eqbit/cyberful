@@ -44,3 +44,50 @@
     }
   }
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  h2 {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+
+    .page-numbers {
+      padding: 8px 18px;
+      margin: 5px;
+      border: 2px solid #FF9800;
+      border-radius: 3px;
+      line-height: 25px;
+      font-weight: bold;
+      font-size: 14px;
+
+      &.current {
+        opacity: .3
+      }
+
+      &.next, &.prev {
+        outline: none;
+        border: 2px solid #FF9800;
+        border-radius: 3px;
+        padding: 10px;
+        transition: all .2s;
+        font-size: 14px;
+        font-weight: bold;
+        background: transparent;
+        text-transform: uppercase;
+        line-height: 21px;
+
+        &:hover {
+          background: rgba(255, 152, 0, 0.18);
+          box-shadow: 0 0 15px rgba(129, 129, 129, 0.397);
+        }
+      }
+    }
+  }
+}
