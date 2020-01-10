@@ -88,7 +88,7 @@
 		<div class="container">
 			<div class="header-menu">
 				<a href="/" class="header-menu-item">Главная</a>
-				<a href="/dev" class="header-menu-item">Fullstuck разработка</a>
+				<a href="/dev" class="header-menu-item">Fullstack разработка</a>
 				<a href="/support" class="header-menu-item">Техническая поддержка</a>
 				<div class="header-menu-item header-menu-item--got-child">
 					Публикации
@@ -114,7 +114,7 @@
 				<a href="/" class="m-menu__link">Главная</a>
 			</li>
 			<li class="m-menu__item">
-				<a href="/dev" class="m-menu__link">Fullstuck разработка</a>
+				<a href="/dev" class="m-menu__link">Fullstack разработка</a>
 			</li>
 			<li class="m-menu__item">
 				<a href="/support" class="m-menu__link">Техподдержка</a>
